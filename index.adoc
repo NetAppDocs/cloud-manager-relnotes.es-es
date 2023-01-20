@@ -1,0 +1,19 @@
+---
+layout: astra 
+sidebar: sidebar 
+permalink: index.html 
+lead: 'These release notes describe recent enhancements to the cloud services that are part of BlueXP (formerly Cloud Manager). Links are available to the full set of release notes for each individual service.' 
+summary: 'En estas notas de la versión, se describen las mejoras recientes de los servicios cloud que forman parte de BlueXP (anteriormente Cloud Manager). Los vínculos están disponibles para el conjunto completo de notas de la versión de cada servicio individual.' 
+---
+= Notas de la versión de BlueXP
+:toc: macro
+:hardbreaks:
+:allow-uri-read: 
+:toc: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+

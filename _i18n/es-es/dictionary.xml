@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="ad49677f8bac8ede065e8839632b6f38" category="doc">Índice de notas de la versión</block>
+  <block id="58c23c6ea3bae0f0d75bd2cd80d15108" category="paragraph">Vea el conjunto completo de notas de la versión de cada servicio individual.</block>
+  <block id="8c4aa541ee911e8d80451ef8cc304806" category="section-title">Reducida</block>
+  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link">Azure NetApp Files</block>
+  <block id="e7f55b2009e8bacf8e0791b4b18200c5" category="list-text"><block ref="e7f55b2009e8bacf8e0791b4b18200c5" category="inline-link-rx"></block></block>
+  <block id="18cf072964a583150dd247485ba75b92" category="inline-link">Amazon FSX para ONTAP</block>
+  <block id="70ac5f28b8976363f0e487a59a194ede" category="list-text"><block ref="70ac5f28b8976363f0e487a59a194ede" category="inline-link-rx"></block></block>
+  <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="list-text">Cloud Volumes ONTAP</block>
+  <block id="f7d121e2a54c62002dd74f6b9dac8069" category="inline-link">Notas de la versión de Cloud Volumes ONTAP</block>
+  <block id="ca138f4890a80dcb981add74fa328598" category="list-text"><block ref="ca138f4890a80dcb981add74fa328598" category="inline-link-rx"></block></block>
+  <block id="5bffab86d093605978b7c1efd3c0d337" category="inline-link">Notas de la versión para la gestión de Cloud Volumes ONTAP en BlueXP</block>
+  <block id="768f6f21e441ee3eb49fe0b2939ca706" category="list-text"><block ref="768f6f21e441ee3eb49fe0b2939ca706" category="inline-link-rx"></block></block>
+  <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link">Cloud Volumes Service para Google Cloud</block>
+  <block id="cf1e43e88c5409a94312fe0defe1f9bc" category="list-text"><block ref="cf1e43e88c5409a94312fe0defe1f9bc" category="inline-link-rx"></block></block>
+  <block id="6b068f0a943d421535c7d8d412ee3522" category="inline-link">Sistemas E-Series</block>
+  <block id="1e8b70ceb2c6c0577446889e5a58ddda" category="list-text"><block ref="1e8b70ceb2c6c0577446889e5a58ddda" category="inline-link-rx"></block></block>
+  <block id="85eb427901278daf26f132cb3e076914" category="inline-link">Clústeres de Kubernetes</block>
+  <block id="6f544cc8f09241268b475a179e21f13e" category="list-text"><block ref="6f544cc8f09241268b475a179e21f13e" category="inline-link-rx"></block></block>
+  <block id="d0f1687c68ee0f0d9bac765716d18923" category="inline-link">Clústeres de ONTAP en las instalaciones</block>
+  <block id="bddbfeb493313acbf52efc332e076d27" category="list-text"><block ref="bddbfeb493313acbf52efc332e076d27" category="inline-link-rx"></block></block>
+  <block id="392d70ca39f31f10bd637936769788df" category="inline-link">StorageGRID</block>
+  <block id="ead28cedb204ded1899ad9065642764d" category="list-text"><block ref="ead28cedb204ded1899ad9065642764d" category="inline-link-rx"></block></block>
+  <block id="43bc868f42929fd56604f4d757ff55ae" category="section-title">Servicios de datos</block>
+  <block id="ca9106b8b82ff55b6fdce530ccb952a7" category="inline-link">AppTemplate</block>
+  <block id="6767af423ac427ab1a0c9ffa79eb0675" category="list-text"><block ref="6767af423ac427ab1a0c9ffa79eb0675" category="inline-link-rx"></block></block>
+  <block id="dad57e95fc9a5390302ad830888cbdb9" category="inline-link">Backup en el cloud</block>
+  <block id="a1f88731c3527b23e9f17fe833b921b0" category="list-text"><block ref="a1f88731c3527b23e9f17fe833b921b0" category="inline-link-rx"></block></block>
+  <block id="d882bf73cd5caf1e5aa39edbf893ad74" category="inline-link">Cloud Data SENSE</block>
+  <block id="593967bff9541e7c8347f6912e81ccf9" category="list-text"><block ref="593967bff9541e7c8347f6912e81ccf9" category="inline-link-rx"></block></block>
+  <block id="e367efbc26bd12c0d6ae37dd6a55ef9b" category="inline-link">Cloud Sync</block>
+  <block id="5c31fd7a89a891594fbca8b99b65fd3f" category="list-text"><block ref="5c31fd7a89a891594fbca8b99b65fd3f" category="inline-link-rx"></block></block>
+  <block id="92d2b6aba6afa3f690540cf3dba9b633" category="inline-link">Organización en niveles del cloud</block>
+  <block id="5834a4cf351e513e7bec7b42c17cb246" category="list-text"><block ref="5834a4cf351e513e7bec7b42c17cb246" category="inline-link-rx"></block></block>
+  <block id="a623a8d0366bf079411aa30be45b2d10" category="inline-link">Informática</block>
+  <block id="818bcbc7a642cb031afa7b414815a76c" category="list-text"><block ref="818bcbc7a642cb031afa7b414815a76c" category="inline-link-rx"></block></block>
+  <block id="24e6e2f6171b43a847fe194a9a9b5cd0" category="inline-link">Caché de archivos global</block>
+  <block id="24bb270dd8a21f04115481dc5a9e23f9" category="list-text"><block ref="24bb270dd8a21f04115481dc5a9e23f9" category="inline-link-rx"></block></block>
+  <block id="950604af87c30e09716e6d097eb491db" category="inline-link">Protección contra ransomware</block>
+  <block id="4856dfc18851de08c9ed97332b1fd100" category="list-text"><block ref="4856dfc18851de08c9ed97332b1fd100" category="inline-link-rx"></block></block>
+  <block id="8c340dc334134096f68b880b42a8692c" category="inline-link">Replicación</block>
+  <block id="c49bb8aa9fd443e227ec7dd83d980f9b" category="list-text"><block ref="c49bb8aa9fd443e227ec7dd83d980f9b" category="inline-link-rx"></block></block>
+  <block id="7258e7251413465e0a3eb58094430bde" category="section-title">Administración</block>
+  <block id="30b77b282030e8985671bcc89e3e4d74" category="inline-link">Configuración y administración</block>
+  <block id="10dc3609faa5a0e06b693aa9833bf1aa" category="list-text"><block ref="10dc3609faa5a0e06b693aa9833bf1aa" category="inline-link-rx"></block></block>
+  <block id="24107a8e1555736c2428c199a70f695f" category="summary">En estas notas de la versión, se describen las mejoras recientes de los servicios cloud que forman parte de BlueXP (anteriormente Cloud Manager). Los vínculos están disponibles para el conjunto completo de notas de la versión de cada servicio individual.</block>
+  <block id="db502201c33ba3b3f867c8360cce228a" category="doc">Notas de la versión de BlueXP</block>
+  <block id="8d9e30572c7be0b05a6e777166ea7d0b" category="summary">Conozca los cambios más recientes en los servicios en la nube que forman parte de la plataforma BlueXP. Para obtener más información, consulte el conjunto completo de notas de la versión de cada servicio individual.</block>
+  <block id="67d516de6d58e90ec46d8a36eecbf35a" category="doc">Cambios recientes en BlueXP</block>
+  <block id="06ec635aca479394e3f10f59b57ce807" category="inline-link-macro">conjunto completo de notas de la versión</block>
+  <block id="1262adaf755b126adfb35787960ae9ac" category="paragraph">Conozca los cambios más recientes en los servicios cloud que forman parte de la plataforma BlueXP (anteriormente Cloud Manager). Si quiere más información, consulte <block ref="1e9f4589e5d2713376df79f13fc9ba0a" category="inline-link-macro-rx"></block> por cada servicio individual.</block>
+  <block id="560c5ee7b92d80b3ef198362d8323824" category="section-title">Introducción de BlueXP</block>
+  <block id="78d1c9f9c86eecd86f5f568cfe0c0721" category="inline-link">Más información sobre BlueXP</block>
+  <block id="589a81f9a559c7792363bf5c658f7eb7" category="paragraph">Cloud Manager cambió su nombre a BlueXP el 1 de noviembre de 2022.<block ref="f8081012fbfe0608e8247bd5ec45b886" category="inline-link-rx"></block></block>
+  <block id="f3aae44c0ba1e9d5c7a46f4e224ea31e" category="section-title">Funciones administrativas</block>
+  <block id="87448a3fa35fafb362a06b4d17cc1328" category="paragraph">En esta sección se describen las nuevas funciones relacionadas con las funciones de administración de BlueXP: Cuentas, conectores, credenciales de proveedores de nube y mucho más.</block>
+  <block id="e1bc7b26155063f1ce71b76f655669ef" category="section-title">5 de febrero de 2023</block>
+  <block id="d2ab99e3c8406089dca863337debb121" category="section-title">Conector 3.9.26</block>
+  <block id="330ddcd0a3779c8729cfb2c56aeb33f5" category="list-text">En la página *Iniciar sesión*, ahora se le pedirá que introduzca la dirección de correo electrónico asociada a su inicio de sesión. Después de hacer clic en *Siguiente*, BlueXP le solicita que realice la autenticación mediante el método de autenticación asociado a su inicio de sesión:</block>
+  <block id="1baec3621cd37cfb63c78d95c414ca61" category="list-text">La contraseña de sus credenciales de cloud de NetApp</block>
+  <block id="1dca7678a1041ed05b6071c24454dfde" category="list-text">Sus credenciales de identidad federadas</block>
+  <block id="9ec04e5ecf7230969f472cb3ba28f9d5" category="list-text">Sus credenciales del sitio de soporte de NetApp</block>
+  <block id="95161959ea62121420b9e6e6553c5afa" category="inline-image-macro">Una captura de pantalla de la página de inicio de sesión de BlueXP en la que se le solicita que introduzca su dirección de correo electrónico.</block>
+  <block id="7fef862357cf2face17cb8062b1f051f" category="paragraph"><block ref="7fef862357cf2face17cb8062b1f051f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9cb7486a7e7f24abb51cfcc8bb6085db" category="list-text">Si es nuevo en BlueXP y tiene credenciales actuales del sitio de soporte de NetApp (NSS), puede omitir la página de registro e introducir su dirección de correo electrónico directamente en la página de inicio de sesión. BlueXP te inscribirá como parte de este inicio de sesión inicial.</block>
+  <block id="845c6364e1c82b67190dc691538533e1" category="list-text">Al suscribirse a BlueXP desde el mercado de su proveedor de la nube, ahora tiene la opción de reemplazar la suscripción existente para una cuenta por la nueva suscripción.</block>
+  <block id="79ee9d46f0018b3cb493ecfda60ffa4b" category="inline-image-macro">Captura de pantalla que muestra la asignación de suscripción para una cuenta de BlueXP.</block>
+  <block id="cd56a207e786d73d9abfd43dd2202acd" category="paragraph"><block ref="cd56a207e786d73d9abfd43dd2202acd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f1b38e057f0b3e3f883f386f412fd0a9" category="inline-link">Aprenda a asociar una suscripción a AWS</block>
+  <block id="73f01c2e56cdb9b30f4fe33ce5bbdc20" category="list-text"><block ref="73f01c2e56cdb9b30f4fe33ce5bbdc20" category="inline-link-rx"></block></block>
+  <block id="72bfd3f607087d94f12332f83b700ab8" category="inline-link">Aprenda a asociar una suscripción a Azure</block>
+  <block id="58b7b647775bc09b6b8a9f45df71775b" category="list-text"><block ref="58b7b647775bc09b6b8a9f45df71775b" category="inline-link-rx"></block></block>
+  <block id="1c74f0a5753f74c783e970c346408b4a" category="inline-link">Descubra cómo asociar una suscripción a Google Cloud</block>
+  <block id="896471f03a9a1e209bebabb5923d2b3e" category="list-text"><block ref="896471f03a9a1e209bebabb5923d2b3e" category="inline-link-rx"></block></block>
+  <block id="f906d086ca70101dd1f218ea0786aee8" category="list-text">BlueXP le notificará ahora si su conector ha sido apagado durante 14 días o más.</block>
+  <block id="18ed152ca3e6d97795e3c62f29f14fa3" category="inline-link">Más información sobre las notificaciones de BlueXP</block>
+  <block id="68f34edaf3c796f179fbe80b3df89f0c" category="list-text"><block ref="68f34edaf3c796f179fbe80b3df89f0c" category="inline-link-rx"></block></block>
+  <block id="752697882fd7ee73f8d5f60a6f8c02f5" category="inline-link">Descubra por qué los conectores deben seguir funcionando</block>
+  <block id="23f4e22cbf061f84ba77fd79e423d90f" category="list-text"><block ref="23f4e22cbf061f84ba77fd79e423d90f" category="inline-link-rx"></block></block>
+  <block id="1c8a63199471322e5b0fe67deb835f4b" category="list-text">Hemos actualizado la política de Connector para Google Cloud para incluir el permiso necesario para crear y gestionar máquinas virtuales de almacenamiento en pares de alta disponibilidad de Cloud Volumes ONTAP:</block>
+  <block id="3503950ea6a1ba87d4be44e07b1a16c8" category="paragraph">compute.instances.updateNetworkInterface</block>
+  <block id="67d29883f03468dc44eefc494f37473e" category="inline-link">Vea los permisos de Google Cloud para Connector</block>
+  <block id="cad0970fb2c4e3d28b046315bb4b7f02" category="paragraph"><block ref="ac22e421263f6f828d096313fa20e6a8" category="inline-link-rx"></block>.</block>
+  <block id="fdfef50a14b07533a8bab908a66de10c" category="list-text">Esta versión del conector incluye mejoras de Cloud Volumes ONTAP.</block>
+  <block id="03e6ae21f561049c3e8010740c63aab3" category="inline-link">Obtenga información acerca de las mejoras de Cloud Volumes ONTAP</block>
+  <block id="e5fa209a01e6f968295b098866e0fcf5" category="paragraph"><block ref="e5fa209a01e6f968295b098866e0fcf5" category="inline-link-rx"></block></block>
+  <block id="1f7138998459804601fc351f8d442e29" category="section-title">1 de enero de 2023</block>
+  <block id="e139aa454163ce195b3669d769c3f1c8" category="section-title">Conector 3.9.25</block>
+  <block id="ab010f0ae1d3cb2043f9513a1f81beea" category="paragraph">Esta versión del conector incluye mejoras y correcciones de errores de Cloud Volumes ONTAP.</block>
+  <block id="826d1d89ec2a521e40a7a91c2ee8f024" category="paragraph"><block ref="826d1d89ec2a521e40a7a91c2ee8f024" category="inline-link-rx"></block></block>
+  <block id="83ec139c80a3d5b2f11f1a94eed47cd2" category="section-title">4 de diciembre de 2022</block>
+  <block id="9a37fbeb5352e14f2a53fe349c60ad58" category="section-title">Conector 3.9.24</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link"></block>
+  <block id="609db1dbd04bb2ee742cb4078546018c" category="list-text">Hemos actualizado la URL de la consola BlueXP a.<block ref="d4d03fd3c2a1ab003ebd5cf52ee8df58" category="inline-link-rx"></block></block>
+  <block id="4a11791a9bd4070a9cb5e2e709d06351" category="list-text">El conector ahora es compatible con la región de Google Cloud Israel.</block>
+  <block id="1765dff10197df4bf080f41e5537f2a5" category="list-text">Esta versión del conector también incluye mejoras de Cloud Volumes ONTAP y mejoras del clúster de ONTAP en las instalaciones.</block>
+  <block id="242cf97b6ce4408dde25722d6b0e37f9" category="list-text"><block ref="242cf97b6ce4408dde25722d6b0e37f9" category="inline-link-rx"></block></block>
+  <block id="6ff2a7981cc8a7efd758e8ffec4cc69e" category="inline-link">Obtenga información acerca de las mejoras del clúster en las instalaciones de ONTAP</block>
+  <block id="4703fae8488338a7ad69a5cd4347caf3" category="list-text"><block ref="4703fae8488338a7ad69a5cd4347caf3" category="inline-link-rx"></block></block>
+  <block id="29c251ed5a57bbffe470654ccbbe714c" category="section-title">11 de abril de 2021</block>
+  <block id="860941d67aa8a8a442ba4a65191838cf" category="section-title">Compatibilidad con plantillas de volúmenes</block>
+  <block id="28c1b76e8b0c8f418301bc750b4e9f0e" category="paragraph">Un nuevo servicio de plantillas de aplicaciones le permite configurar una plantilla de volumen para Azure NetApp Files. La plantilla debería facilitar el trabajo porque ciertos parámetros de volumen ya se definirán en la plantilla, como el pool de capacidad, el tamaño, el protocolo, el vnet y la subred donde debería residir el volumen, entre otros. Cuando ya hay un parámetro predefinido, puede saltar al siguiente parámetro de volumen.</block>
+  <block id="65d2e55c231c87b516e734e63f823cf5" category="inline-link">Obtenga más información sobre las plantillas de aplicaciones y sobre cómo utilizarlas en su entorno</block>
+  <block id="cd05e30aad2bf16b78d020365a79dcae" category="list-text"><block ref="cd05e30aad2bf16b78d020365a79dcae" category="inline-link-rx"></block></block>
+  <block id="1636ba950a663744d701c73060d64523" category="inline-link">Aprenda a crear un volumen de Azure NetApp Files a partir de una plantilla</block>
+  <block id="5651031c9f0714bccf2089b101c736e0" category="list-text"><block ref="5651031c9f0714bccf2089b101c736e0" category="inline-link-rx"></block></block>
+  <block id="dbbd746e2d2c019dcb0c3c40b74f4f75" category="section-title">8 de marzo de 2021</block>
+  <block id="de5b4c52cc860c2f7cacca0bb7f4265f" category="section-title">Cambie de forma dinámica los niveles de servicio</block>
+  <block id="65ade213f17aabb636c7c98c83fa9121" category="paragraph">Ahora puede cambiar de forma dinámica el nivel de servicio de un volumen para satisfacer las necesidades de la carga de trabajo y optimizar los costes. El volumen se mueve al otro pool de capacidad sin afectar al volumen.</block>
+  <block id="f89e84889d5fd0c46e9997ddb21ac922" category="inline-link">Aprenda a cambiar el nivel de servicio de un volumen</block>
+  <block id="1ae0904e8670b3e6cfc9006eb635216b" category="paragraph"><block ref="e311d6cb2bd5a49340f86a76ff0511b7" category="inline-link-rx"></block>.</block>
+  <block id="95fa237a7a6265df02b6172c4be387f7" category="section-title">3 de agosto de 2020</block>
+  <block id="629ca03a8a495acd7bc18927ca4da6cc" category="section-title">Configuración y gestión de Azure NetApp Files</block>
+  <block id="51faca1c58439a1d1223104a28f554cc" category="paragraph">Configure y gestione Azure NetApp Files directamente desde Cloud Manager. Después de crear un entorno de trabajo de Azure NetApp Files, puede completar las siguientes tareas:</block>
+  <block id="a42ed9034f13a0f6a3660f2c241f605f" category="list-text">Cree volúmenes NFS y SMB.</block>
+  <block id="0d293213ebed3e92e24e1624dfd19aa2" category="list-text">Gestione pools de capacidad y copias Snapshot de volumen</block>
+  <block id="e54595e40dfd177a2a9e671c794a3a4d" category="paragraph">Cloud Manager permite crear, eliminar y restaurar snapshots de volúmenes. También puede crear nuevos pools de capacidad y especificar sus niveles de servicio.</block>
+  <block id="5054d68a0b2f03dece3eb72cfaa09427" category="list-text">Edite un volumen cambiando su tamaño y gestionando las etiquetas.</block>
+  <block id="396a3c9fb559d38e68f68ea139b3539a" category="paragraph">La capacidad de crear y gestionar Azure NetApp Files directamente desde Cloud Manager sustituye la funcionalidad anterior de migración de datos.</block>
+  <block id="5a0c953dba56aa463b4468d70bfc3feb" category="section-title">01 de enero de 2023</block>
+  <block id="f99ecd5cff9b18879fcd5ee404af256f" category="inline-link-macro">gestión de la capacidad automática</block>
+  <block id="380fe7c3627610af34c9936f46325923" category="paragraph">Ahora puede optar por activar <block ref="79658b4a46346ad9aa23a5f92d57dfaa" category="inline-link-macro-rx"></block> para añadir almacenamiento incremental basado en demanda. La administración automática de la capacidad sondea el clúster a intervalos regulares para evaluar la demanda y aumenta automáticamente la capacidad de almacenamiento en incrementos del 10% hasta el 80% de la capacidad máxima del clúster.</block>
+  <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">18 de septiembre de 2022</block>
+  <block id="3abe9a67eae0ad33b1c96ff4ae8b1eaa" category="inline-link-macro">Cambie la capacidad de almacenamiento y las IOPS</block>
+  <block id="4054992d1ab241cf4542bc8cd502d679" category="paragraph">Ahora puede hacerlo <block ref="57fbdd5ba152894391c55cce5d9fe8f8" category="inline-link-macro-rx"></block> En cualquier momento después de crear el entorno de trabajo FSX para ONTAP.</block>
+  <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">31 de julio de 2022</block>
+  <block id="dd15e63d013ad6e70302caae66b83f6d" category="list-text">Si anteriormente ha proporcionado sus credenciales de AWS a Cloud Manager, la nueva función *Mis oportunidades* puede detectar y sugerir automáticamente FSX para los sistemas de archivos ONTAP para agregar y administrar mediante Cloud Manager. También puede revisar los servicios de datos disponibles a través de la ficha *Mis oportunidades*.</block>
+  <block id="6ebe96f0162b363fd765e000afd1c4f0" category="inline-link-macro">Descubra FSX para ONTAP usando Mis oportunidades</block>
+  <block id="a83471208430f7fbd0630757d97c5142" category="paragraph"><block ref="a83471208430f7fbd0630757d97c5142" category="inline-link-macro-rx"></block></block>
+  <block id="e2399171d04de4904bc9ceb3e1c97260" category="inline-link-macro">cambie la capacidad de rendimiento</block>
+  <block id="6cd901297cf29a4b459f2cc11e68c6d6" category="list-text">Ahora puede hacerlo <block ref="697a0d5ee189fb6da3b3bef50626dd94" category="inline-link-macro-rx"></block> En cualquier momento después de crear el entorno de trabajo FSX para ONTAP.</block>
+  <block id="7699be7c50b8640b313d71cce9004797" category="inline-link-macro">replicar y sincronizar datos</block>
+  <block id="897d994d4d024883042e664eba152417" category="list-text">Ahora puede hacerlo <block ref="df556429a26e71fbf9e095a790447f2b" category="inline-link-macro-rx"></block> A las instalaciones y otros FSX para sistemas ONTAP que utilizan FSX para ONTAP como origen.</block>
+  <block id="42c82b44ceecde8407f75a70409e2aec" category="inline-link-macro">Cree volúmenes iSCSI en FSX para ONTAP mediante Cloud Manager</block>
+  <block id="cf648eb1e2c8b4986628f39a529b68f1" category="list-text">Ahora puede hacerlo <block ref="7c9b88630e88eb3d402b9bbec2515bca" category="inline-link-macro-rx"></block>.</block>
+  <block id="36a9eb77fcf21a931c3ba4a85dff781b" category="section-title">Plantilla de aplicación</block>
+  <block id="983a4e7f5913304ec713a249baf7be47" category="section-title">3 de marzo de 2022</block>
+  <block id="400480e0d45c783abec0a0fffbb005a6" category="section-title">Ahora puede crear una plantilla para buscar entornos de trabajo específicos</block>
+  <block id="6aa300e24ddf3ee5a99bbb1cf5bb4a72" category="inline-link">Vaya aquí para obtener más información</block>
+  <block id="d92cd2c19989d78fa305aa796b16eb3e" category="paragraph">Mediante la acción "Buscar recursos existentes" puede identificar el entorno de trabajo y, a continuación, utilizar otras acciones de plantilla, como la creación de un volumen, para realizar fácilmente acciones en entornos de trabajo existentes.<block ref="9d92075da3fbaa4669bd5d845665bbc5" category="inline-link-rx"></block>.</block>
+  <block id="411448f8702bbfa858b0a2ba2ee94014" category="section-title">Capacidad de crear un entorno de trabajo de alta disponibilidad de Cloud Volumes ONTAP en AWS</block>
+  <block id="6eed6fdcaa0bf2c22f0c8e78ff686d29" category="inline-link">Vea cómo crear una plantilla para un entorno de trabajo de Cloud Volumes ONTAP</block>
+  <block id="9f1c9f721b531a16a189c619276f3969" category="paragraph">La compatibilidad existente para crear un entorno de trabajo de Cloud Volumes ONTAP en AWS se ha ampliado para incluir la creación de un sistema de alta disponibilidad además de un sistema de un único nodo.<block ref="35471ca8d19c78b8fa96525b636e5efc" category="inline-link-rx"></block>.</block>
+  <block id="17fc50243c5a80f407e83d268bcab18e" category="section-title">9 de febrero de 2022</block>
+  <block id="f1f7e50301c1e57e30e795fa8928ee8f" category="section-title">Ahora puede crear una plantilla para buscar volúmenes existentes específicos y, a continuación, activar Cloud Backup</block>
+  <block id="98b343467576e58f6658965bc67f83c1" category="paragraph">Con la nueva acción "Find Resource" puede identificar todos los volúmenes en los que desea habilitar Cloud Backup y, a continuación, utilizar la acción Cloud Backup para habilitar el backup en esos volúmenes.</block>
+  <block id="8b4368f9c9aad8f44dd1b5ba1d4d746a" category="paragraph">Actualmente admite volúmenes en sistemas Cloud Volumes ONTAP y ONTAP en las instalaciones.<block ref="f7210026d1a7cf546c7270b9d8e104cc" category="inline-link-rx"></block>.</block>
+  <block id="784044bd2af30d58bbb0dbcea3adbad6" category="section-title">31 de octubre de 2021</block>
+  <block id="70c889b200c3ef8dbb491ca542d1d091" category="section-title">Ahora puede etiquetar las relaciones de sincronización para que pueda agruparlas o clasificarlas para un acceso sencillo</block>
+  <block id="049ebb609707e4c76f578eb98777ffdc" category="inline-link">Obtenga más información sobre el etiquetado de recursos</block>
+  <block id="00b4c4979fe8d65dc663ea7c82a1b1c2" category="paragraph"><block ref="ddc85a18edb3f9e32810e603b7ef9eb7" category="inline-link-rx"></block>.</block>
+  <block id="4378789701cd2498a252a52806a1f3a4" category="section-title">6 de febrero de 2023</block>
+  <block id="86763912a3fb720760d95338a077e264" category="section-title">Capacidad para mover archivos de backup antiguos a almacenamiento de archivado de Azure desde sistemas StorageGRID</block>
+  <block id="56182657e28c8dfde64ef2386feb1cde" category="paragraph">Ahora puede organizar en niveles archivos de backup antiguos de sistemas StorageGRID en el almacenamiento de archivado en Azure. Esto le permite liberar espacio en sus sistemas de StorageGRID y ahorrar dinero gracias a una clase de almacenamiento económico para archivos de backup antiguos.</block>
+  <block id="ec9614a46239aa59499c4a94e919963a" category="inline-link">Más información aquí</block>
+  <block id="2dbb2c58aa8d6b345d1c74a70f17d1a2" category="paragraph">Esta funcionalidad está disponible si su clúster local utiliza ONTAP 9.12.1 o posterior y su sistema StorageGRID utiliza 11.4 o posterior.<block ref="70195a33db6d6b4308ed37adb844e324" category="inline-link-rx"></block>.</block>
+  <block id="609d2baddee02ef8a648a83c3c6583af" category="section-title">La protección de DataLock y Ransomware se puede configurar para archivos de backup en Azure Blob</block>
+  <block id="dc78c18207a001d77615c0f857f16f9d" category="inline-link">Obtenga más información sobre cómo proteger sus backups con la protección DataLock y Ransomware</block>
+  <block id="44522dba6ab4478f7cb53c4622e3dafa" category="paragraph">Ahora, la protección de DataLock y Ransomware es compatible con los archivos de backup almacenados en Azure Blob. Si su sistema Cloud Volumes ONTAP o ONTAP en las instalaciones ejecutan ONTAP 9.12.1 o superior, ahora puede bloquear sus archivos de copia de seguridad y escanearlos para detectar posible ransomware.<block ref="97e28eb0f7fdcd65cbf9241c83ee1d40" category="inline-link-rx"></block>.</block>
+  <block id="5b97e7065442b7eb64668b69dbdada19" category="section-title">Mejoras en los volúmenes de FlexGroup de backup y restauración</block>
+  <block id="36698eb018d0923e923633648afc1660" category="list-text">Ahora puede elegir varios agregados al restaurar un volumen de FlexGroup. En la última versión solo se pudo seleccionar un único agregado.</block>
+  <block id="f5f0348847173672e951c41ae184f50e" category="list-text">Los sistemas Cloud Volumes ONTAP ahora admiten la restauración de volúmenes de FlexGroup. En la última versión solo pudo restaurar a sistemas de ONTAP en las instalaciones.</block>
+  <block id="a54cefe3a8b51c74b8c67bb08d2b0a06" category="section-title">Los sistemas Cloud Volumes ONTAP pueden trasladar los backups más antiguos a un sistema de almacenamiento para archivado de Google</block>
+  <block id="b84a16ea39cceb9b085257510b1c4e29" category="paragraph">Los archivos de copia de seguridad se crean inicialmente en la clase de almacenamiento de Google Standard. Ahora puede usar Cloud Backup para organizar los backups anteriores en niveles en el almacenamiento de Google Archive y, de este modo, optimizar los costes aún más. La última versión solo admitía esta funcionalidad con clústeres de ONTAP en las instalaciones. Ahora se admiten los sistemas Cloud Volumes ONTAP implementados en Google Cloud.</block>
+  <block id="f14d5764e935884afbd83d7ee86487df" category="section-title">Las operaciones de restauración de volúmenes ahora permiten seleccionar la SVM donde desea restaurar datos de volúmenes</block>
+  <block id="7caa222989bc85d23ec0930e42a99387" category="paragraph">Ahora puede restaurar datos de volúmenes en diferentes máquinas virtuales de almacenamiento en los clústeres de ONTAP. Anteriormente, no había capacidad para elegir la máquina virtual de almacenamiento.</block>
+  <block id="14f514abf2e1958a0b5bcab66eaf30a4" category="section-title">Compatibilidad mejorada con volúmenes en configuraciones de MetroCluster</block>
+  <block id="1fe2df29e9bf17baaab103f0a9bba7fe" category="paragraph">Al utilizar ONTAP 9.12.1 GA o superior, ahora se admite el backup cuando se conecta al sistema principal en una configuración MetroCluster. Toda la configuración de backup se transfiere al sistema secundario de forma que los backups al cloud continúan automáticamente tras la conmutación.</block>
+  <block id="5f3a7b9d761ca72393881ec6b3e09094" category="inline-link">Consulte limitaciones de copia de seguridad para obtener más información</block>
+  <block id="a6fdbb3a339b191fd632ddee7fbee8cf" category="paragraph"><block ref="10efc6f0a427d8e27569782c3149d3d7" category="inline-link-rx"></block>.</block>
+  <block id="88a11892e7418e1eee8c952df9545b46" category="section-title">9 de enero de 2023</block>
+  <block id="b17d2155a07524d0e8a3d1eb73a257c3" category="section-title">Capacidad de mover archivos de backup antiguos a almacenamiento de archivado AWS S3 desde sistemas StorageGRID</block>
+  <block id="76592785cd14862cf74d11289e50ed92" category="paragraph">Ahora puede organizar en niveles archivos de backup antiguos de sistemas StorageGRID en almacenamiento de archivado en AWS S3. Esto le permite liberar espacio en sus sistemas de StorageGRID y ahorrar dinero gracias a una clase de almacenamiento económico para archivos de backup antiguos. Puede elegir entre organizar los backups en niveles en el almacenamiento de AWS S3 Glacier o S3 Glacier Deep Archive.</block>
+  <block id="b7027e7163ab44680c3c69296db41564" category="paragraph">Esta funcionalidad está disponible si su clúster local utiliza ONTAP 9.12.1 o posterior y su sistema StorageGRID utiliza 11.3 o posterior.<block ref="ba1010a667c53f122912d421bb932c28" category="inline-link-rx"></block>.</block>
+  <block id="5baabb9bbca503ea382779d0fce7e9c5" category="section-title">Capacidad de seleccionar sus propias claves gestionadas por el cliente para el cifrado de datos en Google Cloud</block>
+  <block id="0b17a5b6850808b4455bcd3d8bf54966" category="paragraph">Al realizar un backup de datos de sus sistemas ONTAP en Google Cloud Storage, ahora puede seleccionar sus propias claves gestionadas por el cliente para el cifrado de datos en el asistente de activación en lugar de usar las claves de cifrado predeterminadas gestionadas por Google. Solo tiene que configurar primero sus claves de cifrado gestionadas por el cliente en Google y, a continuación, introducir los detalles al activar Cloud Backup.</block>
+  <block id="b9395c2030b2a8ad48d31ad52bd9f6e9" category="section-title">Ya no se necesita el rol de "administrador del almacenamiento" para que la cuenta de servicio cree backups en Google Cloud Storage</block>
+  <block id="d7cf6019b64afefeee4361ce4c22ce30" category="inline-link">Descubra cómo preparar Google Cloud Storage para realizar backups</block>
+  <block id="121b4934193e6ec77a35338afd1028bb" category="paragraph">En versiones anteriores, se necesitaba el rol de administrador de almacenamiento para la cuenta de servicio que permite que Cloud Backup acceda a los bloques de Google Cloud Storage. Ahora puede crear una función personalizada con un conjunto reducido de permisos que se asignarán a la cuenta de servicio.<block ref="cdc0823dc4910df979845484c27cfc1d" category="inline-link-rx"></block>.</block>
+  <block id="e083799711dc9b588bbb440525564506" category="section-title">Se ha agregado compatibilidad para restaurar datos mediante Buscar y restaurar en sitios sin acceso a Internet</block>
+  <block id="a282fca785a0e402e0b5cdde4c380d6d" category="paragraph">Si va a realizar un backup de datos de un clúster de ONTAP en las instalaciones a StorageGRID en un sitio sin acceso a Internet, también conocido como sitio oscuro o sitio sin conexión, ahora puede utilizar la opción Search &amp; Restore para restaurar datos cuando sea necesario. Esta funcionalidad requiere que el conector BlueXP (versión 3.9.25 o superior) esté desplegado en el sitio sin conexión.</block>
+  <block id="c9ec78264dce9938676b736265201e28" category="inline-link">Descubra cómo restaurar datos de ONTAP mediante la función de restauración de &amp;amp; de búsqueda</block>
+  <block id="6f44a1bf2246f054fd573ae9473909b6" category="inline-link">Vea cómo instalar el conector en su sitio sin conexión</block>
+  <block id="74aacc002c6d6d85e9786012bf71af08" category="paragraph"><block ref="fbe0ce057e5d8013a227c4cb944242a5" category="inline-link-rx"></block>.<block ref="eb618b89294e80d594faecbc4641afee" category="inline-link-rx"></block>.</block>
+  <block id="fe1757784884bfcaf0ca6254fb7fa44e" category="section-title">Capacidad de descargar la página resultados de la supervisión de trabajos como un informe .csv</block>
+  <block id="5ae1400b4fd16294ac8af42e98d8a9ed" category="inline-link">Vea cómo generar un informe de supervisión de trabajos</block>
+  <block id="c8a0a8bdcaf1f25cbadde68224d6591d" category="paragraph">Después de filtrar la página Supervisión de trabajos para mostrar los trabajos y las acciones que le interesan, ahora puede generar y descargar un archivo .csv de esos datos. A continuación, puede analizar la información o enviar el informe a otras personas de su organización.<block ref="f54dc22fe93134a0b2767a291dba51f5" category="inline-link-rx"></block>.</block>
+  <block id="e29eef6ae64d545134f2b42984845a94" category="section-title">19 de diciembre de 2022</block>
+  <block id="89d500a3ace67f6d47edb61231336589" category="section-title">Mejoras en Cloud Backup para aplicaciones</block>
+  <block id="0a286ad90f3a25f45e443367036a8789" category="list-text">Bases de datos SAP HANA</block>
+  <block id="feb69ad1d8975111fe86bbc94b823a7f" category="list-text">Admite backup y restauración basadas en políticas de bases de datos SAP HANA que residen en Azure NetApp Files (ANF).</block>
+  <block id="d5a365014bbbc5172b423043fb2a2501" category="list-text">Admite directivas personalizadas</block>
+  <block id="5ffbe0deb5b41148dc58e63a20df8411" category="list-text">Bases de datos de Oracle</block>
+  <block id="aa6dc7e308fa4a4875c447c8e7fa4a19" category="list-text">Añada hosts e implemente el plugin automáticamente</block>
+  <block id="defa9120f4acf33ddb7a4e571c70938b" category="list-text">Admite backup, restauración y clonado basados en políticas de bases de datos de Oracle que residen en Cloud Volumes ONTAP</block>
+  <block id="2c35eeb424b768876f1774567e7bf2f5" category="list-text">Admite backup y restauración basadas en políticas de bases de datos de Oracle que residen en Amazon FSX para ONTAP de NetApp</block>
+  <block id="88094c6c8ad963e6131e3c23988917d4" category="list-text">Admite la restauración de bases de datos de Oracle mediante método de conexión y copia</block>
+  <block id="7d6f6d1efeae8c573a74a091cc119cb9" category="list-text">Compatible con Oracle 21c</block>
+  <block id="35d9afe1e1e85a29b0de625fd2a9a44a" category="list-text">Admite el clonado de bases de datos de Oracle nativas en el cloud</block>
+  <block id="e75ce95021f32383e6a928c1b242bc34" category="section-title">Mejoras de Cloud Backup para máquinas virtuales</block>
+  <block id="137f19e6e2dc1219f33553b812627bc2" category="list-text">Equipos virtuales</block>
+  <block id="c2452add37f94598e06d237edc68078b" category="list-text">Realice backups de máquinas virtuales desde un almacenamiento secundario en las instalaciones</block>
+  <block id="8e21c62b69b7c01b40ec93ceb9c4b5cd" category="list-text">Admite Google Cloud Platform (GCP) para realizar backup de uno o más almacenes de datos</block>
+  <block id="6480beff3c438303fc8c6d8b4009f381" category="list-text">Admite almacenamiento en cloud de bajo coste, como Glacier, Deep Glacier y Azure Archive</block>
+  <block id="5c0fff562b33dc0a5a3acac30ed2d313" category="section-title">6 de diciembre de 2022</block>
+  <block id="73358bf2a9d2d2c32dbbab5b76681d7f" category="section-title">Cambios de extremo de acceso a Internet saliente del conector requerido</block>
+  <block id="06c42f4f82e29b4e90570ef70b538ed4" category="paragraph">Debido a un cambio en Cloud Backup, debe cambiar los siguientes extremos de conector para que la operación de Cloud Backup se realice correctamente:</block>
+  <block id="eb75f7332becd8b3fbb2a59ea0bd0536" category="cell">Extremo antiguo</block>
+  <block id="afcce2fe2d959c0f4554e7815a50e8e4" category="cell">Nuevo extremo</block>
+  <block id="115781a0043a85f8707c5c99fd02dc75" category="cell">\https://cloudmanager.cloud.netapp.com</block>
+  <block id="e1095ff19466581c5274f67123c95036" category="cell">\https://api.bluexp.netapp.com</block>
+  <block id="9e434ddc2ad4b9de005368b77254223d" category="cell">\https://*.cloudmanager.cloud.netapp.com</block>
+  <block id="37ba276f010f4ea07f1196b487811443" category="cell">\https://*.api.bluexp.netapp.com</block>
+  <block id="4847e034bb0a55fcbc8a3380d6a3ab80" category="inline-link">AWS</block>
+  <block id="56ef2682280ac110060b881925a87b80" category="inline-link">Google Cloud</block>
+  <block id="3a580f142203677f1f0bc30898f63f53" category="inline-link">Azure</block>
+  <block id="0e40b9cba041560c9517bc49757da3c7" category="paragraph">Vea la lista completa de puntos finales de la<block ref="4c9e3e17ba20f553394e5bc78e402946" category="inline-link-rx"></block>,<block ref="cd3c6f623ccf3e34f9d46b28c47f2a3d" category="inline-link-rx"></block>, o.<block ref="80755100f97c37f8aa8e3d999b0a43d9" category="inline-link-rx"></block> de cloud híbrido.</block>
+  <block id="e3a84cf85e2ede3f349ff73485707901" category="section-title">Compatibilidad para seleccionar la clase de almacenamiento Google Archival en la interfaz de usuario</block>
+  <block id="862c6bfd630667f5b535d9741b4f08fc" category="paragraph">Los archivos de copia de seguridad se crean inicialmente en la clase de almacenamiento de Google Standard. Ahora puede usar la interfaz de usuario de Cloud Backup para organizar los backups anteriores en niveles en el almacenamiento de Google Archive después de unos días, y conseguir una optimización de costes adicional.</block>
+  <block id="738d31d37e16df450b2af9540e98c7d4" category="paragraph">Esta funcionalidad actualmente es compatible con clústeres de ONTAP en las instalaciones utilizando ONTAP 9.12.1 o posterior. No está disponible actualmente para los sistemas Cloud Volumes ONTAP.</block>
+  <block id="4547c4a9db890b3449aca4e706555007" category="section-title">Compatibilidad con volúmenes de FlexGroup</block>
+  <block id="f337eb9be5f215d07b89436adc58d486" category="paragraph">Cloud Backup ahora admite los backups y restauración de volúmenes de FlexGroup. Al usar ONTAP 9.12.1 o superior, puede realizar un backup de FlexGroup Volumes en un almacenamiento en cloud público y privado. Si tiene entornos de trabajo que incluyen volúmenes FlexVol y FlexGroup, una vez que actualice el software ONTAP, puede realizar un backup de cualquiera de los volúmenes FlexGroup de esos sistemas.</block>
+  <block id="cce3f2ac0edcb49693caf11399223d89" category="inline-link">Consulte la lista completa de los tipos de volumen admitidos</block>
+  <block id="2750ec6dc42d79b24b9902d41543b6fd" category="paragraph"><block ref="0b2b94d5062b1eb6747bf9cb58e01b77" category="inline-link-rx"></block>.</block>
+  <block id="d1c49eec91984b5c0c7c8ff6998bb65d" category="section-title">Capacidad de restaurar datos desde backups a un agregado específico en sistemas Cloud Volumes ONTAP</block>
+  <block id="e674451efff1f119cf056a3e852d4483" category="paragraph">En versiones anteriores solo podía seleccionar el agregado al restaurar datos en sistemas ONTAP en las instalaciones. Esta funcionalidad ahora funciona cuando se restauran datos en sistemas Cloud Volumes ONTAP.</block>
+  <block id="5c19ef53902ef56ea5c8f554cccb9ad8" category="section-title">5 de febrero de 2023 (versión 1.20)</block>
+  <block id="f0da8cded20db5ee6dce9c1c4da7bcd8" category="section-title">Posibilidad de enviar correos electrónicos de notificación basados en políticas a cualquier dirección de correo electrónico</block>
+  <block id="01bfbdebf8836af0160f70e1bacc3787" category="paragraph">En versiones anteriores de Cloud Data Sense, puede enviar alertas de correo electrónico a los usuarios de BlueXP de su cuenta cuando ciertas políticas críticas devuelven resultados. Esta función le permite obtener notificaciones para proteger sus datos cuando no está en línea. Ahora también puede enviar alertas de correo electrónico desde Directivas a cualquier otro usuario - hasta 20 direcciones de correo electrónico - que no se encuentren en su cuenta de BlueXP.</block>
+  <block id="01111213f34b03537871696a29c018fa" category="inline-link">Obtenga más información sobre el envío de alertas por correo electrónico basadas en los resultados de la directiva</block>
+  <block id="6d1902eb0495d9d60f02e9146d0a091a" category="paragraph"><block ref="0ee4c43a6d75245009919f8e1767edb7" category="inline-link-rx"></block>.</block>
+  <block id="58c8b31479a452f2c02b4c4beb2b8e6f" category="section-title">Ahora puede agregar patrones personales que el sentido de datos identificará desde la interfaz de usuario</block>
+  <block id="bbc056ffe85cbc0784df7b39d5fac941" category="paragraph">La detección de datos ha tenido la capacidad de agregar "datos personales" personalizados que la detección de datos identificará en futuros análisis durante un tiempo. Sin embargo, tenía que iniciar sesión en el host Linux de Data Sense y utilizar una línea de comandos para agregar los patrones personalizados. En esta versión, la capacidad de agregar patrones personales con un regex está en la interfaz de usuario de detección de datos, lo que hace muy fácil agregar y editar estos patrones personalizados.</block>
+  <block id="e743c1cea3cca118a07bf2fd9a21ec39" category="inline-link">Obtenga más información sobre cómo agregar patrones personalizados desde la interfaz de usuario de Data Sense</block>
+  <block id="6f3ebec91d6086cea205504bdbc3fd37" category="paragraph"><block ref="8eedc9e36b5a6054f1f5d8b4937ba068" category="inline-link-rx"></block>.</block>
+  <block id="84c8adf32e115baa72ae8b3a8f822476" category="section-title">Capacidad de mover 15 millones de archivos con Data Sense</block>
+  <block id="ce5fbe7b662ddb049a74e9f53fbb248d" category="inline-link">Obtenga más información acerca de cómo mover archivos de origen con Data Sense</block>
+  <block id="ba15bcd4f08736ac348b497a16e4692c" category="paragraph">Anteriormente, podría hacer que Data Sense trasladara un máximo de 100,000 archivos de origen a cualquier recurso compartido de NFS. Ahora puede mover hasta 15 millones de archivos a la vez.<block ref="40c227e71c831207540f496880532db6" category="inline-link-rx"></block>.</block>
+  <block id="e25a297a27416e76c1a8e01af56d07ed" category="section-title">Capacidad para ver el número de usuarios que tienen acceso a archivos de SharePoint Online</block>
+  <block id="6e0f24b07c077e6e557a1d0fac76b6c1" category="paragraph">El filtro "número de usuarios con acceso" ahora admite archivos almacenados en repositorios en línea de SharePoint. Anteriormente, solo se admitía los ficheros con recursos compartidos CIFS. Tenga en cuenta que los grupos de SharePoint que no están basados en directorios activos no se contarán en este filtro en este momento.</block>
+  <block id="cab6c5a0928827eecbe652fb21944075" category="section-title">Se ha agregado un nuevo estado "éxito parcial" al panel Estado de acción</block>
+  <block id="d889002fb629aff0cd2d82543e5f378b" category="inline-link">Consulte cómo ver el panel Estado de acciones</block>
+  <block id="8c01977ad1276f1ec21ee04cc193f1e3" category="paragraph">El nuevo estado "éxito parcial" indica que una acción de detección de datos ha finalizado y que algunos elementos han fallado y algunos elementos han tenido éxito, por ejemplo, al mover o eliminar archivos 100. Además, se ha cambiado el nombre del estado "terminado" por "correcto". En el pasado, el estado "terminado" podría incluir acciones que se han realizado correctamente y que han fallado. Ahora el estado "éxito" significa que todas las acciones se han realizado correctamente en todos los elementos.<block ref="fcc1d764ae2299a747d914333deb15cf" category="inline-link-rx"></block>.</block>
+  <block id="91edc807a7157b7f0159521433ea5b0f" category="section-title">9 de enero de 2023 (versión 1.19)</block>
+  <block id="5e6d4a84337eb1e0ff5a019edf3a15d6" category="section-title">Capacidad para ver un gráfico de archivos que contienen datos confidenciales y que son excesivamente permisivos</block>
+  <block id="d59048f21fd887ad520398ce677be586" category="inline-link">Leer más</block>
+  <block id="d9b195efc41ceb51899b712eb2c0c583" category="paragraph">El panel de control de gobierno ha agregado un área nueva _sensible Data y permisos amplios_ que proporciona un mapa térmico de archivos que contienen datos confidenciales (incluidos datos personales confidenciales y confidenciales) y que son demasiado permisivos. Esto puede ayudarle a ver dónde puede tener algunos riesgos con datos confidenciales.<block ref="315faeb2b0e6f27dd87bce24f0b16dd0" category="inline-link-rx"></block>.</block>
+  <block id="738f7059231d5fe5c1e22879f52682fd" category="section-title">Hay tres filtros nuevos disponibles en la página Investigación de datos</block>
+  <block id="a05ecd168005e0205e52b540a66b4208" category="paragraph">Hay nuevos filtros disponibles para refinar los resultados que se muestran en la página Investigación de datos:</block>
+  <block id="d40d8569fcb40c761c8217de218391ba" category="list-text">El filtro "número de usuarios con acceso" muestra qué archivos y carpetas están abiertos a un determinado número de usuarios. Puede elegir un intervalo de números para refinar los resultados, por ejemplo, para ver los archivos a los que pueden acceder 51-100 usuarios.</block>
+  <block id="142c1e7e965016b6fe04e45f8ae01209" category="list-text">Los filtros "Hora de creación", "Hora descubierta", "última modificación" y "último acceso" ahora permiten crear un intervalo de fechas personalizado en lugar de sólo seleccionar un intervalo de días predefinido. Por ejemplo, puede buscar archivos con una "hora creada" "más de 6 meses" o con una fecha "última modificación" dentro de los "últimos 10 días".</block>
+  <block id="e2abff3453b8cf47fe2cb0886e10722b" category="list-text">El filtro "Ruta de acceso" le permite especificar rutas que desea excluir de los resultados de la consulta filtrada. Si introduce rutas de acceso para incluir y excluir determinados datos, detección de datos busca primero todos los archivos en las rutas de acceso incluidas, quita los archivos de las rutas de acceso excluidas y, a continuación, muestra los resultados.</block>
+  <block id="a3065e926a55339df72c1343ee9b3fae" category="inline-link">Consulte la lista de todos los filtros que puede utilizar para investigar los datos</block>
+  <block id="33720bb7474c733a91f61445b2fe886d" category="paragraph"><block ref="919878f5ddd65e1ab5af9e84f9299a2f" category="inline-link-rx"></block>.</block>
+  <block id="39042f4c3554377e7367f85ef5edf207" category="section-title">El sentido de los datos puede identificar el número individual japonés</block>
+  <block id="8900e436e6a12ce71aa703bf1c8be02c" category="inline-link">Vea todos los tipos de datos personales que Data Sense puede identificar en sus datos</block>
+  <block id="21e575de9b2cf958293bb22c657eba7b" category="paragraph">Data Sense puede identificar y categorizar archivos que contengan el número individual japonés (también conocido como Mi número). Esto incluye tanto el número personal como el número de mi corporativo.<block ref="b4ce36808fde13e40836bb7d14af31c6" category="inline-link-rx"></block>.</block>
+  <block id="c3828ad11edf9a8e2a0d7bd8910b2ad3" category="section-title">11 de diciembre de 2022 (versión 1.18)</block>
+  <block id="329171a5c817ab7ae03a1497aa6d59fa" category="section-title">Mejoras en la instalación en las instalaciones</block>
+  <block id="500b30285e1a741b658bc533a0a125a1" category="paragraph">Se han agregado las siguientes mejoras para la instalación de detección de datos en las instalaciones:</block>
+  <block id="bacf3e82e48abd0e39c6a162b4aa7191" category="list-text">Ahora se comprueban algunos requisitos previos adicionales antes de que la instalación comience en un host local. Esto ayuda a asegurarse de que el sistema host esté preparado al 100 % para tener instalado el software Data Sense:</block>
+  <block id="c73eb1c0478b9ea7f0699ac7b64d4214" category="list-text">comprobar si hay suficiente espacio en<block ref="2e1a4e3f55001820560b237188c70bc3" prefix=" " category="inline-code"></block>,<block ref="d42b9c57d24cf5db3bd8d332dc35437f" prefix=" " category="inline-code"></block>, y.<block ref="68ab1268abb7e5f5688810968df97d6b" prefix=" " category="inline-code"></block></block>
+  <block id="8e3833fdafa0cd3a63d1fae40cbd74e9" category="list-text">pruebe los permisos pertinentes en todas las carpetas necesarias</block>
+  <block id="36cbb51c271d3c68a01a8599c0fbd2b8" category="list-text">En la página Configuración, la sección entornos de trabajo muestra ahora _Working Environment ID_ y el _Scanner Group_ name. Necesitará conocer el identificador de entorno de trabajo si planea utilizar varios hosts de detección de datos para proporcionar potencia de procesamiento adicional para analizar sus fuentes de datos.</block>
+  <block id="da8fda88af08dfa86e6c1895e629a7a5" category="list-text">También en la página Configuración, una nueva sección muestra los grupos de escáner que ha configurado y los nodos de escáner de cada grupo.</block>
+  <block id="73e22396c6474ab27832098f1351b823" category="inline-link">Obtenga más información acerca de la instalación de Data Sense en un solo servidor host y en varios hosts</block>
+  <block id="7d11de825f5fb48a0194c3826f7e2322" category="paragraph"><block ref="6aec5abc0a91e6bbae2064cb8f81d2dd" category="inline-link-rx"></block>.</block>
+  <block id="55157331e0485d25f0d603400a66335e" category="section-title">5 de febrero de 2023</block>
+  <block id="761cba7c96f916f975634bfd465401cb" category="section-title">Compatibilidad adicional para Azure Data Lake Storage Gen2, almacenamiento ONTAP S3 y NFS</block>
+  <block id="93cf60ec095fd8da10fc299cc367ba5f" category="paragraph">Cloud Sync ahora admite relaciones de sincronización adicionales para el almacenamiento ONTAP S3 y NFS:</block>
+  <block id="852f9290d6e492b0c65094f3676c0c9b" category="list-text">Almacenamiento ONTAP S3 en NFS</block>
+  <block id="84b6c32a0e939d90280ebcdf036f7678" category="list-text">NFS a almacenamiento de ONTAP S3</block>
+  <block id="444a944798699bf4690bdc286127a9f2" category="paragraph">Cloud Sync también ofrece compatibilidad adicional para el almacenamiento en lagos de datos Azure Gen2 como origen y destino para:</block>
+  <block id="e83e5674ab295a6613b60f5e12d1bfe3" category="list-text">Servidor NFS</block>
+  <block id="876d9b7b1c11a792f25a0e1e9dbf31dd" category="list-text">Servidor SMB</block>
+  <block id="a68d8b6ae92fdf98aa74ce8cfe41a27f" category="list-text">Almacenamiento ONTAP S3</block>
+  <block id="5446a6bee3301e1f52824fc0affa6299" category="list-text">Almacenamiento de objetos en cloud de IBM</block>
+  <block id="c7360b05ac6a5646b2770ea0c162d4fb" category="inline-link">Obtenga más información sobre las relaciones de sincronización compatibles</block>
+  <block id="623dda645e4d20988b8c1d61423da14e" category="paragraph"><block ref="f9c4f71cab183e7ba62e68df19c3dfe9" category="inline-link-rx"></block>.</block>
+  <block id="b3c6595e164d585a18699d6b36cab08a" category="section-title">Actualice al sistema operativo de Amazon Web Services Data broker</block>
+  <block id="56b81b60dec6a853cc4a71acf27e639b" category="paragraph">El sistema operativo para los agentes de datos de AWS se ha actualizado a Amazon Linux 2022.</block>
+  <block id="0dd728efd36ee3f96597b07096922b08" category="inline-link">Obtenga más información acerca de la instancia de data broker en AWS</block>
+  <block id="ab1608bfe0e155c43b562df0832f62cb" category="paragraph"><block ref="f5f6281702689de644df10baf88bc982" category="inline-link-rx"></block>.</block>
+  <block id="bfc6fe3f8d2577420634f29daac2cfe3" category="section-title">3 de enero de 2023</block>
+  <block id="2ce75b34222d130ea74078b75eb79cc0" category="section-title">Muestra la configuración local de Data broker en la interfaz de usuario</block>
+  <block id="88dcb8d0dd987f4f5606df5981050a8d" category="paragraph">Ahora existe una opción *Mostrar configuración* que permite a los usuarios ver la configuración local de cada Data broker en la interfaz de usuario.</block>
+  <block id="44580ec91e2012543452f790258e1ccf" category="inline-link">Obtenga más información sobre la administración de grupos de agentes de datos</block>
+  <block id="1bc15ec9e137e3d7653e9f04a08b840b" category="paragraph"><block ref="cbafc7311a6970273ad5a1c3b2c0b656" category="inline-link-rx"></block>.</block>
+  <block id="02840b44154535342dd4cf6739d2c77d" category="section-title">Actualice a Azure y el sistema operativo de agentes de datos Google Cloud</block>
+  <block id="69e30db11dbff8b5efd6091166af232f" category="paragraph">El sistema operativo para los agentes de datos en Azure y Google Cloud se ha actualizado a Rocky Linux 9.0.</block>
+  <block id="1c01c907ca0a713df58ba8f4b21fd39c" category="inline-link">Obtenga más información acerca de la instancia de data broker en Azure</block>
+  <block id="696fb1a24aae70782cbc2deebfd01ec3" category="paragraph"><block ref="721924a927b7206a5d8775fe840ddbcd" category="inline-link-rx"></block>.</block>
+  <block id="648e059d69339d82d82738abf0bd4016" category="inline-link">Obtenga más información acerca de la instancia de Data broker en Google Cloud</block>
+  <block id="6619068f4ac101fa3e8003ee6618d9da" category="paragraph"><block ref="fa611f614e55d9a2ca38028d5a5ab5b7" category="inline-link-rx"></block>.</block>
+  <block id="5912630061434e78e733b8d5e5e3dc88" category="section-title">11 de diciembre de 2022</block>
+  <block id="9709c6ba9ff4b10cb5ec3f4f956d3226" category="section-title">Filtrar directorios por nombre</block>
+  <block id="43b44f78e255d05aac846a6181095cd6" category="paragraph">Ahora hay disponible una nueva configuración de *excluir nombres de directorio* para las relaciones de sincronización. Los usuarios pueden filtrar un máximo de 15 nombres de directorio desde su sincronización. Los directorios .copy-fload, .snapshot, ~snapshot se excluyen de forma predeterminada.</block>
+  <block id="84a8ea117dd9c6b8ddbbe8f47665f923" category="inline-link">Obtenga más información acerca del valor excluir nombres de directorio</block>
+  <block id="8391e3aac2d2f8dd1b8e38350d072463" category="paragraph"><block ref="018123db357961d73398ef3066f74a1b" category="inline-link-rx"></block>.</block>
+  <block id="211e17aac7e6f53a17024d84713e8c34" category="section-title">Compatibilidad adicional con Amazon S3 y ONTAP S3 Storage</block>
+  <block id="9c0b9eb5c4fc9353fd2021e992f68e22" category="paragraph">Cloud Sync ahora admite relaciones de sincronización adicionales para AWS S3 y el almacenamiento de ONTAP S3:</block>
+  <block id="9952f86a1aa7c6f33a76413df4560b41" category="list-text">AWS S3 a almacenamiento ONTAP S3</block>
+  <block id="dfe6b806f7dd136ec5c5baaaae335c21" category="list-text">Almacenamiento ONTAP S3 en AWS S3</block>
+  <block id="f3630c1c94e3e51aaea5bdd037dc03c9" category="section-title">30 de octubre de 2022</block>
+  <block id="5c7d084f950ad8af7d03c171b38bbaba" category="section-title">Sincronización continua desde Microsoft Azure</block>
+  <block id="e4c664e7de05c9b6f33c4dc4c5e8c120" category="paragraph">La configuración de Continuous Sync ahora es compatible desde un bucket de almacenamiento de Azure de origen a un almacenamiento en cloud mediante un agente de datos de Azure.</block>
+  <block id="3cf98067a279c5afe27919c8acd25ea4" category="paragraph">Después de la sincronización inicial de datos, Cloud Sync escucha los cambios en el bloque de almacenamiento de Azure de origen y sincroniza constantemente los cambios en el destino a medida que se producen. Esta configuración está disponible cuando se sincroniza desde un bucket de almacenamiento de Azure con almacenamiento Azure Blob, CIFS, Google Cloud Storage, IBM Cloud Object Storage, NFS y StorageGRID.</block>
+  <block id="91cba4a0b0d46011e31e848c61739e1e" category="paragraph">El agente de datos de Azure necesita un rol personalizado y los siguientes permisos para utilizar este ajuste:</block>
+  <block id="f23841b65ba519d2dd6a63a2a3e4de83" category="inline-link">Obtenga más información acerca de la configuración de sincronización continua</block>
+  <block id="9fffb7017709a369d0e0ce563839fee2" category="paragraph"><block ref="74635618081bc819b4c328f5ee049800" category="inline-link-rx"></block>.</block>
+  <block id="da8b75d7f83536bef455f4cfcb81982f" category="section-title">4 de septiembre de 2022</block>
+  <block id="a9b4886a93e658bc8692b215ae9412a0" category="section-title">Compatibilidad adicional con Google Drive</block>
+  <block id="38e24a385d32651afeede647ae09290f" category="list-text">Cloud Sync ahora admite relaciones de sincronización adicionales para Google Drive:</block>
+  <block id="989bccb142d89b75c8392bf5f5e1604c" category="list-text">Google Drive a servidores NFS</block>
+  <block id="44191e60b1503eaf657847a1915cafeb" category="list-text">Google Drive a servidores SMB</block>
+  <block id="1483ec65b58ea8f21aa486ac67f98497" category="list-text">También puede generar informes para relaciones de sincronización que incluyan Google Drive.</block>
+  <block id="b8573b8d6cb0195fa946927c3aa36397" category="inline-link">Obtenga más información acerca de los informes</block>
+  <block id="913d3279d6ca39c6bd290fac85314961" category="paragraph"><block ref="9ba5aa88e2b271505b32ed12efb1883e" category="inline-link-rx"></block>.</block>
+  <block id="6a8d3c04a6ef359c72722da014b3e2a0" category="section-title">Mejora de sincronización continua</block>
+  <block id="700604b36a9bc9c763c84403ff4fc2a1" category="paragraph">Ahora puede activar la configuración de sincronización continua en los siguientes tipos de relaciones de sincronización:</block>
+  <block id="16a4f69cf5e478434d66f741eb65609e" category="list-text">Bloque de S3 a un servidor NFS</block>
+  <block id="f1b9deb2828fa22b8254f1a8a51f5789" category="list-text">Google Cloud Storage en un servidor NFS</block>
+  <block id="a67ce68ccac082ad54a552bdbcb6ecd7" category="section-title">Notificaciones por correo electrónico</block>
+  <block id="2a6aa0e8585b387718e871db90f1a32e" category="paragraph">Ahora puede recibir notificaciones Cloud Sync por correo electrónico.</block>
+  <block id="beee0e2c828d5d7a17dcb84704a1dd82" category="paragraph">Para recibir las notificaciones por correo electrónico, deberá activar la configuración de *Notificaciones* en la relación de sincronización y, a continuación, configurar las alertas y notificaciones en BlueXP.</block>
+  <block id="e6694f6134fb0186a17db662ced006d0" category="inline-link">Aprenda a configurar notificaciones</block>
+  <block id="f7ae9f1fb8f4b7044457ebf35058b088" category="paragraph"><block ref="8365080032c57ac637a7cb1d0af196ae" category="inline-link-rx"></block>.</block>
+  <block id="e0daf39823ec1a1a7878c9718f063d5f" category="section-title">Unidad de Google</block>
+  <block id="173bb19c121e8b179d4baa317b637722" category="paragraph">Ahora puede sincronizar datos de un servidor NFS o SMB en Google Drive. Tanto "My Drive" como "Shared Drives" son compatibles como destinos.</block>
+  <block id="edb5ab0783f7fd41d24fc8a5ae44aef6" category="inline-link">Más información acerca de los requisitos de Google Drive</block>
+  <block id="bcc0f3bd91fbadb8c521e47f25f76843" category="paragraph">Antes de crear una relación de sincronización que incluya Google Drive, debe configurar una cuenta de servicio que tenga los permisos necesarios y una clave privada.<block ref="556946ce0efd88231506c545597e8d31" category="inline-link-rx"></block>.</block>
+  <block id="557b7fbb966ab34b32484f8c806869ae" category="inline-link">Consulte la lista de relaciones de sincronización compatibles</block>
+  <block id="470d6fa86215393cc3b918331e6ca824" category="paragraph"><block ref="4191451a3c972228fe86dca53f50e67d" category="inline-link-rx"></block>.</block>
+  <block id="d6a24c2feaa9a899592c4cd5cf4a5011" category="section-title">Compatibilidad adicional con Azure Data Lake</block>
+  <block id="ac7f6cb7e466c5bda81009406ce9c28c" category="paragraph">Cloud Sync ahora admite relaciones de sincronización adicionales para el almacenamiento en lagos de datos de Azure Gen2:</block>
+  <block id="291356d9de6df3e4cba63e5478b2bc01" category="list-text">Amazon S3 a Azure Data Lake Storage Gen2</block>
+  <block id="427bae06dc18214df77602503b45e556" category="list-text">Almacenamiento de objetos en cloud de IBM a Azure Data Lake Storage Gen2</block>
+  <block id="2ade6486b18196b7cbbcabc2c40d01ac" category="list-text">Almacenamiento de StorageGRID a Azure Data Lake Gen2</block>
+  <block id="6d7ca7d8b2d372856465f7f7cee67c0c" category="section-title">Nuevas formas de configurar relaciones de sincronización</block>
+  <block id="75a84cecb34ecabf76f44935f66b67eb" category="paragraph">Hemos añadido formas adicionales de configurar relaciones de sincronización directamente desde el lienzo de BlueXP.</block>
+  <block id="1bc09668b27b6867ae7fc05d1c02faa8" category="section-title">Arrastre y suelte</block>
+  <block id="bb444099cdb375196c5bb6444eabdc45" category="paragraph">Ahora puede configurar una relación de sincronización desde el lienzo arrastrando y soltando un entorno de trabajo sobre otro.</block>
+  <block id="f3347c5f92241e385b544f1b53daa14d" category="inline-image-macro">Una captura de pantalla que muestra el Centro de notificaciones en BlueXP.</block>
+  <block id="05d87278ff5c6195179e1954eecb9a4f" category="paragraph"><block ref="05d87278ff5c6195179e1954eecb9a4f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bf283dfa54b095b3eda8812752b158f9" category="section-title">Configuración del panel derecho</block>
+  <block id="79074218529972fce8a6ccab7f00095d" category="paragraph">Ahora puede configurar una relación de sincronización para el almacenamiento de Azure Blob o para Google Cloud Storage seleccionando el entorno de trabajo en Canvas y seleccionando la opción de sincronización en el panel derecho.</block>
+  <block id="779ddd312a3a36e145a7bb3229e99a4a" category="paragraph"><block ref="779ddd312a3a36e145a7bb3229e99a4a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1511b856d0328cfba458b8f83c2e94e3" category="section-title">3 de julio de 2022</block>
+  <block id="59db2d8d08645826b1c034be277c61d2" category="section-title">Compatibilidad con Azure Data Lake Storage Gen2</block>
+  <block id="c7b46a2bde58e21272436d4c94238e15" category="paragraph">Ahora puede sincronizar datos de un servidor NFS o SMB en Azure Data Lake Storage Gen2.</block>
+  <block id="20a2ab980685308347c082aec3253ed9" category="paragraph">Al crear una relación de sincronización que incluya el lago de datos de Azure, debe proporcionar a Cloud Sync la cadena de conexión de la cuenta de almacenamiento. Debe ser una cadena de conexión normal, no una firma de acceso compartido (SAS).</block>
+  <block id="ebf5fe0ded517668f74c4f41da278835" category="section-title">Sincronización continua desde Google Cloud Storage</block>
+  <block id="6ce39114bc116067ef30366e7df90870" category="paragraph">La configuración de Continuous Sync ahora es compatible con un bucket de Google Cloud Storage origen con un destino de almacenamiento en cloud.</block>
+  <block id="fd36af2b64264c3f7fb77364a0046eb8" category="paragraph">Después de la sincronización inicial de datos, Cloud Sync escucha los cambios en el bucket de Google Cloud Storage de origen y sincroniza continuamente los cambios en el destino a medida que se producen. Esta configuración está disponible cuando se sincroniza un bucket de Google Cloud Storage con S3, Google Cloud Storage, un almacenamiento blob de Azure, StorageGRID o IBM Storage.</block>
+  <block id="5f5f25c6813ee0b01f552cd13dcebec9" category="paragraph">La cuenta de servicio asociada con el agente de datos necesita los siguientes permisos para utilizar esta configuración:</block>
+  <block id="81ad4f0de90ee8a7305d0fd7751df796" category="section-title">Nueva compatibilidad regional con Google Cloud</block>
+  <block id="d38ece9df5f99d11a5e7597c6f6c34f2" category="paragraph">El agente de datos de Cloud Sync ahora es compatible con las siguientes regiones de Google Cloud:</block>
+  <block id="db760e7471192daa123eed31bfba312d" category="list-text">Colón (EE. UU.-este 5)</block>
+  <block id="ad6033c8e4eda00017eca167a149ced4" category="list-text">Dallas (EE.UU.-sur-1)</block>
+  <block id="82e8338c73d6540f48f2e0cc8d035511" category="list-text">Madrid (europa-sur-oeste)</block>
+  <block id="4b14bbd178377e932c7e97664c276be7" category="list-text">Milán (europa-west8)</block>
+  <block id="1a1145c860165dcd96b82eb7d32cd59f" category="list-text">París (europa-West9)</block>
+  <block id="66c941bf286fd505b009d484ca94a594" category="section-title">Nuevo tipo de máquina de Google Cloud</block>
+  <block id="32ddf7d830e3a5092074c4f9bb211736" category="paragraph">El tipo de máquina predeterminado para el agente de datos en Google Cloud es ahora n2-standard-4.</block>
+  <block id="433c1ccd6c6d5af5fc78b729975e5f20" category="section-title">Cambios de extremo de acceso saliente a Internet del conector</block>
+  <block id="c433416a8f427b90caab6f6eed1f6323" category="paragraph">Debido a un cambio en la organización en niveles del cloud, debe cambiar los siguientes extremos de conector para que la operación de organización en niveles del cloud se realice correctamente:</block>
+  <block id="5a4346a01828d72104a6540080377b25" category="section-title">6 de noviembre de 2022</block>
+  <block id="8f4621192fd1fe94f1b365ae34c1e0ed" category="section-title">Arrastre y suelte para habilitar Cloud Tiering en Azure Blob, Google Cloud Storage y StorageGRID</block>
+  <block id="6586247c64ea3f20421ae518b26fc973" category="paragraph">Si el destino de Azure Blob, Google Cloud Storage o StorageGRID Tiering existe como entorno de trabajo en el lienzo, puede arrastrar su entorno de trabajo ONTAP local al destino para iniciar el asistente de configuración de la organización en niveles.</block>
+  <block id="ab288ae4b4c50ebb9a997e0f0debbd15" category="section-title">19 de septiembre de 2022</block>
+  <block id="c3d7ada1f42d9b916dd8624c5b5661c1" category="section-title">El asistente de organización en niveles permite configurar AWS PrivateLink cuando la organización en niveles se encuentra en un almacenamiento S3</block>
+  <block id="905ecf204d0cf0b2ed497e63ae9324d0" category="inline-link">Configure el sistema para una conexión privada mediante una interfaz de extremo VPC</block>
+  <block id="33e030edd0380c3b2d743ec2f989598c" category="paragraph">En versiones anteriores, era muy lento proporcionar esta forma segura de conectar el clúster a un bloque de S3 a través de un extremo de VPC. Ahora puede seguir los pasos de los requisitos previos a.<block ref="fb4b1250ed3d38b3a9447c7c732436c8" category="inline-link-rx"></block>Y, a continuación, puede seleccionar PrivateLink durante el asistente de configuración de capas en la página Networking.</block>
+  <block id="883959b6b7ad90936b33d524655bc282" category="inline-link">Revise los requisitos y los pasos para organizar los datos inactivos en niveles en Amazon S3</block>
+  <block id="93d0679385afbe8961d65715ec42ad95" category="paragraph"><block ref="eae517fc6cf18ab5b51a15743d8fba49" category="inline-link-rx"></block>.</block>
+  <block id="6a22836d972c44908e791a2300d9312a" category="section-title">Arrastre y suelte para habilitar Cloud Tiering en Amazon S3</block>
+  <block id="84b50dc471c57455cf0359ad021a8c58" category="paragraph">Si el destino de organización en niveles de Amazon S3 existe como entorno de trabajo en Canvas, puede arrastrar el entorno de trabajo de ONTAP local al destino para iniciar el asistente de configuración de organización en niveles.</block>
+  <block id="bf482155aab691ba59a0313f5628cbba" category="section-title">Elija el comportamiento de organización en niveles al eliminar el almacén de objetos reflejados en una configuración de MetroCluster</block>
+  <block id="cd71992689f7bdbde4a7c9f0653f44f3" category="paragraph">Al quitar el almacén de objetos de réplica de una configuración de MetroCluster, se le preguntará si desea quitar también el almacén de objetos principal. Puede optar por mantener el almacén de objetos principal Unido al agregado o eliminarlo.</block>
+  <block id="078640757da4b274abf89709c42d7741" category="paragraph">Los siguientes cambios se introdujeron con la versión 3.9.26 del conector.</block>
+  <block id="72c6f65b45015ee1135ff4bc2cce8860" category="section-title">Creación de grupos de colocación en AWS</block>
+  <block id="b743dbbfdeafb74e0c5a918472cb8000" category="paragraph">Ahora hay disponible una nueva configuración para la creación de grupos de colocación con las implementaciones de zona de disponibilidad única (AZ) de AWS ha. Ahora puede elegir pasar por alto las creaciones de grupos de colocación fallidas y permitir que las puestas en marcha de AWS ha Single AZ se completen correctamente.</block>
+  <block id="a461eabe3ab382f71ac2e2f6d1e640ac" category="inline-link-macro">Configurar la creación de grupos de colocación para AWS ha Single AZ</block>
+  <block id="f8574b4ca8450ebb66b430e6a34a7af0" category="paragraph">Para obtener información detallada sobre cómo configurar la configuración de creación de grupos de colocación, consulte <block ref="76b771ebcb3b2314cb6a5531c78c8c56" category="inline-link-macro-rx"></block>.</block>
+  <block id="6d236ccded1ae841f7032a1cfa719500" category="section-title">Actualización de configuración de zona DNS privada</block>
+  <block id="c07e7cfc7f9b172f2a6463f65a2a4b56" category="paragraph">Ahora hay disponible una nueva configuración para evitar crear un vínculo entre una zona DNS privada y una red virtual cuando se utilizan vínculos privados de Azure. La creación está habilitada de forma predeterminada.</block>
+  <block id="77bb2abfb8f3c95b3fdaf2c2e6814b89" category="inline-link-macro">Proporcione a BlueXP detalles acerca de su DNS privado de Azure</block>
+  <block id="b4f6cf785c09e40247b4fa3feac5c2a6" category="paragraph"><block ref="b4f6cf785c09e40247b4fa3feac5c2a6" category="inline-link-macro-rx"></block></block>
+  <block id="9790d5e9d3f702b3255ef268a7bcfc80" category="section-title">Almacenamiento WORM y organización en niveles de los datos</block>
+  <block id="3277463bf1ddcca922f85a2efd92c721" category="paragraph">Ahora puede habilitar la segmentación de datos y el almacenamiento WORM junto al crear un sistema Cloud Volumes ONTAP 9.8 o posterior. Habilitar la organización en niveles de datos con el almacenamiento WORM permite organizar los datos en niveles en un almacén de objetos en el cloud.</block>
+  <block id="2179dc7c2201ce007bdd7f0a37e78d5e" category="inline-link-macro">Más información sobre el almacenamiento WORM.</block>
+  <block id="fc76ca2a106ecf45415f92e5b6f34f21" category="paragraph"><block ref="fc76ca2a106ecf45415f92e5b6f34f21" category="inline-link-macro-rx"></block></block>
+  <block id="3c757e219167079b631dfcb5b1d0c339" category="paragraph">Los siguientes cambios se introdujeron con la versión 3.9.25 del conector.</block>
+  <block id="234213185a1ffd45429411672de5d3e7" category="section-title">Paquetes de licencias disponibles en Google Cloud</block>
+  <block id="54aeb573897a8b2a0c9627ff7030c996" category="paragraph">Los paquetes de licencias optimizados basados en capacidad de Edge Cache están disponibles para Cloud Volumes ONTAP en Google Cloud Marketplace como oferta de pago por uso o como contrato anual.</block>
+  <block id="0ff1cb70b28d71c56ee0165393cbd500" category="inline-link-macro">Licencias de Cloud Volumes ONTAP</block>
+  <block id="d1f7ea60f001f689d734c007e925b17e" category="paragraph">Consulte <block ref="0fb2e984675bc2d20107c292ded47d43" category="inline-link-macro-rx"></block>.</block>
+  <block id="f280b5a5c0eeaf41d31a8a2661b341cb" category="section-title">Configuración predeterminada de Cloud Volumes ONTAP</block>
+  <block id="fced3090ff990434831b838f07c6a3a7" category="paragraph">La licencia de gestión de claves de cifrado multi-tenant (MTEKM) ya no se incluye en las nuevas implementaciones de Cloud Volumes ONTAP.</block>
+  <block id="a1299d36f8821164c4414c1a5ab986dd" category="inline-link-macro">Configuración predeterminada de Cloud Volumes ONTAP</block>
+  <block id="a8e8ca53febeb9bd58edbc0647eb9a34" category="paragraph">Para obtener más información sobre las licencias de funciones de ONTAP instaladas automáticamente con Cloud Volumes ONTAP, consulte <block ref="79578e78303d1a240e8fa9c178a9de63" category="inline-link-macro-rx"></block>.</block>
+  <block id="97145bbcb02af5e728740b1d40bd2046" category="section-title">15 de diciembre de 2022</block>
+  <block id="bf748f930fa11e46773ff6f7b815e480" category="section-title">Cloud Volumes ONTAP 9.12.0</block>
+  <block id="80df4292f7c986dbd0920bb576487060" category="paragraph">BlueXP ahora puede poner en marcha y gestionar Cloud Volumes ONTAP 9.12.0 en AWS y Google Cloud.</block>
+  <block id="9f97c3125a701942b4e6e648146819fc" category="inline-link">Conozca cuáles son las nuevas funciones que se incluyen en esta versión de Cloud Volumes ONTAP</block>
+  <block id="64885a300b31929a1b0ea6b5a20128d3" category="paragraph"><block ref="065aa84d514cfdc6fc00d8cb3eaf6ec4" category="inline-link-rx"></block>.</block>
+  <block id="a3c559e0541e9bb860178ce6fe414224" category="section-title">Cloud Volumes Service para GCP</block>
+  <block id="a633f0835832cc75f5a83248a8aa2ba8" category="section-title">9 de septiembre de 2020</block>
+  <block id="8751230100c974b7c3ae5adae22c0f7c" category="section-title">Compatibilidad con Cloud Volumes Service para Google Cloud</block>
+  <block id="3831fedd132ba9d729ab12b97bb43833" category="paragraph">Ahora puede gestionar Cloud Volumes Service para Google Cloud directamente desde BlueXP:</block>
+  <block id="69a622f3bb660c4a470d3d96f19e20be" category="list-text">Configurar y crear un entorno de trabajo</block>
+  <block id="bd596d5c57d76a146d26208cd81913fb" category="list-text">Cree y gestione volúmenes NFSv3 y NFSv4.1 para clientes de Linux y UNIX</block>
+  <block id="104e3ba4c577e4723ae2db3aaab91044" category="list-text">Crear y gestionar volúmenes de SMB 3.x para clientes Windows</block>
+  <block id="f3f6d908876888ed386cf496a0f26e7c" category="list-text">Crear, eliminar y restaurar copias de Snapshot de volumen</block>
+  <block id="7ee45649520b61796809750e472a8000" category="section-title">7 de diciembre de 2020</block>
+  <block id="9dc245f64def9d62941e9ee3f4af4adb" category="section-title">Navegación entre Cloud Manager y Spot</block>
+  <block id="429b7972d23af5e411304108791f1c6c" category="paragraph">Ahora es más fácil navegar entre Cloud Manager y Spot.</block>
+  <block id="6673d1ba63d3b88416bb57a52f24edaf" category="paragraph">Una nueva sección de *Operaciones de almacenamiento* en Spot le permite navegar directamente a Cloud Manager. Después de terminar, puede volver a Spot desde la pestaña *Compute* de Cloud Manager.</block>
+  <block id="3d54f0f13a2b982305cfb676b5efc25c" category="section-title">18 de octubre de 2020</block>
+  <block id="776903deac41433ca593263c8812b21c" category="section-title">Presentamos el servicio de computación</block>
+  <block id="8ecc68a9339de03fc0f6e65490a53645" category="inline-link">Spot's Cloud Analyzer</block>
+  <block id="94bdad82453d71da22fcd69f47559c1c" category="paragraph">Aprovechando<block ref="f6403c1f0596662bb11f11c4ddde243f" category="inline-link-rx"></block>, Cloud Manager ahora puede proporcionar un análisis de costes de alto nivel de su gasto en informática en la nube e identificar ahorros potenciales. Esta información está disponible en el servicio *Compute* de Cloud Manager.</block>
+  <block id="0947726e3c301f45f25d6d4b3295fcec" category="inline-link">Obtenga más información sobre el servicio de computación</block>
+  <block id="b70ff2217d4c493d72369bc7013d42a1" category="paragraph"><block ref="0d930208c139fddb05408afa8bb5cf71" category="inline-link-rx"></block>.</block>
+  <block id="6ae18045fc1ab0bf7898b13f3ef31c9a" category="inline-image-macro">Captura de pantalla que muestra la página Análisis de costes en Cloud Manager</block>
+  <block id="dfe5d33062cb5ad4c4036bb7e93ff63e" category="paragraph"><block ref="dfe5d33062cb5ad4c4036bb7e93ff63e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f079f17b0940258743d34e7b771c715f" category="section-title">Asesor digital</block>
+  <block id="c642de9f40ee79267e2e62e3ebed032e" category="section-title">1 de noviembre de 2022</block>
+  <block id="a979b908e61b4f4e9d00d64a346ac569" category="paragraph">Digital Advisor (anteriormente Active IQ) ahora está totalmente integrado con BlueXP y tiene una experiencia de inicio de sesión mejorada.</block>
+  <block id="36aa1bd807334591d822a982d9e304e9" category="paragraph">Cuando accede a Digital Advisor en BlueXP, se le solicitan sus credenciales del sitio de soporte de NetApp para que pueda ver datos relacionados con sus sistemas. La cuenta de NSS con la que inicia sesión está asociada únicamente a su inicio de sesión de usuario. No está asociado a ningún otro usuario de su cuenta de NetApp.</block>
+  <block id="ea7b2437ddd14dce6ba3f65494d634fd" category="inline-link">Documentación de Digital Advisor</block>
+  <block id="c0eab8ac6bda2104128dbed1542b309f" category="paragraph">Para obtener más información sobre la integración de Digital Advisor con BlueXP, visite<block ref="5d1aa2fae9958ef5ced45eec5d13d250" category="inline-link-rx"></block></block>
+  <block id="532b36a42fa02f3df85b0e70d519a9ac" category="section-title">Compatibilidad con E-Series</block>
+  <block id="534171d3771a50398027a07275778b3e" category="paragraph">Ahora puede descubrir sus sistemas de almacenamiento E-Series directamente desde BlueXP. El descubrimiento de sistemas E-Series le ofrece una visión completa de los datos en su multicloud híbrido.</block>
+  <block id="d88ec9141ca0f799220b70e6188c8c33" category="section-title">24 de octubre de 2022 (versión 2.1)</block>
+  <block id="a720f7f5208abaac19d4db46d3bc0a7b" category="inline-link">Problemas solucionados</block>
+  <block id="8334797b9b3383d4f48d98178b8845ea" category="inline-link">esta página</block>
+  <block id="6ad27e169d4768e9a46a134513c55556" category="paragraph">Esta versión proporciona las nuevas funciones que se enumeran a continuación. También soluciona los problemas descritos en<block ref="11a0d6c8cafa0c0950060c707371e2a0" category="inline-link-rx"></block>. Los paquetes de software actualizados están disponibles en<block ref="2c81bb98c990e9738e500d000082628f" category="inline-link-rx"></block>.</block>
+  <block id="51d465a61bb0f252b570a31acdf628be" category="section-title">La caché global de archivos ya está disponible con cualquier número de licencias</block>
+  <block id="c4579941f945f9c013bc5d2b34483751" category="paragraph">Se ha eliminado el requisito mínimo anterior de 10 licencias, o 30 TB de almacenamiento. Se emitirá una licencia Global File Cache por cada 3 TB de almacenamiento.</block>
+  <block id="a05df94e25a3fdf3c6809915be7db21b" category="section-title">Se ha agregado compatibilidad para utilizar un servidor de administración de licencias sin conexión</block>
+  <block id="9952545455211dde3dd54a36ff1e0fd9" category="paragraph">Un servidor de administración de licencias (LMS) fuera de línea o un sitio oscuro es más útil cuando el LMS no tiene una conexión a Internet para la validación de licencias con fuentes de licencias. Durante la configuración inicial es necesaria una conexión a Internet y una conexión a una fuente de licencia. Una vez configurada, la instancia LMS puede volverse oscura. Todos los bordes/núcleos deben tener una conexión con LMS para la validación continua de licencias.</block>
+  <block id="c0e3f3bf15a62c059b94a8ed402b05a1" category="section-title">Las instancias de EDGE pueden admitir usuarios simultáneos adicionales</block>
+  <block id="dac6d17442feba1d57f29d8031c05963" category="paragraph">Una única instancia de Global File Cache Edge puede servir hasta 500 usuarios por instancia física Edge dedicada y hasta 300 usuarios para puestas en marcha virtuales dedicadas. El número máximo de usuarios era 400 y 200, respectivamente.</block>
+  <block id="7954886e5818e91e397e0ca331d15d48" category="section-title">Optimus PSM mejorado para configurar Cloud Licensing</block>
+  <block id="3bf86cee85be3992be11d6813b4f6b14" category="section-title">Se ha mejorado la función de sincronización perimetral de la interfaz de usuario optimizada (configuración de bordes) para mostrar todos los clientes conectados</block>
+  <block id="a207f0479f1471fc5336b474cf75c28a" category="section-title">25 de julio de 2022 (versión 2.0)</block>
+  <block id="19df80e08f82de8a5a9df23c1e7c6b96" category="paragraph">Esta versión proporciona las nuevas funciones que se enumeran a continuación. También soluciona los problemas descritos en<block ref="11a0d6c8cafa0c0950060c707371e2a0" category="inline-link-rx"></block>.</block>
+  <block id="40ede24da7e93db6d61cd94c084008e7" category="section-title">Nuevo modelo de licencia basado en la capacidad para la caché de archivos global a través de Azure Marketplace</block>
+  <block id="70dc5565ba7814d08bd68476e5fb76ff" category="paragraph">Una nueva licencia "Edge Cache" tiene las mismas funcionalidades que la licencia "CVO Professional", pero también incluye compatibilidad con Global File Cache. Verá esta opción cuando ponga en marcha un nuevo sistema Cloud Volumes ONTAP en Azure. Puede implementar un sistema Edge de caché de archivos global para cada 3 TIB de capacidad aprovisionada en el sistema Cloud Volumes ONTAP. Debe aprovisionarse un mínimo de 30 TIB. El servicio GFC License Manager se ha mejorado para proporcionar licencias basadas en capacidad.</block>
+  <block id="6a749e3d1bafd02cdf9a303ba6375e66" category="inline-link">Obtenga más información acerca del paquete de licencia de Edge Cache.</block>
+  <block id="0d8fd49fcb5c25122324fcb59637aff8" category="paragraph"><block ref="0d8fd49fcb5c25122324fcb59637aff8" category="inline-link-rx"></block></block>
+  <block id="b7b58b4424e766ec66e0ab4ea9c812b8" category="section-title">La caché de archivos global ahora está integrada con Cloud Insights</block>
+  <block id="15b783a23e5291e1ffb9f638317d4bcb" category="inline-link">Guía del usuario de caché global de archivos de NetApp</block>
+  <block id="cf7c224c7b8d702f6384270dadb22ca0" category="paragraph">NetApp Cloud Insights (CI) ofrece una total visibilidad de su infraestructura y sus aplicaciones. La caché de archivos global se integra ahora con CI para ofrecer una visibilidad completa de todos los bordes y núcleos; supervisión de procesos que se ejecutan en las instancias. Se insertan varias métricas de caché global de archivos en CI para proporcionar una visión general completa en el panel de CI. Consulte el capítulo 11 de la<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block></block>
+  <block id="902eaec7802b7e6292febf1b6526a6b5" category="inline-link">Obtenga más información acerca de Cloud Insights.</block>
+  <block id="6d7b1d6577d8e6bfc5f78e821377a7d4" category="paragraph"><block ref="6d7b1d6577d8e6bfc5f78e821377a7d4" category="inline-link-rx"></block></block>
+  <block id="1f56bc157b53331171e2209738abd411" category="section-title">El servidor de administración de licencias se ha mejorado para funcionar en entornos muy restrictivos</block>
+  <block id="706163f56e3d19088d2a54cd0451269e" category="paragraph">Durante la configuración de la licencia, el servidor de gestión de licencias (LMS) debe tener acceso a Internet para recopilar los datos de licencias de NetApp/Zuora. Una vez que la configuración es correcta, el LMS puede seguir trabajando en modo sin conexión y proporcionar capacidades de licencia a pesar de estar en entornos restrictivos.</block>
+  <block id="1b66d26240c6a01df03ec7dc4a6d1a2b" category="section-title">La interfaz de usuario de Edge Sync en Optimus se ha mejorado para mostrar la lista de clientes conectados en un coordinador Edge</block>
+  <block id="22c3479f6dd133b2d2d79cc8b481240f" category="section-title">23 de junio de 2022 (versión 1.3.1)</block>
+  <block id="2ffbf992fae9becab7e787491b2cdf41" category="paragraph">El software Global File Cache Edge para la versión 1.3.1 está disponible en<block ref="2c81bb98c990e9738e500d000082628f" category="inline-link-rx"></block>. En esta versión se solucionan los problemas descritos en<block ref="11a0d6c8cafa0c0950060c707371e2a0" category="inline-link-rx"></block>.</block>
+  <block id="30136395f01879792198317c11831ea4" category="section-title">Kubernetes</block>
+  <block id="88268cce7d1b83c765c3f7010df80df5" category="section-title">06 de noviembre de 2022</block>
+  <block id="eb3b05e2bcc0acdca8f3706dc6168810" category="inline-link-macro">definición de clases de almacenamiento</block>
+  <block id="084fbbb062290ef487eac98d44edd278" category="paragraph">Cuando <block ref="44765f3a3e8511cc80b0083ae1e5f436" category="inline-link-macro-rx"></block>, ahora puede habilitar la economía de clase de almacenamiento para el almacenamiento de bloques o sistemas de ficheros.</block>
+  <block id="d8d8980dd9fc5d0937a35fea8cb24808" category="paragraph">Ahora puede importar clústeres de OpenShift autogestionados a Cloud Manager.</block>
+  <block id="b77adae4ee23d10b92f9545417611303" category="inline-link-macro">Requisitos para clústeres de Kubernetes en OpenShift</block>
+  <block id="fd4ea134fa6bbf226ead48569ec25aaa" category="list-text"><block ref="fd4ea134fa6bbf226ead48569ec25aaa" category="inline-link-macro-rx"></block></block>
+  <block id="f82e729d73d970e1bd3789638aed5dca" category="inline-link-macro">Agregue un clúster OpenShift a Cloud Manager</block>
+  <block id="049c95d2615dd6bba6242ffae7eae5fe" category="list-text"><block ref="049c95d2615dd6bba6242ffae7eae5fe" category="inline-link-macro-rx"></block></block>
+  <block id="5b68f6193aeecc12614fe4ce8bedf31e" category="list-text">Usando el nuevo<block ref="370f6eb5f77041c4f839e5e74b5876d0" prefix=" " category="inline-code"></block> verbo en la clase de almacenamiento, backup y restauración de configuraciones YAML, Cloud Manager ahora puede supervisar los clústeres de Kubernetes en busca de cambios realizados en el back-end del clúster y habilitar automáticamente el backup para nuevos volúmenes persistentes si se configuró el backup automático en el clúster.</block>
+  <block id="b65741d409db3b7986653580cc3988b8" category="inline-link-macro">Requisitos para clústeres de Kubernetes en AWS</block>
+  <block id="36e8382aa83e74f8ba70303f62ce8d15" category="paragraph"><block ref="36e8382aa83e74f8ba70303f62ce8d15" category="inline-link-macro-rx"></block></block>
+  <block id="c5be663296cc453aa3076c0cfcedc102" category="inline-link-macro">Requisitos para clústeres de Kubernetes en Azure</block>
+  <block id="8a7acc1f3e4ade2ee389a4e59f39bf28" category="paragraph"><block ref="8a7acc1f3e4ade2ee389a4e59f39bf28" category="inline-link-macro-rx"></block></block>
+  <block id="b6511d823d5fc5c8c219b52663e32c20" category="inline-link-macro">Requisitos para los clústeres de Kubernetes en Google Cloud</block>
+  <block id="2bdb06b2a7060e3efbb60c6fdf551284" category="paragraph"><block ref="2bdb06b2a7060e3efbb60c6fdf551284" category="inline-link-macro-rx"></block></block>
+  <block id="19e7864b32363d7ba3bb16a024e95d79" category="list-text">Cuando <block ref="44765f3a3e8511cc80b0083ae1e5f436" category="inline-link-macro-rx"></block>, ahora puede especificar un tipo de sistema de archivos (fstype) para el almacenamiento de bloques.</block>
+  <block id="423e555c5ec3885f2bb5d9d2d6627f63" category="section-title">Supervisión</block>
+  <block id="7e69e168ccaec126378a9fc9829b1a86" category="paragraph">El servicio de supervisión se retiró el 1 de noviembre de 2022. Ahora puede encontrar un enlace directo a Cloud Insights desde el menú de navegación seleccionando *Información &gt; Observabilidad*.</block>
+  <block id="f2e4e4f7b0b864863bfac74f4383a826" category="section-title">Guarde las credenciales de ONTAP</block>
+  <block id="6a28e623eb98d9eb0799ab2c472620f3" category="paragraph">Al abrir un entorno de trabajo de ONTAP en las instalaciones que se detectó directamente sin usar un conector, ahora tiene la opción de guardar sus credenciales de clúster de ONTAP para no tener que introducirlas cada vez que abre el entorno de trabajo.</block>
+  <block id="8a08a7490f38dacd86c415a138d60aea" category="inline-link">Obtenga más información sobre esta opción.</block>
+  <block id="b269330dc42e4f7fc82bba99c0dd5fd7" category="paragraph"><block ref="b269330dc42e4f7fc82bba99c0dd5fd7" category="inline-link-rx"></block></block>
+  <block id="612111851a1740ab34a9d35045621084" category="paragraph">Los siguientes cambios se introdujeron con la versión 3.9.24 del conector.</block>
+  <block id="bad2ca9843e053dbde9d0f5cf2f18a7b" category="section-title">Nueva forma de detectar clústeres de ONTAP en las instalaciones</block>
+  <block id="d69d6ceca70ae4e3b7cf6949930f5168" category="paragraph">Ahora puede descubrir directamente sus clústeres de ONTAP en las instalaciones sin utilizar un conector. Esta opción solo permite la gestión del clúster mediante System Manager. No puede habilitar ningún servicio de datos BlueXP en este tipo de entorno de trabajo.</block>
+  <block id="336404297eaddf0051e1d62c3d3bb48e" category="inline-link">Obtenga más información sobre esta opción de detección y gestión</block>
+  <block id="7b755afb39a1416600c762f9fe472d98" category="paragraph"><block ref="72c8a0f1bc00bb52f3d78997feb64e77" category="inline-link-rx"></block>.</block>
+  <block id="ee1ef6cf0f3971b44eb2abcac958fb8d" category="section-title">Volúmenes de FlexGroup</block>
+  <block id="3fb631a563e0a478dc6771d75c7f7094" category="paragraph">Para los clústeres de ONTAP en las instalaciones que se detectan a través de un conector, la vista estándar de BlueXP ahora muestra los volúmenes de FlexGroup que se crearon mediante System Manager o la CLI de ONTAP. También puede gestionar estos volúmenes clonándolos, editando su configuración, eliminarlos y mucho más.</block>
+  <block id="2907843476579cb2696e8e0e783a2a07" category="inline-image-macro">Captura de pantalla que muestra un volumen FlexGroup en la página Volumes de un clúster ONTAP en las instalaciones.</block>
+  <block id="aa60f08e9c5a748d9b57c0e7689a43f5" category="paragraph"><block ref="aa60f08e9c5a748d9b57c0e7689a43f5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1c081854506aed2f757f753e779bc45f" category="paragraph">BlueXP no admite la creación de volúmenes de FlexGroup. Tendrá que seguir usando System Manager o la interfaz de línea de comandos para crear volúmenes de FlexGroup.</block>
+  <block id="440be74a67502f9c3d55890782329328" category="paragraph">Los siguientes cambios se introdujeron con la versión 3.9.22 del conector.</block>
+  <block id="c8328d07fc05c4708c68f547ce6f5e77" category="section-title">Nueva página Overview</block>
+  <block id="8e41db9b51f790909ef80a064153f722" category="paragraph">Hemos introducido una nueva página general para proporcionar detalles clave sobre un clúster de ONTAP en las instalaciones. Por ejemplo, ahora puede ver detalles como la eficiencia del almacenamiento, la distribución de la capacidad y la información del sistema.</block>
+  <block id="bcc757acad6812aeb9904ad6e30c0738" category="paragraph">También puede ver detalles sobre la integración con otros servicios cloud de NetApp que permiten la organización en niveles de datos, la replicación de datos y los backups.</block>
+  <block id="fba766c98683be4af93f93b5d7909f1e" category="inline-image-macro">Captura de pantalla que muestra la página Descripción general de un clúster ONTAP en las instalaciones.</block>
+  <block id="5277a2f54c2173b12f8eb86ae9da078e" category="paragraph"><block ref="5277a2f54c2173b12f8eb86ae9da078e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c76ff3fb4e35074fc6f04c1cb8ea02af" category="section-title">Página volúmenes rediseñados</block>
+  <block id="99cbfcbab5c608668044fc3849d8db46" category="paragraph">Hemos rediseñado la página Volumes para proporcionar un resumen de los volúmenes en un clúster. El resumen muestra el número total de volúmenes, la cantidad de capacidad aprovisionada, la capacidad utilizada y la capacidad reservada, y la cantidad de datos organizados en niveles.</block>
+  <block id="2f82cdfc06b6747c85937b5cceabaaee" category="inline-image-macro">Captura de pantalla que muestra la página Volumes de un clúster de ONTAP en las instalaciones.</block>
+  <block id="bb4feb07894e787f9d7a8a9c00fa4d55" category="paragraph"><block ref="bb4feb07894e787f9d7a8a9c00fa4d55" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="de7ceda1f3ad5462ebeba9b4e49bf946" category="section-title">Capacidad de definir las políticas que identifican los datos que considera como críticos para el negocio</block>
+  <block id="8fd9b1ab36b743c5caaee60cb0ffb46a" category="paragraph">Se ha añadido una nueva página de datos vitales para el negocio a la protección de ransomware. Esta página le permite ver todas las políticas que se han definido en Cloud Data Sense. Puede seleccionar las políticas que identifican datos que son cruciales para su empresa, de modo que la consola de protección de ransomware y otros paneles de ransomware reflejen posibles problemas en función de sus datos más importantes.</block>
+  <block id="32f6be7f4e5713fdc38188d3ef348a70" category="paragraph">Aparecerá una nueva acción recomendada denominada "Configurar los datos críticos de su negocio" en el panel acciones recomendadas si no ha activado ninguna de estas políticas para el servicio de protección contra ransomware.</block>
+  <block id="5bba5081ab3b5a554fbba4b798a66e4f" category="inline-link">Obtenga más información acerca de la página datos críticos para el negocio</block>
+  <block id="f77caa23f512ad7c5c38882b9a13b6db" category="paragraph"><block ref="d9564f80e250011b85c05664d779bbef" category="inline-link-rx"></block>.</block>
+  <block id="1e189efdd1c21e1702b4e4a48e6a3815" category="section-title">La protección contra ransomware se ha movido de la categoría Protección a la categoría Gobierno</block>
+  <block id="c1d1220273fe79d481c41539bea31710" category="paragraph">Ahora usted accede a este servicio desde el menú de navegación de la izquierda de BlueXP seleccionando *Gobierno &gt; Protección contra Ransomware*.</block>
+  <block id="4e499a708b699475cdaf2e23cd596d11" category="section-title">Se ha añadido soporte para recibir alertas de protección contra ransomware por correo electrónico y en el Centro de notificación</block>
+  <block id="3348dcc393bde37af6464ca44f92a231" category="inline-link">Vea cómo</block>
+  <block id="53bccb80a99ecb6d22ac23a5d83a662e" category="paragraph">La protección contra ransomware se ha integrado en el servicio de notificación de BlueXP. Puede mostrar notificaciones de protección contra ransomware haciendo clic en la campana de notificación de la barra de menús de BlueXP. También puede configurar BlueXP para que envíe notificaciones por correo electrónico como alertas, de forma que pueda ser informado de la actividad importante del sistema incluso cuando no haya iniciado sesión en el sistema. El correo electrónico puede enviarse a todos los destinatarios que tengan en cuenta las alertas de ransomware.<block ref="4b31f56f66b4ac96107c1c8a3ca6ad6e" category="inline-link-rx"></block>.</block>
+  <block id="fe9c9f72fd091b4ebc4d0686a2dccdc6" category="section-title">11 de diciembre de 2022</block>
+  <block id="ff1a552e36acc064f2353128cc8cae7e" category="section-title">Se han añadido nuevas acciones recomendadas al panel de puntuación de protección de Ransomware</block>
+  <block id="3a3306a02dc91a314c088887bca99ae6" category="paragraph">Ahora se muestran dos acciones nuevas recomendadas para los siguientes problemas de protección contra ransomware que se encuentran en sus sistemas de almacenamiento:</block>
+  <block id="ac70ac84684b450ac1ec25740da08f6f" category="list-text">_Reducir los permisos para los elementos sensibles de X con amplios permisos_ - se han encontrado archivos sensibles que tienen permisos abiertos en sus orígenes de datos</block>
+  <block id="e536c956b5336f840fdf1f34295e7626" category="list-text">_Patch X CVE abiertas en las fuentes de datos y_ - se han encontrado CVE sin parche en sus sistemas ONTAP</block>
+  <block id="dced9da708bc7f04e84ad156297f2b2a" category="inline-link">Consulte la lista de todas las acciones recomendadas</block>
+  <block id="2887af3281ffddb6374ef4f66b57c7d5" category="paragraph">Puede seleccionar estas acciones en la interfaz de usuario y, a continuación, seguir el flujo de trabajo para resolver los problemas subyacentes.<block ref="ed823e4f932da1d207b551c7d7ca0450" category="inline-link-rx"></block>.</block>
+  <block id="638be56d4cf930b576e6dc1300c7c33b" category="section-title">18 de septiembre de 2022</block>
+  <block id="168c5915eb40be2beb0ac04f286489ba" category="section-title">FSX para ONTAP a Cloud Volumes ONTAP</block>
+  <block id="6aa89747141f6b258796889b4e964d01" category="paragraph">Ahora puede replicar datos de un sistema de archivos Amazon FSX para ONTAP en Cloud Volumes ONTAP.</block>
+  <block id="40f78d193b858589ad7df4dd4ce61ad6" category="inline-link">Aprenda a configurar la replicación de datos</block>
+  <block id="1e56755e05ec049b30c49b9d53744ca1" category="paragraph"><block ref="0337e364432fca0f343e5f2660661b77" category="inline-link-rx"></block>.</block>
+  <block id="b42dff6de52c55fe0d6831817d6b309d" category="section-title">FSX para ONTAP como origen de datos</block>
+  <block id="0f8ffeac5211fc4e0dfb43c430753ef2" category="paragraph">Ahora puede replicar datos de un sistema de archivos Amazon FSX para ONTAP en los siguientes destinos:</block>
+  <block id="0ef90fde5440e5fbd859cb4d59f76f2c" category="list-text">Clúster de ONTAP en las instalaciones</block>
+  <block id="d798cbf5a08fbeb9fdd3652e5b00bb4c" category="section-title">2 de septiembre de 2021</block>
+  <block id="6c88f9e17d9019e00177d64f9db55d2e" category="section-title">Compatibilidad con Amazon FSX para ONTAP</block>
+  <block id="59dfc17500b1e0b8d1824eb8b1413080" category="paragraph">Ahora puede replicar datos desde un sistema Cloud Volumes ONTAP o un clúster de ONTAP en las instalaciones en un sistema de archivos Amazon FSX para ONTAP.</block>
+  <block id="7c82794438729fe23f8c0939342ab8fb" category="section-title">Servicio SnapCenter</block>
+  <block id="c491d515e74738c0f4f9512024e9b4cd" category="paragraph">El servicio de SnapCenter se retiró el 1 de noviembre de 2022.</block>
+  <block id="dc8bb8905a6984d0c45a4ada9e618ace" category="section-title">Compatibilidad con StorageGRID</block>
+  <block id="0b17baeba205d071cc0142cf4aba9b76" category="paragraph">Ahora puede descubrir sus sistemas StorageGRID directamente desde BlueXP. El descubrimiento de StorageGRID le ofrece una visión completa de los datos en su multicloud híbrido.</block>
+  <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">Cambios recientes</block>
+  <block id="ed8f5e7e321372398aae23788c3243a0" category="sidebar">Índice BlueXP</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">Novedades</block>
+  <block id="f5f7a4d1535be1d0940e398b2997dfc0" category="sidebar">Notas de la versión por servicio</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">Blogs y comunidad</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">Comunidad de NetApp</block>
+  <block id="abd0fe91ce589ecf3c7bad0543ccad16" category="sidebar">Blogs de BlueXP</block>
+  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">Seminarios web sobre el cloud</block>
+  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">Toda la documentación de BlueXP</block>
+</blocks>

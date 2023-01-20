@@ -1,0 +1,41 @@
+---
+settings:
+  name: Release Notes
+  platform: cloud
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  langs: es-es,us-en,ja-jp,ko-kr,zh-cn,zh-tw,de-de,fr-fr
+sidebar:
+  entries:
+  - title: Notas de la versión de BlueXP
+    url: "/index.html"
+  - title: Cambios recientes
+    url: "/whats-new.html"
+  - title: Índice BlueXP
+    url: "/release-notes-index.html"
+homepage:
+  tiles:
+  - title: Novedades
+    links:
+    - title: Cambios recientes en BlueXP
+      url: whats-new.html
+  - title: Notas de la versión por servicio
+    links:
+    - title: Índice de notas de la versión
+      url: release-notes-index.html
+  - title: Blogs y comunidad
+    links:
+    - title: Comunidad de NetApp
+      url: https://community.netapp.com/t5/Public-Cloud-Services/ct-p/CDS
+    - title: Blogs de BlueXP
+      url: https://bluexp.netapp.com/blog
+    - title: Seminarios web sobre el cloud
+      url: https://bluexp.netapp.com/events
+product-family:
+  name: BlueXP
+  repo: cloud-manager-family
+  sidebar_label: Toda la documentación de BlueXP
