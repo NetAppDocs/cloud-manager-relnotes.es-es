@@ -8,16 +8,16 @@
     <description>The latest updates from NetApp Documentation</description>
     <language>es-es</language>
     <ttl>60</ttl>
-    <pubDate>Mon, 20 Feb 2023 15:46:42 +0000</pubDate>
-    <lastBuildDate>Mon, 20 Feb 2023 15:46:42 +0000</lastBuildDate>
+    <pubDate>Mon, 06 Mar 2023 17:36:40 +0000</pubDate>
+    <lastBuildDate>Mon, 06 Mar 2023 17:36:40 +0000</lastBuildDate>
     
     
     
     <item>
-      <title>Cambios recientes en BlueXP (20 Feb 2023)</title>
-      <pubDate>Mon, 20 Feb 2023 15:44:32 +0000</pubDate>
-      <link>https://docs.netapp.com/es-es/cloud-manager-relnotes/whats-new.html?time=1676907872</link>
-      <guid isPermaLink="false">Mon, 20 Feb 2023 15:44:32 +0000</guid>
+      <title>Cambios recientes en BlueXP (6 Mar 2023)</title>
+      <pubDate>Mon, 06 Mar 2023 17:34:15 +0000</pubDate>
+      <link>https://docs.netapp.com/es-es/cloud-manager-relnotes/whats-new.html?time=1678124055</link>
+      <guid isPermaLink="false">Mon, 06 Mar 2023 17:34:15 +0000</guid>
       <description><![CDATA[ Conozca los cambios más recientes en los servicios en la nube que forman parte de la plataforma BlueXP. Para obtener más información, consulte el conjunto completo de notas de la versión de cada servicio individual. ]]></description>
     </item>
     
