@@ -49,7 +49,6 @@
   <block id="8d9e30572c7be0b05a6e777166ea7d0b" category="summary">Conozca los cambios más recientes en los servicios en la nube que forman parte de la plataforma BlueXP. Para obtener más información, consulte el conjunto completo de notas de la versión de cada servicio individual.</block>
   <block id="67d516de6d58e90ec46d8a36eecbf35a" category="doc">Cambios recientes en BlueXP</block>
   <block id="06ec635aca479394e3f10f59b57ce807" category="inline-link-macro">conjunto completo de notas de la versión</block>
-  <block id="1262adaf755b126adfb35787960ae9ac" category="paragraph">Conozca los cambios más recientes en los servicios cloud que forman parte de la plataforma BlueXP (anteriormente Cloud Manager). Si quiere más información, consulte <block ref="1e9f4589e5d2713376df79f13fc9ba0a" category="inline-link-macro-rx"></block> por cada servicio individual.</block>
   <block id="560c5ee7b92d80b3ef198362d8323824" category="section-title">Introducción de BlueXP</block>
   <block id="78d1c9f9c86eecd86f5f568cfe0c0721" category="inline-link">Más información sobre BlueXP</block>
   <block id="589a81f9a559c7792363bf5c658f7eb7" category="paragraph">Cloud Manager cambió su nombre a BlueXP el 1 de noviembre de 2022.<block ref="f8081012fbfe0608e8247bd5ec45b886" category="inline-link-rx"></block></block>
@@ -90,14 +89,6 @@
   <block id="ab010f0ae1d3cb2043f9513a1f81beea" category="paragraph">Esta versión del conector incluye mejoras y correcciones de errores de Cloud Volumes ONTAP.</block>
   <block id="826d1d89ec2a521e40a7a91c2ee8f024" category="paragraph"><block ref="826d1d89ec2a521e40a7a91c2ee8f024" category="inline-link-rx"></block></block>
   <block id="83ec139c80a3d5b2f11f1a94eed47cd2" category="section-title">4 de diciembre de 2022</block>
-  <block id="9a37fbeb5352e14f2a53fe349c60ad58" category="section-title">Conector 3.9.24</block>
-  <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link"></block>
-  <block id="609db1dbd04bb2ee742cb4078546018c" category="list-text">Hemos actualizado la URL de la consola BlueXP a.<block ref="d4d03fd3c2a1ab003ebd5cf52ee8df58" category="inline-link-rx"></block></block>
-  <block id="4a11791a9bd4070a9cb5e2e709d06351" category="list-text">El conector ahora es compatible con la región de Google Cloud Israel.</block>
-  <block id="1765dff10197df4bf080f41e5537f2a5" category="list-text">Esta versión del conector también incluye mejoras de Cloud Volumes ONTAP y mejoras del clúster de ONTAP en las instalaciones.</block>
-  <block id="242cf97b6ce4408dde25722d6b0e37f9" category="list-text"><block ref="242cf97b6ce4408dde25722d6b0e37f9" category="inline-link-rx"></block></block>
-  <block id="6ff2a7981cc8a7efd758e8ffec4cc69e" category="inline-link">Obtenga información acerca de las mejoras del clúster en las instalaciones de ONTAP</block>
-  <block id="4703fae8488338a7ad69a5cd4347caf3" category="list-text"><block ref="4703fae8488338a7ad69a5cd4347caf3" category="inline-link-rx"></block></block>
   <block id="29c251ed5a57bbffe470654ccbbe714c" category="section-title">11 de abril de 2021</block>
   <block id="860941d67aa8a8a442ba4a65191838cf" category="section-title">Compatibilidad con plantillas de volúmenes</block>
   <block id="28c1b76e8b0c8f418301bc750b4e9f0e" category="paragraph">Un nuevo servicio de plantillas de aplicaciones le permite configurar una plantilla de volumen para Azure NetApp Files. La plantilla debería facilitar el trabajo porque ciertos parámetros de volumen ya se definirán en la plantilla, como el pool de capacidad, el tamaño, el protocolo, el vnet y la subred donde debería residir el volumen, entre otros. Cuando ya hay un parámetro predefinido, puede saltar al siguiente parámetro de volumen.</block>
@@ -125,15 +116,6 @@
   <block id="3abe9a67eae0ad33b1c96ff4ae8b1eaa" category="inline-link-macro">Cambie la capacidad de almacenamiento y las IOPS</block>
   <block id="4054992d1ab241cf4542bc8cd502d679" category="paragraph">Ahora puede hacerlo <block ref="57fbdd5ba152894391c55cce5d9fe8f8" category="inline-link-macro-rx"></block> En cualquier momento después de crear el entorno de trabajo FSX para ONTAP.</block>
   <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">31 de julio de 2022</block>
-  <block id="dd15e63d013ad6e70302caae66b83f6d" category="list-text">Si anteriormente ha proporcionado sus credenciales de AWS a Cloud Manager, la nueva función *Mis oportunidades* puede detectar y sugerir automáticamente FSX para los sistemas de archivos ONTAP para agregar y administrar mediante Cloud Manager. También puede revisar los servicios de datos disponibles a través de la ficha *Mis oportunidades*.</block>
-  <block id="6ebe96f0162b363fd765e000afd1c4f0" category="inline-link-macro">Descubra FSX para ONTAP usando Mis oportunidades</block>
-  <block id="a83471208430f7fbd0630757d97c5142" category="paragraph"><block ref="a83471208430f7fbd0630757d97c5142" category="inline-link-macro-rx"></block></block>
-  <block id="e2399171d04de4904bc9ceb3e1c97260" category="inline-link-macro">cambie la capacidad de rendimiento</block>
-  <block id="6cd901297cf29a4b459f2cc11e68c6d6" category="list-text">Ahora puede hacerlo <block ref="697a0d5ee189fb6da3b3bef50626dd94" category="inline-link-macro-rx"></block> En cualquier momento después de crear el entorno de trabajo FSX para ONTAP.</block>
-  <block id="7699be7c50b8640b313d71cce9004797" category="inline-link-macro">replicar y sincronizar datos</block>
-  <block id="897d994d4d024883042e664eba152417" category="list-text">Ahora puede hacerlo <block ref="df556429a26e71fbf9e095a790447f2b" category="inline-link-macro-rx"></block> A las instalaciones y otros FSX para sistemas ONTAP que utilizan FSX para ONTAP como origen.</block>
-  <block id="42c82b44ceecde8407f75a70409e2aec" category="inline-link-macro">Cree volúmenes iSCSI en FSX para ONTAP mediante Cloud Manager</block>
-  <block id="cf648eb1e2c8b4986628f39a529b68f1" category="list-text">Ahora puede hacerlo <block ref="7c9b88630e88eb3d402b9bbec2515bca" category="inline-link-macro-rx"></block>.</block>
   <block id="36a9eb77fcf21a931c3ba4a85dff781b" category="section-title">Plantilla de aplicación</block>
   <block id="983a4e7f5913304ec713a249baf7be47" category="section-title">3 de marzo de 2022</block>
   <block id="400480e0d45c783abec0a0fffbb005a6" category="section-title">Ahora puede crear una plantilla para buscar entornos de trabajo específicos</block>
@@ -189,7 +171,6 @@
   <block id="e29eef6ae64d545134f2b42984845a94" category="section-title">19 de diciembre de 2022</block>
   <block id="89d500a3ace67f6d47edb61231336589" category="section-title">Mejoras en Cloud Backup para aplicaciones</block>
   <block id="0a286ad90f3a25f45e443367036a8789" category="list-text">Bases de datos SAP HANA</block>
-  <block id="feb69ad1d8975111fe86bbc94b823a7f" category="list-text">Admite backup y restauración basadas en políticas de bases de datos SAP HANA que residen en Azure NetApp Files (ANF).</block>
   <block id="d5a365014bbbc5172b423043fb2a2501" category="list-text">Admite directivas personalizadas</block>
   <block id="5ffbe0deb5b41148dc58e63a20df8411" category="list-text">Bases de datos de Oracle</block>
   <block id="aa6dc7e308fa4a4875c447c8e7fa4a19" category="list-text">Añada hosts e implemente el plugin automáticamente</block>
@@ -368,16 +349,6 @@
   <block id="5a4346a01828d72104a6540080377b25" category="section-title">6 de noviembre de 2022</block>
   <block id="8f4621192fd1fe94f1b365ae34c1e0ed" category="section-title">Arrastre y suelte para habilitar Cloud Tiering en Azure Blob, Google Cloud Storage y StorageGRID</block>
   <block id="6586247c64ea3f20421ae518b26fc973" category="paragraph">Si el destino de Azure Blob, Google Cloud Storage o StorageGRID Tiering existe como entorno de trabajo en el lienzo, puede arrastrar su entorno de trabajo ONTAP local al destino para iniciar el asistente de configuración de la organización en niveles.</block>
-  <block id="ab288ae4b4c50ebb9a997e0f0debbd15" category="section-title">19 de septiembre de 2022</block>
-  <block id="c3d7ada1f42d9b916dd8624c5b5661c1" category="section-title">El asistente de organización en niveles permite configurar AWS PrivateLink cuando la organización en niveles se encuentra en un almacenamiento S3</block>
-  <block id="905ecf204d0cf0b2ed497e63ae9324d0" category="inline-link">Configure el sistema para una conexión privada mediante una interfaz de extremo VPC</block>
-  <block id="33e030edd0380c3b2d743ec2f989598c" category="paragraph">En versiones anteriores, era muy lento proporcionar esta forma segura de conectar el clúster a un bloque de S3 a través de un extremo de VPC. Ahora puede seguir los pasos de los requisitos previos a.<block ref="fb4b1250ed3d38b3a9447c7c732436c8" category="inline-link-rx"></block>Y, a continuación, puede seleccionar PrivateLink durante el asistente de configuración de capas en la página Networking.</block>
-  <block id="883959b6b7ad90936b33d524655bc282" category="inline-link">Revise los requisitos y los pasos para organizar los datos inactivos en niveles en Amazon S3</block>
-  <block id="93d0679385afbe8961d65715ec42ad95" category="paragraph"><block ref="eae517fc6cf18ab5b51a15743d8fba49" category="inline-link-rx"></block>.</block>
-  <block id="6a22836d972c44908e791a2300d9312a" category="section-title">Arrastre y suelte para habilitar Cloud Tiering en Amazon S3</block>
-  <block id="84b50dc471c57455cf0359ad021a8c58" category="paragraph">Si el destino de organización en niveles de Amazon S3 existe como entorno de trabajo en Canvas, puede arrastrar el entorno de trabajo de ONTAP local al destino para iniciar el asistente de configuración de organización en niveles.</block>
-  <block id="bf482155aab691ba59a0313f5628cbba" category="section-title">Elija el comportamiento de organización en niveles al eliminar el almacén de objetos reflejados en una configuración de MetroCluster</block>
-  <block id="cd71992689f7bdbde4a7c9f0653f44f3" category="paragraph">Al quitar el almacén de objetos de réplica de una configuración de MetroCluster, se le preguntará si desea quitar también el almacén de objetos principal. Puede optar por mantener el almacén de objetos principal Unido al agregado o eliminarlo.</block>
   <block id="078640757da4b274abf89709c42d7741" category="paragraph">Los siguientes cambios se introdujeron con la versión 3.9.26 del conector.</block>
   <block id="72c6f65b45015ee1135ff4bc2cce8860" category="section-title">Creación de grupos de colocación en AWS</block>
   <block id="b743dbbfdeafb74e0c5a918472cb8000" category="paragraph">Ahora hay disponible una nueva configuración para la creación de grupos de colocación con las implementaciones de zona de disponibilidad única (AZ) de AWS ha. Ahora puede elegir pasar por alto las creaciones de grupos de colocación fallidas y permitir que las puestas en marcha de AWS ha Single AZ se completen correctamente.</block>
@@ -545,4 +516,35 @@
   <block id="abd0fe91ce589ecf3c7bad0543ccad16" category="sidebar">Blogs de BlueXP</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">Seminarios web sobre el cloud</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">Toda la documentación de BlueXP</block>
+  <block id="6beb41a356d9287866f0b22c4b4eadcb" category="paragraph">Conozca los cambios más recientes en los servicios en la nube que forman parte de la plataforma BlueXP. Si quiere más información, consulte <block ref="1e9f4589e5d2713376df79f13fc9ba0a" category="inline-link-macro-rx"></block> por cada servicio individual.</block>
+  <block id="d0693e7bf28b7bbc94287cee0e4b0768" category="section-title">5 de marzo de 2023</block>
+  <block id="ba5bb99eb6a04798c8ccd3f156db75a5" category="section-title">Conector 3.9.27</block>
+  <block id="ce47c670900f3fe8347a2fc95ff710d8" category="list-text">La búsqueda ya está disponible en la consola BlueXP. En este momento, puede utilizar la búsqueda para buscar servicios y características de BlueXP.</block>
+  <block id="73984711a5ba4c8d6f613d3ef2426680" category="inline-image-macro">Una captura de pantalla de la búsqueda BlueXP que está disponible en la parte superior de la consola.</block>
+  <block id="4be68bdee3a27bc0218c6188d192fc95" category="paragraph"><block ref="4be68bdee3a27bc0218c6188d192fc95" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8b74b053fbeeff5c3b6f4991cb1d028d" category="list-text">Puede ver y gestionar los casos de soporte activos y resueltos directamente desde BlueXP. Es posible gestionar los casos asociados con su cuenta de NSS y con su empresa.</block>
+  <block id="a48a6aaa99b4cf4a4e641c293de897fa" category="inline-link">Aprenda a gestionar sus casos de soporte</block>
+  <block id="796ced97a72330e5ce3c0935b7b09f45" category="paragraph"><block ref="622b6e7f4143df2aca06b538ee1d864e" category="inline-link-rx"></block>.</block>
+  <block id="dd9b32305d0c33f8845bee1cdfcfc85a" category="list-text">El conector ahora es compatible con un host que ejecuta Red Hat Enterprise Linux 8.7.</block>
+  <block id="2a75ac250c22787b79b100a2a614a4e2" category="inline-link">Ver los requisitos del sistema para el conector</block>
+  <block id="9954c00cefacf69f28fa1994e949ff83" category="paragraph"><block ref="1c471069dafa2d25f3a632cea0250222" category="inline-link-rx"></block>.</block>
+  <block id="9597dfcf8249ec8766cfb35fd11357f3" category="list-text">El conector ahora es compatible con cualquier entorno de nube que tenga un aislamiento completo de Internet. A continuación, puede usar la consola BlueXP que se ejecuta en el conector para implementar Cloud Volumes ONTAP en la misma ubicación y detectar clústeres de ONTAP en las instalaciones (si tiene una conexión desde su entorno de cloud a un entorno local). Ningún otro servicio BlueXP es compatible con este tipo de despliegue, excepto con la cartera digital.</block>
+  <block id="4965002502fb4ea58d2f984e3fe0a110" category="paragraph">La región del cloud puede ser una región en la que haya agencias estadounidenses seguras como AWS C2S/SC2S, Azure IL6 o cualquier región comercial.</block>
+  <block id="33b6f29ed1acfc0fbed883a6e1f44ef2" category="paragraph">Para empezar, instale manualmente el software conector, inicie sesión en la consola BlueXP que se ejecuta en el conector, agregue su licencia BYOL a la cartera digital y, a continuación, implemente Cloud Volumes ONTAP.</block>
+  <block id="376a158ceb7d344fa563cce2aa16018f" category="inline-link">Instale el conector en una ubicación sin acceso a Internet</block>
+  <block id="6bfdfb1d6b845d41edac4f1eb0065216" category="list-text"><block ref="6bfdfb1d6b845d41edac4f1eb0065216" category="inline-link-rx"></block></block>
+  <block id="cbea6f8d2cd687c094438e0a7a38fedf" category="inline-link">Acceda a la consola BlueXP del conector</block>
+  <block id="b620510a7b9198825896459898b7bc08" category="list-text"><block ref="b620510a7b9198825896459898b7bc08" category="inline-link-rx"></block></block>
+  <block id="c09d91817b6017a3572898b867b22e36" category="inline-link">Añada una licencia sin asignar</block>
+  <block id="587a8286d2e3b61d9f250d807b34983c" category="list-text"><block ref="587a8286d2e3b61d9f250d807b34983c" category="inline-link-rx"></block></block>
+  <block id="a8ed015209d62d3ffd9042f8a01b9725" category="inline-link">Empiece a usar Cloud Volumes ONTAP</block>
+  <block id="d66686137674e9cdef6070dbe4ce01c6" category="list-text"><block ref="d66686137674e9cdef6070dbe4ce01c6" category="inline-link-rx"></block></block>
+  <block id="37e16775c1bede9551f227ccaca87974" category="paragraph"><block ref="37e16775c1bede9551f227ccaca87974" category="inline-link-rx"></block></block>
+  <block id="eea1e3b9ecdd5e32692761a0a78b9463" category="section-title">05 de marzo de 2023</block>
+  <block id="3aea41413b60d0894823e739f01efcbb" category="paragraph">Se han realizado mejoras en la interfaz de usuario y se han actualizado las capturas de pantalla en la documentación.</block>
+  <block id="fcdf1a1b46f3b7e8ad6ff82010438a90" category="list-text">Admite backup y restauración basadas en políticas de bases de datos SAP HANA que residen en Azure NetApp Files</block>
+  <block id="b92f2131d3d225c3c3327daaa8862624" category="section-title">Ahora puede generar un informe de organización en niveles para sus volúmenes</block>
+  <block id="f86857f0a51fde5819da3a17258b5448" category="inline-link">Descubra cómo descargar el informe de organización en niveles</block>
+  <block id="10607665fc9de51ae2bf29927d3673b9" category="paragraph">Es posible descargar un informe en la página Tier Volumes para revisar el estado de organización en niveles de todos los volúmenes en los clústeres que se están gestionando. Cloud Tiering genera un archivo .CSV que puede revisar y enviar a otras personas de su empresa según lo necesite.<block ref="b6be70acd3f28aaa18a7e212c9bc7736" category="inline-link-rx"></block>.</block>
+  <block id="ed9855757b31d516a4fa8f955edec2eb" category="list-text">Kubernetes en BlueXP ahora es compatible con Astra Trident 23.01.</block>
 </blocks>

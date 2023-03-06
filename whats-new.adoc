@@ -17,7 +17,7 @@ summary: Conozca los cambios más recientes en los servicios en la nube que form
 
 
 [role="lead"]
-Conozca los cambios más recientes en los servicios cloud que forman parte de la plataforma BlueXP (anteriormente Cloud Manager). Si quiere más información, consulte link:release-notes-index.html["conjunto completo de notas de la versión"] por cada servicio individual.
+Conozca los cambios más recientes en los servicios en la nube que forman parte de la plataforma BlueXP. Si quiere más información, consulte link:release-notes-index.html["conjunto completo de notas de la versión"] por cada servicio individual.
 
 
 
@@ -30,6 +30,46 @@ Cloud Manager cambió su nombre a BlueXP el 1 de noviembre de 2022. https://docs
 == Funciones administrativas
 
 En esta sección se describen las nuevas funciones relacionadas con las funciones de administración de BlueXP: Cuentas, conectores, credenciales de proveedores de nube y mucho más.
+
+
+
+=== 5 de marzo de 2023
+
+
+
+==== Conector 3.9.27
+
+* La búsqueda ya está disponible en la consola BlueXP. En este momento, puede utilizar la búsqueda para buscar servicios y características de BlueXP.
++
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/main/media/screenshot-search.png["Una captura de pantalla de la búsqueda BlueXP que está disponible en la parte superior de la consola."]
+
+* Puede ver y gestionar los casos de soporte activos y resueltos directamente desde BlueXP. Es posible gestionar los casos asociados con su cuenta de NSS y con su empresa.
++
+https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-get-help.html#manage-your-support-cases["Aprenda a gestionar sus casos de soporte"].
+
+* El conector ahora es compatible con un host que ejecuta Red Hat Enterprise Linux 8.7.
++
+https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-installing-linux.html["Ver los requisitos del sistema para el conector"].
+
+* El conector ahora es compatible con cualquier entorno de nube que tenga un aislamiento completo de Internet. A continuación, puede usar la consola BlueXP que se ejecuta en el conector para implementar Cloud Volumes ONTAP en la misma ubicación y detectar clústeres de ONTAP en las instalaciones (si tiene una conexión desde su entorno de cloud a un entorno local). Ningún otro servicio BlueXP es compatible con este tipo de despliegue, excepto con la cartera digital.
++
+La región del cloud puede ser una región en la que haya agencias estadounidenses seguras como AWS C2S/SC2S, Azure IL6 o cualquier región comercial.
+
++
+Para empezar, instale manualmente el software conector, inicie sesión en la consola BlueXP que se ejecuta en el conector, agregue su licencia BYOL a la cartera digital y, a continuación, implemente Cloud Volumes ONTAP.
+
++
+** https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-connector-onprem-no-internet.html["Instale el conector en una ubicación sin acceso a Internet"^]
+** https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-managing-connectors.html#access-the-local-ui["Acceda a la consola BlueXP del conector"^]
+** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-node-licenses.html#manage-byol-licenses["Añada una licencia sin asignar"^]
+** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-overview-cvo.html["Empiece a usar Cloud Volumes ONTAP"^]
+
+
+* Esta versión del conector incluye mejoras de Cloud Volumes ONTAP.
++
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#5-march-2023["Obtenga información acerca de las mejoras de Cloud Volumes ONTAP"^]
+
+
 
 
 
@@ -93,24 +133,6 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#1
 
 
 
-=== 4 de diciembre de 2022
-
-
-
-==== Conector 3.9.24
-
-* Hemos actualizado la URL de la consola BlueXP a. https://console.bluexp.netapp.com[]
-* El conector ahora es compatible con la región de Google Cloud Israel.
-* Esta versión del conector también incluye mejoras de Cloud Volumes ONTAP y mejoras del clúster de ONTAP en las instalaciones.
-+
-** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#4-december-2022["Obtenga información acerca de las mejoras de Cloud Volumes ONTAP"^]
-** https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/whats-new.html#4-december-2022["Obtenga información acerca de las mejoras del clúster en las instalaciones de ONTAP"^]
-
-
-
-
-
-
 == Azure NetApp Files
 
 
@@ -165,6 +187,12 @@ La capacidad de crear y gestionar Azure NetApp Files directamente desde Cloud Ma
 
 
 
+=== 05 de marzo de 2023
+
+Se han realizado mejoras en la interfaz de usuario y se han actualizado las capturas de pantalla en la documentación.
+
+
+
 === 01 de enero de 2023
 
 Ahora puede optar por activar link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-manage-working-environment.html#manage-automatic-capacity["gestión de la capacidad automática"^] para añadir almacenamiento incremental basado en demanda. La administración automática de la capacidad sondea el clúster a intervalos regulares para evaluar la demanda y aumenta automáticamente la capacidad de almacenamiento en incrementos del 10% hasta el 80% de la capacidad máxima del clúster.
@@ -174,19 +202,6 @@ Ahora puede optar por activar link:https://docs.netapp.com/us-en/cloud-manager-f
 === 18 de septiembre de 2022
 
 Ahora puede hacerlo link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-manage-working-environment.html#change-storage-capacity-and-IOPS["Cambie la capacidad de almacenamiento y las IOPS"^] En cualquier momento después de crear el entorno de trabajo FSX para ONTAP.
-
-
-
-=== 31 de julio de 2022
-
-* Si anteriormente ha proporcionado sus credenciales de AWS a Cloud Manager, la nueva función *Mis oportunidades* puede detectar y sugerir automáticamente FSX para los sistemas de archivos ONTAP para agregar y administrar mediante Cloud Manager. También puede revisar los servicios de datos disponibles a través de la ficha *Mis oportunidades*.
-+
-link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html#discover-an-existing-fsx-for-ontap-file-system["Descubra FSX para ONTAP usando Mis oportunidades"^]
-
-* Ahora puede hacerlo link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-manage-working-environment.html#change-throughput-capacity["cambie la capacidad de rendimiento"^] En cualquier momento después de crear el entorno de trabajo FSX para ONTAP.
-* Ahora puede hacerlo link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-manage-fsx-volumes.html#replicate-and-sync-data["replicar y sincronizar datos"^] A las instalaciones y otros FSX para sistemas ONTAP que utilizan FSX para ONTAP como origen.
-* Ahora puede hacerlo link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-volumes.html#creating-volumes["Cree volúmenes iSCSI en FSX para ONTAP mediante Cloud Manager"^].
-
 
 
 
@@ -328,7 +343,7 @@ Después de filtrar la página Supervisión de trabajos para mostrar los trabajo
 
 * Bases de datos SAP HANA
 +
-** Admite backup y restauración basadas en políticas de bases de datos SAP HANA que residen en Azure NetApp Files (ANF).
+** Admite backup y restauración basadas en políticas de bases de datos SAP HANA que residen en Azure NetApp Files
 ** Admite directivas personalizadas
 
 
@@ -764,6 +779,16 @@ El tipo de máquina predeterminado para el agente de datos en Google Cloud es ah
 
 
 
+=== 5 de marzo de 2023
+
+
+
+==== Ahora puede generar un informe de organización en niveles para sus volúmenes
+
+Es posible descargar un informe en la página Tier Volumes para revisar el estado de organización en niveles de todos los volúmenes en los clústeres que se están gestionando. Cloud Tiering genera un archivo .CSV que puede revisar y enviar a otras personas de su empresa según lo necesite. https://docs.netapp.com/us-en/cloud-manager-tiering/task-managing-tiering.html#download-a-tiering-report-for-your-volumes["Descubra cómo descargar el informe de organización en niveles"].
+
+
+
 === 6 de diciembre de 2022
 
 
@@ -793,30 +818,6 @@ Vea la lista completa de puntos finales de la https://docs.netapp.com/us-en/clou
 ==== Arrastre y suelte para habilitar Cloud Tiering en Azure Blob, Google Cloud Storage y StorageGRID
 
 Si el destino de Azure Blob, Google Cloud Storage o StorageGRID Tiering existe como entorno de trabajo en el lienzo, puede arrastrar su entorno de trabajo ONTAP local al destino para iniciar el asistente de configuración de la organización en niveles.
-
-
-
-=== 19 de septiembre de 2022
-
-
-
-==== El asistente de organización en niveles permite configurar AWS PrivateLink cuando la organización en niveles se encuentra en un almacenamiento S3
-
-En versiones anteriores, era muy lento proporcionar esta forma segura de conectar el clúster a un bloque de S3 a través de un extremo de VPC. Ahora puede seguir los pasos de los requisitos previos a. https://docs.netapp.com/us-en/cloud-manager-tiering/task-tiering-onprem-aws.html#configure-your-system-for-a-private-connection-using-a-vpc-endpoint-interface["Configure el sistema para una conexión privada mediante una interfaz de extremo VPC"]Y, a continuación, puede seleccionar PrivateLink durante el asistente de configuración de capas en la página Networking.
-
-https://docs.netapp.com/us-en/cloud-manager-tiering/task-tiering-onprem-aws.html["Revise los requisitos y los pasos para organizar los datos inactivos en niveles en Amazon S3"].
-
-
-
-==== Arrastre y suelte para habilitar Cloud Tiering en Amazon S3
-
-Si el destino de organización en niveles de Amazon S3 existe como entorno de trabajo en Canvas, puede arrastrar el entorno de trabajo de ONTAP local al destino para iniciar el asistente de configuración de organización en niveles.
-
-
-
-==== Elija el comportamiento de organización en niveles al eliminar el almacén de objetos reflejados en una configuración de MetroCluster
-
-Al quitar el almacén de objetos de réplica de una configuración de MetroCluster, se le preguntará si desea quitar también el almacén de objetos principal. Puede optar por mantener el almacén de objetos principal Unido al agregado o eliminarlo.
 
 
 
@@ -1041,6 +1042,14 @@ El software Global File Cache Edge para la versión 1.3.1 está disponible en ht
 
 
 == Kubernetes
+
+
+
+=== 05 de marzo de 2023
+
+* Kubernetes en BlueXP ahora es compatible con Astra Trident 23.01.
+* Se han realizado mejoras en la interfaz de usuario y se han actualizado las capturas de pantalla en la documentación.
+
 
 
 
