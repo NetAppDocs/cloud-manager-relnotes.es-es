@@ -424,6 +424,66 @@ En versiones anteriores solo podía seleccionar el agregado al restaurar datos e
 
 
 
+=== 7 de marzo de 2023 (versión 1.21)
+
+
+
+==== Nueva funcionalidad para agregar sus propias categorías personalizadas desde la interfaz de usuario de detección de datos
+
+Data Sense le permite ahora agregar sus propias categorías personalizadas para que Data Sense identifique los archivos que se ajustan a esas categorías. La detección de datos tiene muchas https://docs.netapp.com/us-en/cloud-manager-data-sense/reference-private-data-categories.html#types-of-categories["categorías predefinidas"], por lo tanto, esta característica permite agregar categorías personalizadas para identificar dónde se encuentra la información que es única para la organización en los datos.
+
+https://docs.netapp.com/us-en/cloud-manager-data-sense/task-managing-data-fusion.html#add-custom-categories["Leer más"^].
+
+
+
+==== Ahora puede agregar palabras clave personalizadas desde la interfaz de usuario de detección de datos
+
+Data Sense ha tenido la capacidad de agregar palabras clave personalizadas que Data Sense identificará durante un tiempo en exploraciones futuras. Sin embargo, necesitaba iniciar sesión en el host Linux de Data Sense y utilizar una interfaz de línea de comandos para agregar las palabras clave. En esta versión, la capacidad de agregar palabras clave personalizadas se encuentra en la interfaz de usuario de detección de datos, lo que facilita la adición y edición de estas palabras clave.
+
+https://docs.netapp.com/us-en/cloud-manager-data-sense/task-managing-data-fusion.html#add-custom-keywords-from-a-list-of-words["Obtenga más información sobre cómo agregar palabras clave personalizadas desde la interfaz de usuario de Data Sense"^].
+
+
+
+==== Capacidad de tener archivos de escaneado de detección de datos *no* cuando se cambie la "última hora de acceso"
+
+De forma predeterminada, si Data Sense no tiene los permisos de "escritura" adecuados, el sistema no analizará los archivos de los volúmenes porque el sistema no puede revertir la "última hora de acceso" a la Marca de hora original. Sin embargo, si no le importa si la última hora de acceso se restablece a la hora original en los archivos, puede anular este comportamiento en la página Configuración para que detección de datos analice los volúmenes independientemente de los permisos.
+
+Junto con esta capacidad, se ha agregado un nuevo filtro denominado "evento de análisis de análisis de análisis" para poder ver los archivos no clasificados porque la detección de datos no pudo revertir la hora a la que se accedió por última vez, o los archivos clasificados aunque la detección de datos no pudo revertir la hora a la que se accedió por última vez.
+
+https://docs.netapp.com/us-en/cloud-manager-data-sense/reference-collected-metadata.html#last-access-time-timestamp["Obtenga más información sobre la Marca de hora del último acceso y los permisos que requiere detección de datos"].
+
+
+
+==== Se identifican tres nuevos tipos de datos personales por Data Sense
+
+Data Sense puede identificar y categorizar archivos que contengan los siguientes tipos de datos:
+
+* Número de tarjeta de identidad de Botswana (Omang)
+* Número de pasaporte de Botswana
+* Tarjeta de identidad de registro nacional de Singapur (NRIC)
+
+
+https://docs.netapp.com/us-en/cloud-manager-data-sense/reference-private-data-categories.html#types-of-personal-data["Vea todos los tipos de datos personales que Data Sense puede identificar en sus datos"].
+
+
+
+==== Funcionalidad actualizada para directorios
+
+* La opción "Informe CSV claro" para Informes de investigación de datos ahora incluye información de los directorios.
+* El filtro de tiempo "último acceso" muestra ahora la última hora a la que se accedió tanto para archivos como para directorios.
+
+
+
+
+==== Mejoras en la instalación
+
+* Data sense puede instalar en hosts Linux que ejecutan CentOS Stream 8.
+* El instalador de detección de datos para sitios sin acceso a Internet (sitios oscuros) ahora realiza una comprobación previa para asegurarse de que el sistema y los requisitos de red están en su lugar para una instalación correcta.
+* Los archivos de registro de auditoría de la instalación se guardan ahora y se escriben en `/ops/netapp/install_logs`.
+
+
+
+
 === 5 de febrero de 2023 (versión 1.20)
 
 
@@ -436,7 +496,7 @@ https://docs.netapp.com/us-en/cloud-manager-data-sense/task-using-policies.html#
 
 
 
-==== Ahora puede agregar patrones personales que el sentido de datos identificará desde la interfaz de usuario
+==== Ahora puede agregar patrones personales desde la interfaz de usuario de detección de datos
 
 La detección de datos ha tenido la capacidad de agregar "datos personales" personalizados que la detección de datos identificará en futuros análisis durante un tiempo. Sin embargo, tenía que iniciar sesión en el host Linux de Data Sense y utilizar una línea de comandos para agregar los patrones personalizados. En esta versión, la capacidad de agregar patrones personales con un regex está en la interfaz de usuario de detección de datos, lo que hace muy fácil agregar y editar estos patrones personalizados.
 
@@ -488,28 +548,6 @@ https://docs.netapp.com/us-en/cloud-manager-data-sense/task-investigate-data.htm
 ==== El sentido de los datos puede identificar el número individual japonés
 
 Data Sense puede identificar y categorizar archivos que contengan el número individual japonés (también conocido como Mi número). Esto incluye tanto el número personal como el número de mi corporativo. https://docs.netapp.com/us-en/cloud-manager-data-sense/reference-private-data-categories.html#types-of-personal-data["Vea todos los tipos de datos personales que Data Sense puede identificar en sus datos"].
-
-
-
-=== 11 de diciembre de 2022 (versión 1.18)
-
-
-
-==== Mejoras en la instalación en las instalaciones
-
-Se han agregado las siguientes mejoras para la instalación de detección de datos en las instalaciones:
-
-* Ahora se comprueban algunos requisitos previos adicionales antes de que la instalación comience en un host local. Esto ayuda a asegurarse de que el sistema host esté preparado al 100 % para tener instalado el software Data Sense:
-+
-** comprobar si hay suficiente espacio en `/var/lib/docker`, `/tmp`, y. `/opt`
-** pruebe los permisos pertinentes en todas las carpetas necesarias
-
-
-* En la página Configuración, la sección entornos de trabajo muestra ahora _Working Environment ID_ y el _Scanner Group_ name. Necesitará conocer el identificador de entorno de trabajo si planea utilizar varios hosts de detección de datos para proporcionar potencia de procesamiento adicional para analizar sus fuentes de datos.
-* También en la página Configuración, una nueva sección muestra los grupos de escáner que ha configurado y los nodos de escáner de cada grupo.
-
-
-https://docs.netapp.com/us-en/cloud-manager-data-sense/task-deploy-compliance-onprem.html["Obtenga más información acerca de la instalación de Data Sense en un solo servidor host y en varios hosts"].
 
 
 
@@ -822,6 +860,41 @@ Si el destino de Azure Blob, Google Cloud Storage o StorageGRID Tiering existe c
 
 
 == Cloud Volumes ONTAP
+
+
+
+=== 5 de marzo de 2023
+
+Los siguientes cambios se introdujeron con la versión 3.9.27 del conector.
+
+
+
+==== Compatibilidad con 16 TIB y 32 Tib en Azure
+
+Cloud Volumes ONTAP ahora admite tamaños de disco de 16 TIB y 32 TIB para puestas en marcha de alta disponibilidad que se ejecutan en discos gestionados en Azure.
+
+Más información acerca de https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-azure.html#supported-disk-sizes["Tamaños de disco compatibles en Azure"^].
+
+
+
+==== Licencia de MTEKM
+
+La licencia de administración de claves de cifrado multi-tenant (MTEKM) ahora se incluye con sistemas Cloud Volumes ONTAP nuevos y existentes que ejecutan la versión 9.12.1 GA o posterior.
+
+La gestión de claves externas multi-tenant permite que las máquinas virtuales de almacenamiento individuales (SVM) mantengan sus propias claves a través de un servidor KMIP al usar el cifrado de volúmenes de NetApp.
+
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-encrypting-volumes.html["Aprenda a cifrar volúmenes con las soluciones de cifrado de NetApp"^].
+
+
+
+==== Soporte para entornos sin Internet 
+
+Cloud Volumes ONTAP ahora es compatible con cualquier entorno de cloud que tenga un aislamiento completo de Internet. En estos entornos solo se admiten las licencias basadas en nodo (BYOL). No se admite la gestión de licencias basadas en capacidad. Para empezar, instale manualmente el software conector, inicie sesión en la consola BlueXP que se ejecuta en el conector, agregue su licencia BYOL a la cartera digital y, a continuación, implemente Cloud Volumes ONTAP. 
+
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-connector-onprem-no-internet.html["Instale el conector en una ubicación sin acceso a Internet"^]
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-managing-connectors.html#access-the-local-ui["Acceda a la consola BlueXP del conector"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-node-licenses.html#manage-byol-licenses["Añada una licencia sin asignar"^]
+
 
 
 
@@ -1164,6 +1237,16 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/ma
 
 
 
+=== 7 de marzo de 2023
+
+
+
+==== Se ha agregado un nuevo panel de recuperación de Ransomware para ayudar a recuperar su sistema de un ataque
+
+El Panel de recuperación de ransomware proporciona opciones para recuperar datos que pueden haber sido infectados por ransomware. Esto le ayuda a hacer que sus sistemas vuelvan a estar en funcionamiento muy rápidamente. En este momento, la acción de recuperación le permite reemplazar un volumen dañado por una copia de SnapVault que no se vio afectada por el ransomware. https://docs.netapp.com/us-en/cloud-manager-ransomware/task-ransomware-recovery.html["Leer más"].
+
+
+
 === 5 de febrero de 2023
 
 
@@ -1191,22 +1274,6 @@ Ahora usted accede a este servicio desde el menú de navegación de la izquierda
 ==== Se ha añadido soporte para recibir alertas de protección contra ransomware por correo electrónico y en el Centro de notificación
 
 La protección contra ransomware se ha integrado en el servicio de notificación de BlueXP. Puede mostrar notificaciones de protección contra ransomware haciendo clic en la campana de notificación de la barra de menús de BlueXP. También puede configurar BlueXP para que envíe notificaciones por correo electrónico como alertas, de forma que pueda ser informado de la actividad importante del sistema incluso cuando no haya iniciado sesión en el sistema. El correo electrónico puede enviarse a todos los destinatarios que tengan en cuenta las alertas de ransomware. https://docs.netapp.com/us-en/cloud-manager-ransomware/task-monitor-ransomware-alerts.html["Vea cómo"].
-
-
-
-=== 11 de diciembre de 2022
-
-
-
-==== Se han añadido nuevas acciones recomendadas al panel de puntuación de protección de Ransomware
-
-Ahora se muestran dos acciones nuevas recomendadas para los siguientes problemas de protección contra ransomware que se encuentran en sus sistemas de almacenamiento:
-
-* _Reducir los permisos para los elementos sensibles de X con amplios permisos_ - se han encontrado archivos sensibles que tienen permisos abiertos en sus orígenes de datos
-* _Patch X CVE abiertas en las fuentes de datos y_ - se han encontrado CVE sin parche en sus sistemas ONTAP
-
-
-Puede seleccionar estas acciones en la interfaz de usuario y, a continuación, seguir el flujo de trabajo para resolver los problemas subyacentes. https://docs.netapp.com/us-en/cloud-manager-ransomware/task-analyze-ransomware-data.html#list-of-recommended-actions["Consulte la lista de todas las acciones recomendadas"].
 
 
 
