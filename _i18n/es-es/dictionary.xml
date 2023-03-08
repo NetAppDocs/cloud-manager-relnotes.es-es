@@ -572,4 +572,9 @@
   <block id="4b10c384bd11c38afbbe24f979f5519d" category="section-title">7 de marzo de 2023</block>
   <block id="b20988b483bceb3fb63077025a07d023" category="section-title">Se ha agregado un nuevo panel de recuperación de Ransomware para ayudar a recuperar su sistema de un ataque</block>
   <block id="aa31096585d7d55e20d8a7b196ea1a2a" category="paragraph">El Panel de recuperación de ransomware proporciona opciones para recuperar datos que pueden haber sido infectados por ransomware. Esto le ayuda a hacer que sus sistemas vuelvan a estar en funcionamiento muy rápidamente. En este momento, la acción de recuperación le permite reemplazar un volumen dañado por una copia de SnapVault que no se vio afectada por el ransomware.<block ref="736cade400f507ba8b7ce738b709d6e6" category="inline-link-rx"></block>.</block>
+  <block id="d79294e72dc3584cc12c98a7a931315d" category="inline-link">Almacenamiento Amazon S3</block>
+  <block id="e27ba65d55db98b6fd6764580355edcf" category="list-text"><block ref="e27ba65d55db98b6fd6764580355edcf" category="inline-link-rx"></block></block>
+  <block id="912b3a604a5106bda5b0c99ddaaf1364" category="section-title">Posibilidad de añadir nuevos cubos desde BlueXP</block>
+  <block id="c07c4e2e029d6d6eb829c29902cb63ff" category="inline-link">Descubra cómo añadir nuevos bloques de Amazon S3</block>
+  <block id="91402ca539ef196ec17265c55db694dc" category="paragraph">Has tenido la posibilidad de ver cubos de Amazon S3 en BlueXP Canvas durante mucho tiempo. Ahora puede agregar nuevos cubos y cambiar las propiedades de los cubos existentes directamente desde BlueXP.<block ref="2c8909472f79d70b0988a1b1340a52c9" category="inline-link-rx"></block>.</block>
 </blocks>

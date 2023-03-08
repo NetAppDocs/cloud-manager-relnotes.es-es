@@ -205,6 +205,20 @@ Ahora puede hacerlo link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/u
 
 
 
+== Almacenamiento Amazon S3
+
+
+
+=== 5 de marzo de 2023
+
+
+
+==== Posibilidad de añadir nuevos cubos desde BlueXP
+
+Has tenido la posibilidad de ver cubos de Amazon S3 en BlueXP Canvas durante mucho tiempo. Ahora puede agregar nuevos cubos y cambiar las propiedades de los cubos existentes directamente desde BlueXP. https://docs.netapp.com/us-en/bluexp-s3-storage/task-add-s3-bucket.html["Descubra cómo añadir nuevos bloques de Amazon S3"^].
+
+
+
 == Plantilla de aplicación
 
 
