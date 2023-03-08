@@ -468,7 +468,7 @@
 <p class="page-details">
   
     
-    <time datetime="2023-03-06 17:34:15 +0000">03/06/2023</time>
+    <time datetime="2023-03-08 15:34:42 +0000">03/08/2023</time>
     
   
 
@@ -522,9 +522,9 @@
 </li>
 <li><a href="#cloud-data-sense">Cloud Data SENSE</a>
 <ul class="sectlevel2">
+<li><a href="#7-de-marzo-de-2023-versión-1-21">7 de marzo de 2023 (versión 1.21)</a></li>
 <li><a href="#5-de-febrero-de-2023-versión-1-20">5 de febrero de 2023 (versión 1.20)</a></li>
 <li><a href="#9-de-enero-de-2023-versión-1-19">9 de enero de 2023 (versión 1.19)</a></li>
-<li><a href="#11-de-diciembre-de-2022-versión-1-18">11 de diciembre de 2022 (versión 1.18)</a></li>
 </ul>
 </li>
 <li><a href="#cloud-sync">Cloud Sync</a>
@@ -547,6 +547,7 @@
 </li>
 <li><a href="#cloud-volumes-ontap">Cloud Volumes ONTAP</a>
 <ul class="sectlevel2">
+<li><a href="#5-de-marzo-de-2023-3">5 de marzo de 2023</a></li>
 <li><a href="#5-de-febrero-de-2023-3">5 de febrero de 2023</a></li>
 <li><a href="#1-de-enero-de-2023-2">1 de enero de 2023</a></li>
 <li><a href="#15-de-diciembre-de-2022">15 de diciembre de 2022</a></li>
@@ -602,9 +603,9 @@
 </li>
 <li><a href="#protección-contra-ransomware">Protección contra ransomware</a>
 <ul class="sectlevel2">
+<li><a href="#7-de-marzo-de-2023">7 de marzo de 2023</a></li>
 <li><a href="#5-de-febrero-de-2023-4">5 de febrero de 2023</a></li>
 <li><a href="#9-de-enero-de-2023-2">9 de enero de 2023</a></li>
-<li><a href="#11-de-diciembre-de-2022-2">11 de diciembre de 2022</a></li>
 </ul>
 </li>
 <li><a href="#replicación">Replicación</a>
@@ -1162,6 +1163,90 @@
 <h2 id="cloud-data-sense">Cloud Data SENSE</h2>
 <div class="sectionbody">
 <div class="sect2">
+<h3 id="7-de-marzo-de-2023-versión-1-21">7 de marzo de 2023 (versión 1.21)</h3>
+<div class="sect3">
+<h4 id="nueva-funcionalidad-para-agregar-sus-propias-categorías-personalizadas-desde-la-interfaz-de-usuario-de-detección-de-datos">Nueva funcionalidad para agregar sus propias categorías personalizadas desde la interfaz de usuario de detección de datos</h4>
+<div class="paragraph">
+<p>Data Sense le permite ahora agregar sus propias categorías personalizadas para que Data Sense identifique los archivos que se ajustan a esas categorías. La detección de datos tiene muchas <a href="https://docs.netapp.com/us-en/cloud-manager-data-sense/reference-private-data-categories.html#types-of-categories">"categorías predefinidas"</a>, por lo tanto, esta característica permite agregar categorías personalizadas para identificar dónde se encuentra la información que es única para la organización en los datos.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/cloud-manager-data-sense/task-managing-data-fusion.html#add-custom-categories" target="_blank" rel="noopener">"Leer más"</a>.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="ahora-puede-agregar-palabras-clave-personalizadas-desde-la-interfaz-de-usuario-de-detección-de-datos">Ahora puede agregar palabras clave personalizadas desde la interfaz de usuario de detección de datos</h4>
+<div class="paragraph">
+<p>Data Sense ha tenido la capacidad de agregar palabras clave personalizadas que Data Sense identificará durante un tiempo en exploraciones futuras. Sin embargo, necesitaba iniciar sesión en el host Linux de Data Sense y utilizar una interfaz de línea de comandos para agregar las palabras clave. En esta versión, la capacidad de agregar palabras clave personalizadas se encuentra en la interfaz de usuario de detección de datos, lo que facilita la adición y edición de estas palabras clave.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/cloud-manager-data-sense/task-managing-data-fusion.html#add-custom-keywords-from-a-list-of-words" target="_blank" rel="noopener">"Obtenga más información sobre cómo agregar palabras clave personalizadas desde la interfaz de usuario de Data Sense"</a>.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="capacidad-de-tener-archivos-de-escaneado-de-detección-de-datos-no-cuando-se-cambie-la-última-hora-de-acceso">Capacidad de tener archivos de escaneado de detección de datos <strong>no</strong> cuando se cambie la "última hora de acceso"</h4>
+<div class="paragraph">
+<p>De forma predeterminada, si Data Sense no tiene los permisos de "escritura" adecuados, el sistema no analizará los archivos de los volúmenes porque el sistema no puede revertir la "última hora de acceso" a la Marca de hora original. Sin embargo, si no le importa si la última hora de acceso se restablece a la hora original en los archivos, puede anular este comportamiento en la página Configuración para que detección de datos analice los volúmenes independientemente de los permisos.</p>
+</div>
+<div class="paragraph">
+<p>Junto con esta capacidad, se ha agregado un nuevo filtro denominado "evento de análisis de análisis de análisis" para poder ver los archivos no clasificados porque la detección de datos no pudo revertir la hora a la que se accedió por última vez, o los archivos clasificados aunque la detección de datos no pudo revertir la hora a la que se accedió por última vez.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/cloud-manager-data-sense/reference-collected-metadata.html#last-access-time-timestamp">"Obtenga más información sobre la Marca de hora del último acceso y los permisos que requiere detección de datos"</a>.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="se-identifican-tres-nuevos-tipos-de-datos-personales-por-data-sense">Se identifican tres nuevos tipos de datos personales por Data Sense</h4>
+<div class="paragraph">
+<p>Data Sense puede identificar y categorizar archivos que contengan los siguientes tipos de datos:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Número de tarjeta de identidad de Botswana (Omang)</p>
+</li>
+<li>
+<p>Número de pasaporte de Botswana</p>
+</li>
+<li>
+<p>Tarjeta de identidad de registro nacional de Singapur (NRIC)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/cloud-manager-data-sense/reference-private-data-categories.html#types-of-personal-data">"Vea todos los tipos de datos personales que Data Sense puede identificar en sus datos"</a>.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="funcionalidad-actualizada-para-directorios">Funcionalidad actualizada para directorios</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>La opción "Informe CSV claro" para Informes de investigación de datos ahora incluye información de los directorios.</p>
+</li>
+<li>
+<p>El filtro de tiempo "último acceso" muestra ahora la última hora a la que se accedió tanto para archivos como para directorios.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="mejoras-en-la-instalación">Mejoras en la instalación</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>Data sense puede instalar en hosts Linux que ejecutan CentOS Stream 8.</p>
+</li>
+<li>
+<p>El instalador de detección de datos para sitios sin acceso a Internet (sitios oscuros) ahora realiza una comprobación previa para asegurarse de que el sistema y los requisitos de red están en su lugar para una instalación correcta.</p>
+</li>
+<li>
+<p>Los archivos de registro de auditoría de la instalación se guardan ahora y se escriben en <code>/ops/netapp/install_logs</code>.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect2">
 <h3 id="5-de-febrero-de-2023-versión-1-20">5 de febrero de 2023 (versión 1.20)</h3>
 <div class="sect3">
 <h4 id="posibilidad-de-enviar-correos-electrónicos-de-notificación-basados-en-políticas-a-cualquier-dirección-de-correo-electrónico">Posibilidad de enviar correos electrónicos de notificación basados en políticas a cualquier dirección de correo electrónico</h4>
@@ -1173,7 +1258,7 @@
 </div>
 </div>
 <div class="sect3">
-<h4 id="ahora-puede-agregar-patrones-personales-que-el-sentido-de-datos-identificará-desde-la-interfaz-de-usuario">Ahora puede agregar patrones personales que el sentido de datos identificará desde la interfaz de usuario</h4>
+<h4 id="ahora-puede-agregar-patrones-personales-desde-la-interfaz-de-usuario-de-detección-de-datos">Ahora puede agregar patrones personales desde la interfaz de usuario de detección de datos</h4>
 <div class="paragraph">
 <p>La detección de datos ha tenido la capacidad de agregar "datos personales" personalizados que la detección de datos identificará en futuros análisis durante un tiempo. Sin embargo, tenía que iniciar sesión en el host Linux de Data Sense y utilizar una línea de comandos para agregar los patrones personalizados. En esta versión, la capacidad de agregar patrones personales con un regex está en la interfaz de usuario de detección de datos, lo que hace muy fácil agregar y editar estos patrones personalizados.</p>
 </div>
@@ -1234,41 +1319,6 @@
 <h4 id="el-sentido-de-los-datos-puede-identificar-el-número-individual-japonés">El sentido de los datos puede identificar el número individual japonés</h4>
 <div class="paragraph">
 <p>Data Sense puede identificar y categorizar archivos que contengan el número individual japonés (también conocido como Mi número). Esto incluye tanto el número personal como el número de mi corporativo. <a href="https://docs.netapp.com/us-en/cloud-manager-data-sense/reference-private-data-categories.html#types-of-personal-data">"Vea todos los tipos de datos personales que Data Sense puede identificar en sus datos"</a>.</p>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="11-de-diciembre-de-2022-versión-1-18">11 de diciembre de 2022 (versión 1.18)</h3>
-<div class="sect3">
-<h4 id="mejoras-en-la-instalación-en-las-instalaciones">Mejoras en la instalación en las instalaciones</h4>
-<div class="paragraph">
-<p>Se han agregado las siguientes mejoras para la instalación de detección de datos en las instalaciones:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Ahora se comprueban algunos requisitos previos adicionales antes de que la instalación comience en un host local. Esto ayuda a asegurarse de que el sistema host esté preparado al 100 % para tener instalado el software Data Sense:</p>
-<div class="ulist">
-<ul>
-<li>
-<p>comprobar si hay suficiente espacio en <code>/var/lib/docker</code>, <code>/tmp</code>, y. <code>/opt</code></p>
-</li>
-<li>
-<p>pruebe los permisos pertinentes en todas las carpetas necesarias</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>En la página Configuración, la sección entornos de trabajo muestra ahora <em>Working Environment ID</em> y el <em>Scanner Group</em> name. Necesitará conocer el identificador de entorno de trabajo si planea utilizar varios hosts de detección de datos para proporcionar potencia de procesamiento adicional para analizar sus fuentes de datos.</p>
-</li>
-<li>
-<p>También en la página Configuración, una nueva sección muestra los grupos de escáner que ha configurado y los nodos de escáner de cada grupo.</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p><a href="https://docs.netapp.com/us-en/cloud-manager-data-sense/task-deploy-compliance-onprem.html">"Obtenga más información acerca de la instalación de Data Sense en un solo servidor host y en varios hosts"</a>.</p>
 </div>
 </div>
 </div>
@@ -1677,6 +1727,52 @@
 <h2 id="cloud-volumes-ontap">Cloud Volumes ONTAP</h2>
 <div class="sectionbody">
 <div class="sect2">
+<h3 id="5-de-marzo-de-2023-3">5 de marzo de 2023</h3>
+<div class="paragraph">
+<p>Los siguientes cambios se introdujeron con la versión 3.9.27 del conector.</p>
+</div>
+<div class="sect3">
+<h4 id="compatibilidad-con-16-tib-y-32-tib-en-azure">Compatibilidad con 16 TIB y 32 Tib en Azure</h4>
+<div class="paragraph">
+<p>Cloud Volumes ONTAP ahora admite tamaños de disco de 16 TIB y 32 TIB para puestas en marcha de alta disponibilidad que se ejecutan en discos gestionados en Azure.</p>
+</div>
+<div class="paragraph">
+<p>Más información acerca de <a href="https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-azure.html#supported-disk-sizes" target="_blank" rel="noopener">"Tamaños de disco compatibles en Azure"</a>.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="licencia-de-mtekm">Licencia de MTEKM</h4>
+<div class="paragraph">
+<p>La licencia de administración de claves de cifrado multi-tenant (MTEKM) ahora se incluye con sistemas Cloud Volumes ONTAP nuevos y existentes que ejecutan la versión 9.12.1 GA o posterior.</p>
+</div>
+<div class="paragraph">
+<p>La gestión de claves externas multi-tenant permite que las máquinas virtuales de almacenamiento individuales (SVM) mantengan sus propias claves a través de un servidor KMIP al usar el cifrado de volúmenes de NetApp.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-encrypting-volumes.html" target="_blank" rel="noopener">"Aprenda a cifrar volúmenes con las soluciones de cifrado de NetApp"</a>.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="soporte-para-entornos-sin-internet">Soporte para entornos sin Internet </h4>
+<div class="paragraph">
+<p>Cloud Volumes ONTAP ahora es compatible con cualquier entorno de cloud que tenga un aislamiento completo de Internet. En estos entornos solo se admiten las licencias basadas en nodo (BYOL). No se admite la gestión de licencias basadas en capacidad. Para empezar, instale manualmente el software conector, inicie sesión en la consola BlueXP que se ejecuta en el conector, agregue su licencia BYOL a la cartera digital y, a continuación, implemente Cloud Volumes ONTAP. </p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-connector-onprem-no-internet.html" target="_blank" rel="noopener">"Instale el conector en una ubicación sin acceso a Internet"</a></p>
+</li>
+<li>
+<p><a href="https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-managing-connectors.html#access-the-local-ui" target="_blank" rel="noopener">"Acceda a la consola BlueXP del conector"</a></p>
+</li>
+<li>
+<p><a href="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-node-licenses.html#manage-byol-licenses" target="_blank" rel="noopener">"Añada una licencia sin asignar"</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect2">
 <h3 id="5-de-febrero-de-2023-3">5 de febrero de 2023</h3>
 <div class="paragraph">
 <p>Los siguientes cambios se introdujeron con la versión 3.9.26 del conector.</p>
@@ -2065,6 +2161,15 @@
 <h2 id="protección-contra-ransomware">Protección contra ransomware</h2>
 <div class="sectionbody">
 <div class="sect2">
+<h3 id="7-de-marzo-de-2023">7 de marzo de 2023</h3>
+<div class="sect3">
+<h4 id="se-ha-agregado-un-nuevo-panel-de-recuperación-de-ransomware-para-ayudar-a-recuperar-su-sistema-de-un-ataque">Se ha agregado un nuevo panel de recuperación de Ransomware para ayudar a recuperar su sistema de un ataque</h4>
+<div class="paragraph">
+<p>El Panel de recuperación de ransomware proporciona opciones para recuperar datos que pueden haber sido infectados por ransomware. Esto le ayuda a hacer que sus sistemas vuelvan a estar en funcionamiento muy rápidamente. En este momento, la acción de recuperación le permite reemplazar un volumen dañado por una copia de SnapVault que no se vio afectada por el ransomware. <a href="https://docs.netapp.com/us-en/cloud-manager-ransomware/task-ransomware-recovery.html">"Leer más"</a>.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
 <h3 id="5-de-febrero-de-2023-4">5 de febrero de 2023</h3>
 <div class="sect3">
 <h4 id="capacidad-de-definir-las-políticas-que-identifican-los-datos-que-considera-como-críticos-para-el-negocio">Capacidad de definir las políticas que identifican los datos que considera como críticos para el negocio</h4>
@@ -2091,28 +2196,6 @@
 <h4 id="se-ha-añadido-soporte-para-recibir-alertas-de-protección-contra-ransomware-por-correo-electrónico-y-en-el-centro-de-notificación">Se ha añadido soporte para recibir alertas de protección contra ransomware por correo electrónico y en el Centro de notificación</h4>
 <div class="paragraph">
 <p>La protección contra ransomware se ha integrado en el servicio de notificación de BlueXP. Puede mostrar notificaciones de protección contra ransomware haciendo clic en la campana de notificación de la barra de menús de BlueXP. También puede configurar BlueXP para que envíe notificaciones por correo electrónico como alertas, de forma que pueda ser informado de la actividad importante del sistema incluso cuando no haya iniciado sesión en el sistema. El correo electrónico puede enviarse a todos los destinatarios que tengan en cuenta las alertas de ransomware. <a href="https://docs.netapp.com/us-en/cloud-manager-ransomware/task-monitor-ransomware-alerts.html">"Vea cómo"</a>.</p>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="11-de-diciembre-de-2022-2">11 de diciembre de 2022</h3>
-<div class="sect3">
-<h4 id="se-han-añadido-nuevas-acciones-recomendadas-al-panel-de-puntuación-de-protección-de-ransomware">Se han añadido nuevas acciones recomendadas al panel de puntuación de protección de Ransomware</h4>
-<div class="paragraph">
-<p>Ahora se muestran dos acciones nuevas recomendadas para los siguientes problemas de protección contra ransomware que se encuentran en sus sistemas de almacenamiento:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p><em>Reducir los permisos para los elementos sensibles de X con amplios permisos</em> - se han encontrado archivos sensibles que tienen permisos abiertos en sus orígenes de datos</p>
-</li>
-<li>
-<p><em>Patch X CVE abiertas en las fuentes de datos y</em> - se han encontrado CVE sin parche en sus sistemas ONTAP</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>Puede seleccionar estas acciones en la interfaz de usuario y, a continuación, seguir el flujo de trabajo para resolver los problemas subyacentes. <a href="https://docs.netapp.com/us-en/cloud-manager-ransomware/task-analyze-ransomware-data.html#list-of-recommended-actions">"Consulte la lista de todas las acciones recomendadas"</a>.</p>
 </div>
 </div>
 </div>
