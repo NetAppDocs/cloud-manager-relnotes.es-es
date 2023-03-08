@@ -168,25 +168,7 @@
   <block id="fe1757784884bfcaf0ca6254fb7fa44e" category="section-title">Capacidad de descargar la página resultados de la supervisión de trabajos como un informe .csv</block>
   <block id="5ae1400b4fd16294ac8af42e98d8a9ed" category="inline-link">Vea cómo generar un informe de supervisión de trabajos</block>
   <block id="c8a0a8bdcaf1f25cbadde68224d6591d" category="paragraph">Después de filtrar la página Supervisión de trabajos para mostrar los trabajos y las acciones que le interesan, ahora puede generar y descargar un archivo .csv de esos datos. A continuación, puede analizar la información o enviar el informe a otras personas de su organización.<block ref="f54dc22fe93134a0b2767a291dba51f5" category="inline-link-rx"></block>.</block>
-  <block id="e29eef6ae64d545134f2b42984845a94" category="section-title">19 de diciembre de 2022</block>
-  <block id="89d500a3ace67f6d47edb61231336589" category="section-title">Mejoras en Cloud Backup para aplicaciones</block>
-  <block id="0a286ad90f3a25f45e443367036a8789" category="list-text">Bases de datos SAP HANA</block>
-  <block id="d5a365014bbbc5172b423043fb2a2501" category="list-text">Admite directivas personalizadas</block>
-  <block id="5ffbe0deb5b41148dc58e63a20df8411" category="list-text">Bases de datos de Oracle</block>
-  <block id="aa6dc7e308fa4a4875c447c8e7fa4a19" category="list-text">Añada hosts e implemente el plugin automáticamente</block>
-  <block id="defa9120f4acf33ddb7a4e571c70938b" category="list-text">Admite backup, restauración y clonado basados en políticas de bases de datos de Oracle que residen en Cloud Volumes ONTAP</block>
-  <block id="2c35eeb424b768876f1774567e7bf2f5" category="list-text">Admite backup y restauración basadas en políticas de bases de datos de Oracle que residen en Amazon FSX para ONTAP de NetApp</block>
-  <block id="88094c6c8ad963e6131e3c23988917d4" category="list-text">Admite la restauración de bases de datos de Oracle mediante método de conexión y copia</block>
-  <block id="7d6f6d1efeae8c573a74a091cc119cb9" category="list-text">Compatible con Oracle 21c</block>
-  <block id="35d9afe1e1e85a29b0de625fd2a9a44a" category="list-text">Admite el clonado de bases de datos de Oracle nativas en el cloud</block>
-  <block id="e75ce95021f32383e6a928c1b242bc34" category="section-title">Mejoras de Cloud Backup para máquinas virtuales</block>
-  <block id="137f19e6e2dc1219f33553b812627bc2" category="list-text">Equipos virtuales</block>
-  <block id="c2452add37f94598e06d237edc68078b" category="list-text">Realice backups de máquinas virtuales desde un almacenamiento secundario en las instalaciones</block>
-  <block id="8e21c62b69b7c01b40ec93ceb9c4b5cd" category="list-text">Admite Google Cloud Platform (GCP) para realizar backup de uno o más almacenes de datos</block>
-  <block id="6480beff3c438303fc8c6d8b4009f381" category="list-text">Admite almacenamiento en cloud de bajo coste, como Glacier, Deep Glacier y Azure Archive</block>
   <block id="5c0fff562b33dc0a5a3acac30ed2d313" category="section-title">6 de diciembre de 2022</block>
-  <block id="73358bf2a9d2d2c32dbbab5b76681d7f" category="section-title">Cambios de extremo de acceso a Internet saliente del conector requerido</block>
-  <block id="06c42f4f82e29b4e90570ef70b538ed4" category="paragraph">Debido a un cambio en Cloud Backup, debe cambiar los siguientes extremos de conector para que la operación de Cloud Backup se realice correctamente:</block>
   <block id="eb75f7332becd8b3fbb2a59ea0bd0536" category="cell">Extremo antiguo</block>
   <block id="afcce2fe2d959c0f4554e7815a50e8e4" category="cell">Nuevo extremo</block>
   <block id="115781a0043a85f8707c5c99fd02dc75" category="cell">\https://cloudmanager.cloud.netapp.com</block>
@@ -197,15 +179,6 @@
   <block id="56ef2682280ac110060b881925a87b80" category="inline-link">Google Cloud</block>
   <block id="3a580f142203677f1f0bc30898f63f53" category="inline-link">Azure</block>
   <block id="0e40b9cba041560c9517bc49757da3c7" category="paragraph">Vea la lista completa de puntos finales de la<block ref="4c9e3e17ba20f553394e5bc78e402946" category="inline-link-rx"></block>,<block ref="cd3c6f623ccf3e34f9d46b28c47f2a3d" category="inline-link-rx"></block>, o.<block ref="80755100f97c37f8aa8e3d999b0a43d9" category="inline-link-rx"></block> de cloud híbrido.</block>
-  <block id="e3a84cf85e2ede3f349ff73485707901" category="section-title">Compatibilidad para seleccionar la clase de almacenamiento Google Archival en la interfaz de usuario</block>
-  <block id="862c6bfd630667f5b535d9741b4f08fc" category="paragraph">Los archivos de copia de seguridad se crean inicialmente en la clase de almacenamiento de Google Standard. Ahora puede usar la interfaz de usuario de Cloud Backup para organizar los backups anteriores en niveles en el almacenamiento de Google Archive después de unos días, y conseguir una optimización de costes adicional.</block>
-  <block id="738d31d37e16df450b2af9540e98c7d4" category="paragraph">Esta funcionalidad actualmente es compatible con clústeres de ONTAP en las instalaciones utilizando ONTAP 9.12.1 o posterior. No está disponible actualmente para los sistemas Cloud Volumes ONTAP.</block>
-  <block id="4547c4a9db890b3449aca4e706555007" category="section-title">Compatibilidad con volúmenes de FlexGroup</block>
-  <block id="f337eb9be5f215d07b89436adc58d486" category="paragraph">Cloud Backup ahora admite los backups y restauración de volúmenes de FlexGroup. Al usar ONTAP 9.12.1 o superior, puede realizar un backup de FlexGroup Volumes en un almacenamiento en cloud público y privado. Si tiene entornos de trabajo que incluyen volúmenes FlexVol y FlexGroup, una vez que actualice el software ONTAP, puede realizar un backup de cualquiera de los volúmenes FlexGroup de esos sistemas.</block>
-  <block id="cce3f2ac0edcb49693caf11399223d89" category="inline-link">Consulte la lista completa de los tipos de volumen admitidos</block>
-  <block id="2750ec6dc42d79b24b9902d41543b6fd" category="paragraph"><block ref="0b2b94d5062b1eb6747bf9cb58e01b77" category="inline-link-rx"></block>.</block>
-  <block id="d1c49eec91984b5c0c7c8ff6998bb65d" category="section-title">Capacidad de restaurar datos desde backups a un agregado específico en sistemas Cloud Volumes ONTAP</block>
-  <block id="e674451efff1f119cf056a3e852d4483" category="paragraph">En versiones anteriores solo podía seleccionar el agregado al restaurar datos en sistemas ONTAP en las instalaciones. Esta funcionalidad ahora funciona cuando se restauran datos en sistemas Cloud Volumes ONTAP.</block>
   <block id="5c19ef53902ef56ea5c8f554cccb9ad8" category="section-title">5 de febrero de 2023 (versión 1.20)</block>
   <block id="f0da8cded20db5ee6dce9c1c4da7bcd8" category="section-title">Posibilidad de enviar correos electrónicos de notificación basados en políticas a cualquier dirección de correo electrónico</block>
   <block id="01bfbdebf8836af0160f70e1bacc3787" category="paragraph">En versiones anteriores de Cloud Data Sense, puede enviar alertas de correo electrónico a los usuarios de BlueXP de su cuenta cuando ciertas políticas críticas devuelven resultados. Esta función le permite obtener notificaciones para proteger sus datos cuando no está en línea. Ahora también puede enviar alertas de correo electrónico desde Directivas a cualquier otro usuario - hasta 20 direcciones de correo electrónico - que no se encuentren en su cuenta de BlueXP.</block>
@@ -360,11 +333,7 @@
   <block id="fced3090ff990434831b838f07c6a3a7" category="paragraph">La licencia de gestión de claves de cifrado multi-tenant (MTEKM) ya no se incluye en las nuevas implementaciones de Cloud Volumes ONTAP.</block>
   <block id="a1299d36f8821164c4414c1a5ab986dd" category="inline-link-macro">Configuración predeterminada de Cloud Volumes ONTAP</block>
   <block id="a8e8ca53febeb9bd58edbc0647eb9a34" category="paragraph">Para obtener más información sobre las licencias de funciones de ONTAP instaladas automáticamente con Cloud Volumes ONTAP, consulte <block ref="79578e78303d1a240e8fa9c178a9de63" category="inline-link-macro-rx"></block>.</block>
-  <block id="97145bbcb02af5e728740b1d40bd2046" category="section-title">15 de diciembre de 2022</block>
-  <block id="bf748f930fa11e46773ff6f7b815e480" category="section-title">Cloud Volumes ONTAP 9.12.0</block>
-  <block id="80df4292f7c986dbd0920bb576487060" category="paragraph">BlueXP ahora puede poner en marcha y gestionar Cloud Volumes ONTAP 9.12.0 en AWS y Google Cloud.</block>
   <block id="9f97c3125a701942b4e6e648146819fc" category="inline-link">Conozca cuáles son las nuevas funciones que se incluyen en esta versión de Cloud Volumes ONTAP</block>
-  <block id="64885a300b31929a1b0ea6b5a20128d3" category="paragraph"><block ref="065aa84d514cfdc6fc00d8cb3eaf6ec4" category="inline-link-rx"></block>.</block>
   <block id="a3c559e0541e9bb860178ce6fe414224" category="section-title">Cloud Volumes Service para GCP</block>
   <block id="a633f0835832cc75f5a83248a8aa2ba8" category="section-title">9 de septiembre de 2020</block>
   <block id="8751230100c974b7c3ae5adae22c0f7c" category="section-title">Compatibilidad con Cloud Volumes Service para Google Cloud</block>
@@ -524,7 +493,6 @@
   <block id="37e16775c1bede9551f227ccaca87974" category="paragraph"><block ref="37e16775c1bede9551f227ccaca87974" category="inline-link-rx"></block></block>
   <block id="eea1e3b9ecdd5e32692761a0a78b9463" category="section-title">05 de marzo de 2023</block>
   <block id="3aea41413b60d0894823e739f01efcbb" category="paragraph">Se han realizado mejoras en la interfaz de usuario y se han actualizado las capturas de pantalla en la documentación.</block>
-  <block id="fcdf1a1b46f3b7e8ad6ff82010438a90" category="list-text">Admite backup y restauración basadas en políticas de bases de datos SAP HANA que residen en Azure NetApp Files</block>
   <block id="b92f2131d3d225c3c3327daaa8862624" category="section-title">Ahora puede generar un informe de organización en niveles para sus volúmenes</block>
   <block id="f86857f0a51fde5819da3a17258b5448" category="inline-link">Descubra cómo descargar el informe de organización en niveles</block>
   <block id="10607665fc9de51ae2bf29927d3673b9" category="paragraph">Es posible descargar un informe en la página Tier Volumes para revisar el estado de organización en niveles de todos los volúmenes en los clústeres que se están gestionando. Cloud Tiering genera un archivo .CSV que puede revisar y enviar a otras personas de su empresa según lo necesite.<block ref="b6be70acd3f28aaa18a7e212c9bc7736" category="inline-link-rx"></block>.</block>
@@ -577,4 +545,24 @@
   <block id="912b3a604a5106bda5b0c99ddaaf1364" category="section-title">Posibilidad de añadir nuevos cubos desde BlueXP</block>
   <block id="c07c4e2e029d6d6eb829c29902cb63ff" category="inline-link">Descubra cómo añadir nuevos bloques de Amazon S3</block>
   <block id="91402ca539ef196ec17265c55db694dc" category="paragraph">Has tenido la posibilidad de ver cubos de Amazon S3 en BlueXP Canvas durante mucho tiempo. Ahora puede agregar nuevos cubos y cambiar las propiedades de los cubos existentes directamente desde BlueXP.<block ref="2c8909472f79d70b0988a1b1340a52c9" category="inline-link-rx"></block>.</block>
+  <block id="d564f41f7e0ffa3f9e8bc7a809230f94" category="list-text">El conector ahora le permite agregar y gestionar cubos de Amazon S3 desde BlueXP.</block>
+  <block id="f19dd7eba16fe45d9a801001a9371842" category="inline-link">Vea cómo añadir nuevos bloques de Amazon S3 en su cuenta de AWS desde BlueXP</block>
+  <block id="3fdb23ee61e644ed849519b472ba51ae" category="paragraph"><block ref="35aa20e861d3bf81209592fa160bd4e4" category="inline-link-rx"></block>.</block>
+  <block id="01e76ab0dacc58799dc14adbdc705ac7" category="section-title">9 de marzo de 2023</block>
+  <block id="35203f05692d5cc102a5525bf4de9733" category="section-title">Las operaciones de restauración a nivel de carpeta ahora incluyen todas las subcarpetas y archivos</block>
+  <block id="5463242c7cc34f92b5dbbf1ab6d87188" category="paragraph">Anteriormente, cuando restauró una carpeta, solo se restauran los archivos de esa carpeta, no se restauran ni las subcarpetas ni los archivos. Ahora, si utiliza ONTAP 9.13.0 o superior, se restauran todas las subcarpetas y los archivos de la carpeta seleccionada. Esto puede ahorrar mucho tiempo y dinero en casos en los que tiene varias carpetas anidadas en una carpeta de nivel superior.</block>
+  <block id="bbe776d643f3b0568f3c2fa216a50124" category="section-title">Capacidad para realizar backups de datos de sistemas Cloud Volumes ONTAP en sitios oscuros</block>
+  <block id="9d811f8ab4335c82eeb7d1477874bc1c" category="inline-link-macro">Realizar backups de los datos de Cloud Volumes ONTAP en Amazon S3</block>
+  <block id="a5e6246728060cb5f413df6fa5adbf0c" category="inline-link-macro">Realizar backups de los datos de Cloud Volumes ONTAP en Azure Blob</block>
+  <block id="aef1b3252b7a5b85dab7066cccc19b52" category="paragraph">Ahora puede realizar backups de datos de sistemas Cloud Volumes ONTAP instalados en regiones comerciales de AWS y Azure en Amazon S3 o Azure Blob. Para ello, es necesario instalar el conector en un host Linux de la región comercial y que también se ponga en marcha el sistema Cloud Volumes ONTAP. Consulte <block ref="31e49e13e812c331f506a2a8e6b7ad22" category="inline-link-macro-rx"></block> y.. <block ref="ab5c78f08c8780b598ee1d4de19230ab" category="inline-link-macro-rx"></block>.</block>
+  <block id="463ed6b78b2c95e39ecc10ee3195e921" category="section-title">Job Monitor ofrece filtrado avanzado para encontrar trabajos de backup o restauración específicos</block>
+  <block id="1cdf820a77c583c660d65df7b1ca03b8" category="inline-link">Consulte cómo utilizar los filtros avanzados</block>
+  <block id="aa3492539222da5bc85fd5614f489f71" category="paragraph">La página Job Monitoring ha añadido un filtrado avanzado para poder buscar trabajos de backup y restauración en función del tiempo, la carga de trabajo (volúmenes, aplicaciones, máquinas virtuales o Kubernetes), Tipo de trabajo, estado, entorno de trabajo y máquina virtual de almacenamiento. También puede introducir texto libre para buscar cualquier recurso, por ejemplo, "Application_3". <block ref="f726054cf0d935cd51c2a5edb3b3fd0c" category="inline-link-rx"></block>.</block>
+  <block id="a19f14c281dd654ce355a7e0b63146b5" category="section-title">Cifrado EBS para agentes de datos de AWS</block>
+  <block id="8663378959352a24f27c3d250a37cf3d" category="paragraph">Ahora puede cifrar volúmenes de agentes de datos de AWS mediante una clave KMS desde su cuenta.</block>
+  <block id="f296e44bbf15ea94dfcce2d2a4649e6d" category="inline-link">Obtenga más información sobre cómo crear un agente de datos en AWS</block>
+  <block id="d44d7e95c5eca613daa8fef0c12530ae" category="paragraph"><block ref="0c0a23f9985774f63451c32bdf4cbdeb" category="inline-link-rx"></block>.</block>
+  <block id="5b420079bca1c870914caa221b31442e" category="section-title">Cloud Volumes ONTAP 9.13.0</block>
+  <block id="ad598f033e541927e862b0c5e17319ec" category="paragraph">BlueXP ahora puede poner en marcha y gestionar Cloud Volumes ONTAP 9.13.0 en AWS, Azure y Google Cloud.</block>
+  <block id="066405d152aeaf5c017e93048679ce43" category="paragraph"><block ref="0d69949c9de36f8752d49be7f0ec9aed" category="inline-link-rx"></block>.</block>
 </blocks>

@@ -65,6 +65,10 @@ Para empezar, instale manualmente el software conector, inicie sesión en la con
 ** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-overview-cvo.html["Empiece a usar Cloud Volumes ONTAP"^]
 
 
+* El conector ahora le permite agregar y gestionar cubos de Amazon S3 desde BlueXP.
++
+https://docs.netapp.com/us-en/bluexp-s3-storage/task-add-s3-bucket.html["Vea cómo añadir nuevos bloques de Amazon S3 en su cuenta de AWS desde BlueXP"^].
+
 * Esta versión del conector incluye mejoras de Cloud Volumes ONTAP.
 +
 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#5-march-2023["Obtenga información acerca de las mejoras de Cloud Volumes ONTAP"^]
@@ -265,6 +269,28 @@ https://docs.netapp.com/us-en/cloud-manager-app-template/concept-tagging.html["O
 
 
 
+=== 9 de marzo de 2023
+
+
+
+==== Las operaciones de restauración a nivel de carpeta ahora incluyen todas las subcarpetas y archivos
+
+Anteriormente, cuando restauró una carpeta, solo se restauran los archivos de esa carpeta, no se restauran ni las subcarpetas ni los archivos. Ahora, si utiliza ONTAP 9.13.0 o superior, se restauran todas las subcarpetas y los archivos de la carpeta seleccionada. Esto puede ahorrar mucho tiempo y dinero en casos en los que tiene varias carpetas anidadas en una carpeta de nivel superior.
+
+
+
+==== Capacidad para realizar backups de datos de sistemas Cloud Volumes ONTAP en sitios oscuros
+
+Ahora puede realizar backups de datos de sistemas Cloud Volumes ONTAP instalados en regiones comerciales de AWS y Azure en Amazon S3 o Azure Blob. Para ello, es necesario instalar el conector en un host Linux de la región comercial y que también se ponga en marcha el sistema Cloud Volumes ONTAP. Consulte link:task-backup-to-s3.html["Realizar backups de los datos de Cloud Volumes ONTAP en Amazon S3"] y.. link:task-backup-to-azure.html["Realizar backups de los datos de Cloud Volumes ONTAP en Azure Blob"].
+
+
+
+==== Job Monitor ofrece filtrado avanzado para encontrar trabajos de backup o restauración específicos
+
+La página Job Monitoring ha añadido un filtrado avanzado para poder buscar trabajos de backup y restauración en función del tiempo, la carga de trabajo (volúmenes, aplicaciones, máquinas virtuales o Kubernetes), Tipo de trabajo, estado, entorno de trabajo y máquina virtual de almacenamiento. También puede introducir texto libre para buscar cualquier recurso, por ejemplo, "Application_3".  https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-monitor-backup-jobs.html#searching-and-filtering-the-list-of-jobs["Consulte cómo utilizar los filtros avanzados"].
+
+
+
 === 6 de febrero de 2023
 
 
@@ -346,91 +372,6 @@ https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-restore-backups-
 ==== Capacidad de descargar la página resultados de la supervisión de trabajos como un informe .csv
 
 Después de filtrar la página Supervisión de trabajos para mostrar los trabajos y las acciones que le interesan, ahora puede generar y descargar un archivo .csv de esos datos. A continuación, puede analizar la información o enviar el informe a otras personas de su organización. https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-monitor-backup-jobs.html#download-job-monitoring-results-as-a-report["Vea cómo generar un informe de supervisión de trabajos"].
-
-
-
-=== 19 de diciembre de 2022
-
-
-
-==== Mejoras en Cloud Backup para aplicaciones
-
-* Bases de datos SAP HANA
-+
-** Admite backup y restauración basadas en políticas de bases de datos SAP HANA que residen en Azure NetApp Files
-** Admite directivas personalizadas
-
-
-* Bases de datos de Oracle
-+
-** Añada hosts e implemente el plugin automáticamente
-** Admite directivas personalizadas
-** Admite backup, restauración y clonado basados en políticas de bases de datos de Oracle que residen en Cloud Volumes ONTAP
-** Admite backup y restauración basadas en políticas de bases de datos de Oracle que residen en Amazon FSX para ONTAP de NetApp
-** Admite la restauración de bases de datos de Oracle mediante método de conexión y copia
-** Compatible con Oracle 21c
-** Admite el clonado de bases de datos de Oracle nativas en el cloud
-
-
-
-
-
-
-==== Mejoras de Cloud Backup para máquinas virtuales
-
-* Equipos virtuales
-+
-** Realice backups de máquinas virtuales desde un almacenamiento secundario en las instalaciones
-** Admite directivas personalizadas
-** Admite Google Cloud Platform (GCP) para realizar backup de uno o más almacenes de datos
-** Admite almacenamiento en cloud de bajo coste, como Glacier, Deep Glacier y Azure Archive
-
-
-
-
-
-
-=== 6 de diciembre de 2022
-
-
-
-==== Cambios de extremo de acceso a Internet saliente del conector requerido
-
-Debido a un cambio en Cloud Backup, debe cambiar los siguientes extremos de conector para que la operación de Cloud Backup se realice correctamente:
-
-[cols="50,50"]
-|===
-| Extremo antiguo | Nuevo extremo 
-
-
-| \https://cloudmanager.cloud.netapp.com | \https://api.bluexp.netapp.com 
-
-
-| \https://*.cloudmanager.cloud.netapp.com | \https://*.api.bluexp.netapp.com 
-|===
-Vea la lista completa de puntos finales de la https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html#outbound-internet-access["AWS"^], https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-gcp.html#outbound-internet-access["Google Cloud"^], o. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-azure.html#outbound-internet-access["Azure"^] de cloud híbrido.
-
-
-
-==== Compatibilidad para seleccionar la clase de almacenamiento Google Archival en la interfaz de usuario
-
-Los archivos de copia de seguridad se crean inicialmente en la clase de almacenamiento de Google Standard. Ahora puede usar la interfaz de usuario de Cloud Backup para organizar los backups anteriores en niveles en el almacenamiento de Google Archive después de unos días, y conseguir una optimización de costes adicional.
-
-Esta funcionalidad actualmente es compatible con clústeres de ONTAP en las instalaciones utilizando ONTAP 9.12.1 o posterior. No está disponible actualmente para los sistemas Cloud Volumes ONTAP.
-
-
-
-==== Compatibilidad con volúmenes de FlexGroup
-
-Cloud Backup ahora admite los backups y restauración de volúmenes de FlexGroup. Al usar ONTAP 9.12.1 o superior, puede realizar un backup de FlexGroup Volumes en un almacenamiento en cloud público y privado. Si tiene entornos de trabajo que incluyen volúmenes FlexVol y FlexGroup, una vez que actualice el software ONTAP, puede realizar un backup de cualquiera de los volúmenes FlexGroup de esos sistemas.
-
-https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html#supported-volumes["Consulte la lista completa de los tipos de volumen admitidos"].
-
-
-
-==== Capacidad de restaurar datos desde backups a un agregado específico en sistemas Cloud Volumes ONTAP
-
-En versiones anteriores solo podía seleccionar el agregado al restaurar datos en sistemas ONTAP en las instalaciones. Esta funcionalidad ahora funciona cuando se restauran datos en sistemas Cloud Volumes ONTAP.
 
 
 
@@ -566,6 +507,18 @@ Data Sense puede identificar y categorizar archivos que contengan el número ind
 
 
 == Cloud Sync
+
+
+
+=== 7 de marzo de 2023
+
+
+
+==== Cifrado EBS para agentes de datos de AWS
+
+Ahora puede cifrar volúmenes de agentes de datos de AWS mediante una clave KMS desde su cuenta.
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-aws.html#creating-the-data-broker["Obtenga más información sobre cómo crear un agente de datos en AWS"].
 
 
 
@@ -883,6 +836,14 @@ Los siguientes cambios se introdujeron con la versión 3.9.27 del conector.
 
 
 
+==== Cloud Volumes ONTAP 9.13.0
+
+BlueXP ahora puede poner en marcha y gestionar Cloud Volumes ONTAP 9.13.0 en AWS, Azure y Google Cloud.
+
+https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes["Conozca cuáles son las nuevas funciones que se incluyen en esta versión de Cloud Volumes ONTAP"^].
+
+
+
 ==== Compatibilidad con 16 TIB y 32 Tib en Azure
 
 Cloud Volumes ONTAP ahora admite tamaños de disco de 16 TIB y 32 TIB para puestas en marcha de alta disponibilidad que se ejecutan en discos gestionados en Azure.
@@ -961,18 +922,6 @@ Consulte link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/co
 La licencia de gestión de claves de cifrado multi-tenant (MTEKM) ya no se incluye en las nuevas implementaciones de Cloud Volumes ONTAP.
 
 Para obtener más información sobre las licencias de funciones de ONTAP instaladas automáticamente con Cloud Volumes ONTAP, consulte link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/reference-default-configs.html["Configuración predeterminada de Cloud Volumes ONTAP"^].
-
-
-
-=== 15 de diciembre de 2022
-
-
-
-==== Cloud Volumes ONTAP 9.12.0
-
-BlueXP ahora puede poner en marcha y gestionar Cloud Volumes ONTAP 9.12.0 en AWS y Google Cloud.
-
-https://docs.netapp.com/us-en/cloud-volumes-ontap-9120-relnotes["Conozca cuáles son las nuevas funciones que se incluyen en esta versión de Cloud Volumes ONTAP"^].
 
 
 
