@@ -468,7 +468,7 @@
 <p class="page-details">
   
     
-    <time datetime="2023-03-08 17:01:46 +0000">03/08/2023</time>
+    <time datetime="2023-03-13 15:01:58 +0000">03/13/2023</time>
     
   
 
@@ -519,10 +519,9 @@
 </li>
 <li><a href="#backup-en-el-cloud">Backup en el cloud</a>
 <ul class="sectlevel2">
+<li><a href="#9-de-marzo-de-2023">9 de marzo de 2023</a></li>
 <li><a href="#6-de-febrero-de-2023">6 de febrero de 2023</a></li>
 <li><a href="#9-de-enero-de-2023">9 de enero de 2023</a></li>
-<li><a href="#19-de-diciembre-de-2022">19 de diciembre de 2022</a></li>
-<li><a href="#6-de-diciembre-de-2022">6 de diciembre de 2022</a></li>
 </ul>
 </li>
 <li><a href="#cloud-data-sense">Cloud Data SENSE</a>
@@ -534,6 +533,7 @@
 </li>
 <li><a href="#cloud-sync">Cloud Sync</a>
 <ul class="sectlevel2">
+<li><a href="#7-de-marzo-de-2023">7 de marzo de 2023</a></li>
 <li><a href="#5-de-febrero-de-2023-2">5 de febrero de 2023</a></li>
 <li><a href="#3-de-enero-de-2023">3 de enero de 2023</a></li>
 <li><a href="#11-de-diciembre-de-2022">11 de diciembre de 2022</a></li>
@@ -546,7 +546,7 @@
 <li><a href="#organización-en-niveles-del-cloud">Organización en niveles del cloud</a>
 <ul class="sectlevel2">
 <li><a href="#5-de-marzo-de-2023-3">5 de marzo de 2023</a></li>
-<li><a href="#6-de-diciembre-de-2022-2">6 de diciembre de 2022</a></li>
+<li><a href="#6-de-diciembre-de-2022">6 de diciembre de 2022</a></li>
 <li><a href="#6-de-noviembre-de-2022">6 de noviembre de 2022</a></li>
 </ul>
 </li>
@@ -555,7 +555,6 @@
 <li><a href="#5-de-marzo-de-2023-4">5 de marzo de 2023</a></li>
 <li><a href="#5-de-febrero-de-2023-3">5 de febrero de 2023</a></li>
 <li><a href="#1-de-enero-de-2023-2">1 de enero de 2023</a></li>
-<li><a href="#15-de-diciembre-de-2022">15 de diciembre de 2022</a></li>
 </ul>
 </li>
 <li><a href="#cloud-volumes-service-para-gcp">Cloud Volumes Service para GCP</a>
@@ -608,7 +607,7 @@
 </li>
 <li><a href="#protección-contra-ransomware">Protección contra ransomware</a>
 <ul class="sectlevel2">
-<li><a href="#7-de-marzo-de-2023">7 de marzo de 2023</a></li>
+<li><a href="#7-de-marzo-de-2023-2">7 de marzo de 2023</a></li>
 <li><a href="#5-de-febrero-de-2023-4">5 de febrero de 2023</a></li>
 <li><a href="#9-de-enero-de-2023-2">9 de enero de 2023</a></li>
 </ul>
@@ -700,6 +699,12 @@
 <p><a href="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-overview-cvo.html" target="_blank" rel="noopener">"Empiece a usar Cloud Volumes ONTAP"</a></p>
 </li>
 </ul>
+</div>
+</li>
+<li>
+<p>El conector ahora le permite agregar y gestionar cubos de Amazon S3 desde BlueXP.</p>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-s3-storage/task-add-s3-bucket.html" target="_blank" rel="noopener">"Vea cómo añadir nuevos bloques de Amazon S3 en su cuenta de AWS desde BlueXP"</a>.</p>
 </div>
 </li>
 <li>
@@ -951,6 +956,27 @@
 <h2 id="backup-en-el-cloud">Backup en el cloud</h2>
 <div class="sectionbody">
 <div class="sect2">
+<h3 id="9-de-marzo-de-2023">9 de marzo de 2023</h3>
+<div class="sect3">
+<h4 id="las-operaciones-de-restauración-a-nivel-de-carpeta-ahora-incluyen-todas-las-subcarpetas-y-archivos">Las operaciones de restauración a nivel de carpeta ahora incluyen todas las subcarpetas y archivos</h4>
+<div class="paragraph">
+<p>Anteriormente, cuando restauró una carpeta, solo se restauran los archivos de esa carpeta, no se restauran ni las subcarpetas ni los archivos. Ahora, si utiliza ONTAP 9.13.0 o superior, se restauran todas las subcarpetas y los archivos de la carpeta seleccionada. Esto puede ahorrar mucho tiempo y dinero en casos en los que tiene varias carpetas anidadas en una carpeta de nivel superior.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="capacidad-para-realizar-backups-de-datos-de-sistemas-cloud-volumes-ontap-en-sitios-oscuros">Capacidad para realizar backups de datos de sistemas Cloud Volumes ONTAP en sitios oscuros</h4>
+<div class="paragraph">
+<p>Ahora puede realizar backups de datos de sistemas Cloud Volumes ONTAP instalados en regiones comerciales de AWS y Azure en Amazon S3 o Azure Blob. Para ello, es necesario instalar el conector en un host Linux de la región comercial y que también se ponga en marcha el sistema Cloud Volumes ONTAP. Consulte <a href="task-backup-to-s3.html">"Realizar backups de los datos de Cloud Volumes ONTAP en Amazon S3"</a> y.. <a href="task-backup-to-azure.html">"Realizar backups de los datos de Cloud Volumes ONTAP en Azure Blob"</a>.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="job-monitor-ofrece-filtrado-avanzado-para-encontrar-trabajos-de-backup-o-restauración-específicos">Job Monitor ofrece filtrado avanzado para encontrar trabajos de backup o restauración específicos</h4>
+<div class="paragraph">
+<p>La página Job Monitoring ha añadido un filtrado avanzado para poder buscar trabajos de backup y restauración en función del tiempo, la carga de trabajo (volúmenes, aplicaciones, máquinas virtuales o Kubernetes), Tipo de trabajo, estado, entorno de trabajo y máquina virtual de almacenamiento. También puede introducir texto libre para buscar cualquier recurso, por ejemplo, "Application_3".  <a href="https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-monitor-backup-jobs.html#searching-and-filtering-the-list-of-jobs">"Consulte cómo utilizar los filtros avanzados"</a>.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
 <h3 id="6-de-febrero-de-2023">6 de febrero de 2023</h3>
 <div class="sect3">
 <h4 id="capacidad-para-mover-archivos-de-backup-antiguos-a-almacenamiento-de-archivado-de-azure-desde-sistemas-storagegrid">Capacidad para mover archivos de backup antiguos a almacenamiento de archivado de Azure desde sistemas StorageGRID</h4>
@@ -1038,141 +1064,6 @@
 <h4 id="capacidad-de-descargar-la-página-resultados-de-la-supervisión-de-trabajos-como-un-informe-csv">Capacidad de descargar la página resultados de la supervisión de trabajos como un informe .csv</h4>
 <div class="paragraph">
 <p>Después de filtrar la página Supervisión de trabajos para mostrar los trabajos y las acciones que le interesan, ahora puede generar y descargar un archivo .csv de esos datos. A continuación, puede analizar la información o enviar el informe a otras personas de su organización. <a href="https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-monitor-backup-jobs.html#download-job-monitoring-results-as-a-report">"Vea cómo generar un informe de supervisión de trabajos"</a>.</p>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="19-de-diciembre-de-2022">19 de diciembre de 2022</h3>
-<div class="sect3">
-<h4 id="mejoras-en-cloud-backup-para-aplicaciones">Mejoras en Cloud Backup para aplicaciones</h4>
-<div class="ulist">
-<ul>
-<li>
-<p>Bases de datos SAP HANA</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Admite backup y restauración basadas en políticas de bases de datos SAP HANA que residen en Azure NetApp Files</p>
-</li>
-<li>
-<p>Admite directivas personalizadas</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>Bases de datos de Oracle</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Añada hosts e implemente el plugin automáticamente</p>
-</li>
-<li>
-<p>Admite directivas personalizadas</p>
-</li>
-<li>
-<p>Admite backup, restauración y clonado basados en políticas de bases de datos de Oracle que residen en Cloud Volumes ONTAP</p>
-</li>
-<li>
-<p>Admite backup y restauración basadas en políticas de bases de datos de Oracle que residen en Amazon FSX para ONTAP de NetApp</p>
-</li>
-<li>
-<p>Admite la restauración de bases de datos de Oracle mediante método de conexión y copia</p>
-</li>
-<li>
-<p>Compatible con Oracle 21c</p>
-</li>
-<li>
-<p>Admite el clonado de bases de datos de Oracle nativas en el cloud</p>
-</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect3">
-<h4 id="mejoras-de-cloud-backup-para-máquinas-virtuales">Mejoras de Cloud Backup para máquinas virtuales</h4>
-<div class="ulist">
-<ul>
-<li>
-<p>Equipos virtuales</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Realice backups de máquinas virtuales desde un almacenamiento secundario en las instalaciones</p>
-</li>
-<li>
-<p>Admite directivas personalizadas</p>
-</li>
-<li>
-<p>Admite Google Cloud Platform (GCP) para realizar backup de uno o más almacenes de datos</p>
-</li>
-<li>
-<p>Admite almacenamiento en cloud de bajo coste, como Glacier, Deep Glacier y Azure Archive</p>
-</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="6-de-diciembre-de-2022">6 de diciembre de 2022</h3>
-<div class="sect3">
-<h4 id="cambios-de-extremo-de-acceso-a-internet-saliente-del-conector-requerido">Cambios de extremo de acceso a Internet saliente del conector requerido</h4>
-<div class="paragraph">
-<p>Debido a un cambio en Cloud Backup, debe cambiar los siguientes extremos de conector para que la operación de Cloud Backup se realice correctamente:</p>
-</div>
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 50%;">
-<col style="width: 50%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top">Extremo antiguo</th>
-<th class="tableblock halign-left valign-top">Nuevo extremo</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">https://cloudmanager.cloud.netapp.com</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">https://api.bluexp.netapp.com</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">https://*.cloudmanager.cloud.netapp.com</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">https://*.api.bluexp.netapp.com</p></td>
-</tr>
-</tbody>
-</table>
-<div class="paragraph">
-<p>Vea la lista completa de puntos finales de la <a href="https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html#outbound-internet-access" target="_blank" rel="noopener">"AWS"</a>, <a href="https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-gcp.html#outbound-internet-access" target="_blank" rel="noopener">"Google Cloud"</a>, o. <a href="https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-azure.html#outbound-internet-access" target="_blank" rel="noopener">"Azure"</a> de cloud híbrido.</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="compatibilidad-para-seleccionar-la-clase-de-almacenamiento-google-archival-en-la-interfaz-de-usuario">Compatibilidad para seleccionar la clase de almacenamiento Google Archival en la interfaz de usuario</h4>
-<div class="paragraph">
-<p>Los archivos de copia de seguridad se crean inicialmente en la clase de almacenamiento de Google Standard. Ahora puede usar la interfaz de usuario de Cloud Backup para organizar los backups anteriores en niveles en el almacenamiento de Google Archive después de unos días, y conseguir una optimización de costes adicional.</p>
-</div>
-<div class="paragraph">
-<p>Esta funcionalidad actualmente es compatible con clústeres de ONTAP en las instalaciones utilizando ONTAP 9.12.1 o posterior. No está disponible actualmente para los sistemas Cloud Volumes ONTAP.</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="compatibilidad-con-volúmenes-de-flexgroup">Compatibilidad con volúmenes de FlexGroup</h4>
-<div class="paragraph">
-<p>Cloud Backup ahora admite los backups y restauración de volúmenes de FlexGroup. Al usar ONTAP 9.12.1 o superior, puede realizar un backup de FlexGroup Volumes en un almacenamiento en cloud público y privado. Si tiene entornos de trabajo que incluyen volúmenes FlexVol y FlexGroup, una vez que actualice el software ONTAP, puede realizar un backup de cualquiera de los volúmenes FlexGroup de esos sistemas.</p>
-</div>
-<div class="paragraph">
-<p><a href="https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html#supported-volumes">"Consulte la lista completa de los tipos de volumen admitidos"</a>.</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="capacidad-de-restaurar-datos-desde-backups-a-un-agregado-específico-en-sistemas-cloud-volumes-ontap">Capacidad de restaurar datos desde backups a un agregado específico en sistemas Cloud Volumes ONTAP</h4>
-<div class="paragraph">
-<p>En versiones anteriores solo podía seleccionar el agregado al restaurar datos en sistemas ONTAP en las instalaciones. Esta funcionalidad ahora funciona cuando se restauran datos en sistemas Cloud Volumes ONTAP.</p>
 </div>
 </div>
 </div>
@@ -1346,6 +1237,18 @@
 <div class="sect1">
 <h2 id="cloud-sync">Cloud Sync</h2>
 <div class="sectionbody">
+<div class="sect2">
+<h3 id="7-de-marzo-de-2023">7 de marzo de 2023</h3>
+<div class="sect3">
+<h4 id="cifrado-ebs-para-agentes-de-datos-de-aws">Cifrado EBS para agentes de datos de AWS</h4>
+<div class="paragraph">
+<p>Ahora puede cifrar volúmenes de agentes de datos de AWS mediante una clave KMS desde su cuenta.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-aws.html#creating-the-data-broker">"Obtenga más información sobre cómo crear un agente de datos en AWS"</a>.</p>
+</div>
+</div>
+</div>
 <div class="sect2">
 <h3 id="5-de-febrero-de-2023-2">5 de febrero de 2023</h3>
 <div class="sect3">
@@ -1698,7 +1601,7 @@
 </div>
 </div>
 <div class="sect2">
-<h3 id="6-de-diciembre-de-2022-2">6 de diciembre de 2022</h3>
+<h3 id="6-de-diciembre-de-2022">6 de diciembre de 2022</h3>
 <div class="sect3">
 <h4 id="cambios-de-extremo-de-acceso-saliente-a-internet-del-conector">Cambios de extremo de acceso saliente a Internet del conector</h4>
 <div class="paragraph">
@@ -1749,6 +1652,15 @@
 <h3 id="5-de-marzo-de-2023-4">5 de marzo de 2023</h3>
 <div class="paragraph">
 <p>Los siguientes cambios se introdujeron con la versión 3.9.27 del conector.</p>
+</div>
+<div class="sect3">
+<h4 id="cloud-volumes-ontap-9-13-0">Cloud Volumes ONTAP 9.13.0</h4>
+<div class="paragraph">
+<p>BlueXP ahora puede poner en marcha y gestionar Cloud Volumes ONTAP 9.13.0 en AWS, Azure y Google Cloud.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes" target="_blank" rel="noopener">"Conozca cuáles son las nuevas funciones que se incluyen en esta versión de Cloud Volumes ONTAP"</a>.</p>
+</div>
 </div>
 <div class="sect3">
 <h4 id="compatibilidad-con-16-tib-y-32-tib-en-azure">Compatibilidad con 16 TIB y 32 Tib en Azure</h4>
@@ -1845,18 +1757,6 @@
 </div>
 <div class="paragraph">
 <p>Para obtener más información sobre las licencias de funciones de ONTAP instaladas automáticamente con Cloud Volumes ONTAP, consulte <a href="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/reference-default-configs.html" target="_blank" rel="noopener">"Configuración predeterminada de Cloud Volumes ONTAP"</a>.</p>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="15-de-diciembre-de-2022">15 de diciembre de 2022</h3>
-<div class="sect3">
-<h4 id="cloud-volumes-ontap-9-12-0">Cloud Volumes ONTAP 9.12.0</h4>
-<div class="paragraph">
-<p>BlueXP ahora puede poner en marcha y gestionar Cloud Volumes ONTAP 9.12.0 en AWS y Google Cloud.</p>
-</div>
-<div class="paragraph">
-<p><a href="https://docs.netapp.com/us-en/cloud-volumes-ontap-9120-relnotes" target="_blank" rel="noopener">"Conozca cuáles son las nuevas funciones que se incluyen en esta versión de Cloud Volumes ONTAP"</a>.</p>
 </div>
 </div>
 </div>
@@ -2180,7 +2080,7 @@
 <h2 id="protección-contra-ransomware">Protección contra ransomware</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="7-de-marzo-de-2023">7 de marzo de 2023</h3>
+<h3 id="7-de-marzo-de-2023-2">7 de marzo de 2023</h3>
 <div class="sect3">
 <h4 id="se-ha-agregado-un-nuevo-panel-de-recuperación-de-ransomware-para-ayudar-a-recuperar-su-sistema-de-un-ataque">Se ha agregado un nuevo panel de recuperación de Ransomware para ayudar a recuperar su sistema de un ataque</h4>
 <div class="paragraph">
